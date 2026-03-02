@@ -1,0 +1,2238 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME SAVE SERVICES | ٹائم سیو سروسز</title>
+    <meta name="description"
+        content="TIME SAVE SERVICES by Muhammad Arshad Mustafa - NADRA e-Sahulat, Arazi Record, Dastak, AIOU, BISE Sargodha services.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+
+                    <div class="logo-text-container">
+                        <span class="logo-text">TIME SAVE SERVICES</span>
+                        <span class="logo-slogan">Smart Digital Solution</span>
+                        <div
+                            style="font-size: 0.85rem; color: var(--text-main); margin-top: 5px; font-family: 'Noto Nastaliq Urdu', serif;">
+                            تمام ضروری سرکاری اور ڈیجیٹل سہولیات کا بااعتماد مرکز</div>
+                    </div>
+                </a>
+                <div class="lang-switcher" style="display: flex; align-items: center; margin-right: auto;">
+                    <button id="lang-toggle-btn" class="btn btn-outline qs-blue"
+                        style="padding: 6px 15px; font-size: 0.95rem; font-family: 'Inter', sans-serif; cursor: pointer; border-radius: 5px; display: inline-flex; gap: 8px; align-items: center;">
+                        <i class="fa-solid fa-language"></i> English
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Main Navigation Menu -->
+            <nav class="main-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-btn qs-blue"><i class="fa-solid fa-house"></i> ہوم</a></li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-btn qs-navy"><i class="fa-solid fa-building-shield"></i> پولیس <i
+                                class="fa-solid fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" onclick="openModal('character-cert-modal'); return false;">کریکٹر
+                                    سرٹیفکیٹ</a></li>
+                            <li><a href="#" onclick="openModal('general-verification-modal'); return false;">جنرل پولیس
+                                    ویریفیکیشن</a></li>
+                            <li><a href="#" onclick="openModal('crime-report-modal'); return false;">جرم کی رپورٹ</a>
+                            </li>
+                            <li><a href="#" onclick="openModal('duplicate-license-modal'); return false;">ڈپلیکیٹ
+                                    ڈرائیونگ لائسنس</a></li>
+                            <li><a href="#" onclick="openModal('learner-license-modal'); return false;">لرنر ڈرائیونگ
+                                    لائسنس</a></li>
+                            <li><a href="#" onclick="openModal('missing-report-modal'); return false;">گمشدگی رپورٹ</a>
+                            </li>
+                            <li><a href="#" onclick="openModal('renewal-intl-license-modal'); return false;">تجدید
+                                    انٹرنیشنل ڈرائیونگ لائسنس</a></li>
+                            <li><a href="#" onclick="openModal('renewal-learner-license-modal'); return false;">تجدید
+                                    لرنر ڈرائیونگ لائسنس</a></li>
+                            <li><a href="#" onclick="openModal('renewal-regular-license-modal'); return false;">تجدید
+                                    ریگولر ڈرائیونگ لائسنس</a>
+                            </li>
+                            <li><a href="#" onclick="openModal('safe-city-challan-modal'); return false;">سیف سٹی
+                                    چالان</a></li>
+                            <li><a href="#" onclick="openModal('traffic-challan-modal'); return false;">ٹریفک چالان</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-btn qs-green"><i class="fa-solid fa-id-card"></i> نادرہ <i
+                                class="fa-solid fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" onclick="openModal('biometric-modal'); return false;">بائیومیٹرک</a></li>
+                            <li><a href="#" onclick="openModal('id-services-modal'); return false;">شناختی کارڈ</a></li>
+                            <li><a href="#" onclick="openModal('utility-bills-modal'); return false;">یوٹیلٹی بلز</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-btn qs-blue"><i class="fa-solid fa-plane"></i> ٹریول سروسز
+                            <i class="fa-solid fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#services">ہوائی ٹکٹ</a></li>
+                            <li><a href="#" onclick="openModal('railway-ticket-modal'); return false;">ریلوے ٹکٹ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-btn qs-purple"><i class="fa-solid fa-car"></i> ایکسائز اینڈ
+                            ٹیکسیشن <i class="fa-solid fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" onclick="openModal('vehicle-reg-modal'); return false;">وہیکل نیو
+                                    رجسٹریشن</a></li>
+                            <li><a href="#" onclick="openModal('vehicle-transfer-modal'); return false;">وہیکل
+                                    ٹرانسفر</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-btn qs-red"><i class="fa-solid fa-city"></i> لوکل گورنمنٹ <i
+                                class="fa-solid fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" onclick="openModal('birth-cert-modal'); return false;">برتھ سرٹیفکیٹ</a>
+                            </li>
+                            <li><a href="#" onclick="openModal('death-cert-modal'); return false;">ڈیتھ سرٹیفکیٹ</a>
+                            </li>
+                            <li><a href="#" onclick="openModal('divorce-cert-modal'); return false;">طلاق نامہ / ڈائیورس
+                                    سرٹیفکیٹ</a></li>
+                            <li><a href="#" onclick="openModal('marriage-cert-modal'); return false;">نکاح نامہ / میرج
+                                    سرٹیفکیٹ</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-btn qs-green"><i class="fa-solid fa-file-invoice"></i> بورڈ آف
+                            ریونیو <i class="fa-solid fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" onclick="openModal('e-stamp-modal'); return false;">ای اسٹامپنگ</a></li>
+                            <li><a href="#" onclick="openModal('mutation-copy-modal'); return false;">انتقال کی کاپی</a>
+                            </li>
+                            <li><a href="#" onclick="openModal('registry-copy-modal'); return false;">رجسٹری کی کاپی</a>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="#services">فرد <i class="fa-solid fa-chevron-left dropdown-icon-left"></i></a>
+                                <ul class="dropdown-menu nested-menu">
+                                    <li><a href="#" onclick="openModal('fard-personal-modal'); return false;">فرد برائے
+                                            ذاتی
+                                            ریکارڈ</a></li>
+                                    <li><a href="#" onclick="openModal('fard-sale-modal'); return false;">فرد برائے
+                                            بیع</a></li>
+                                    <li><a href="#" onclick="openModal('fard-loan-modal'); return false;">فرد برائے حصول
+                                            قرضہ</a></li>
+                                    <li><a href="#" onclick="openModal('fard-utility-modal'); return false;">فرد برائے
+                                            بجلی، گیس
+                                            کنکشن و دیگر</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="#services">ڈومیسائل <i
+                                        class="fa-solid fa-chevron-left dropdown-icon-left"></i></a>
+                                <ul class="dropdown-menu nested-menu">
+                                    <li><a href="#" onclick="openModal('domicile-modal'); return false;">نیا
+                                            ڈومیسائل</a></li>
+                                    <li><a href="#"
+                                            onclick="openModal('duplicate-domicile-modal'); return false;">ڈپلیکیٹ
+                                            ڈومیسائل</a></li>
+                                    <li><a href="#" onclick="openModal('domicile-change-modal'); return false;">ڈومیسائل
+                                            میں تبدیلی</a></li>
+                                    <li><a href="#" onclick="openModal('domicile-noc-modal'); return false;">ڈومیسائل
+                                            این او سی</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-btn qs-orange"><i class="fa-solid fa-graduation-cap"></i> تعلیمی
+                            ادارے <i class="fa-solid fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" onclick="openModal('aiou-admission-modal'); return false;">علامہ اقبال اوپن
+                                    یونیورسٹی</a></li>
+                            <li><a href="#" onclick="openModal('uos-modal'); return false;">سرگودھا یونیورسٹی</a></li>
+                            <li><a href="#" onclick="openModal('bise-sargodha-modal'); return false;">بورڈ آف انٹرمیڈیٹ
+                                    اینڈ سیکنڈری ایجوکیشن سرگودھا</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-btn qs-red"><i class="fa-solid fa-bars"></i> دیگر <i
+                                class="fa-solid fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" onclick="openModal('soft-skills-modal'); return false;">سافٹ سکل</a></li>
+                            <li><a href="https://wa.me/923046994699" target="_blank">پاکستان مرکنٹائل
+                                    ایکسچینج</a></li>
+                            <li><a href="https://wa.me/923046994699" target="_blank">پاکستان اسٹاک
+                                    ایکسچینج</a></li>
+                            <li><a href="https://wa.me/923046994699" target="_blank">پراپرٹی انویسٹمنٹ</a></li>
+                            <li><a href="#" onclick="openModal('income-tax-registration-modal'); return false;">انکم
+                                    ٹیکس رجسٹریشن</a></li>
+                            <li><a href="#" onclick="openModal('income-tax-return-modal'); return false;">انکم ٹیکس
+                                    ریٹرن فائل</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact" class="nav-btn qs-navy"><i class="fa-solid fa-phone"></i> رابطہ</a></li>
+                </ul>
+            </nav>
+
+            <!-- Latest News Ticker -->
+            <div class="news-ticker-container">
+                <div class="ticker-title">تازہ ترین</div>
+                <div class="ticker-wrap">
+                    <div class="ticker-move">
+                        <div class="ticker-item">پنجاب لینڈ ریکارڈ اتھارٹی کی تمام سہولیات اب دستیاب ہیں۔</div>
+                        <div class="ticker-item">علامہ اقبال اوپن یونیورسٹی کے داخلے شروع ہو چکے ہیں۔</div>
+                        <div class="ticker-item">مریم کی دستک سروسز کے ذریعے گھر بیٹھے سرٹیفکیٹس حاصل کریں۔</div>
+                        <div class="ticker-item">نادرہ ای-سہولت کے ذریعے یوٹیلٹی بلز کی ادائیگی پر کوئی اضافی فیس نہیں۔
+                        </div>
+                        <div class="ticker-item">ایکسائز اینڈ ٹیکسیشن کے نئے گاڑیوں کی رجسٹریشن اور ٹرانسفر کی سہولت
+                            موجود ہے۔</div>
+                        <div class="ticker-item">ڈومیسائل اور برتھ سرٹیفکیٹ بنوانے کے لیے آج ہی رابطہ کریں۔</div>
+                        <div class="ticker-item">اندرون اور بیرون ملک سفر کے لیے ٹکٹنگ کی سہولت 'فواز ٹریول' کے اشتراک
+                            سے۔</div>
+                        <div class="ticker-item">اعلیٰ معیار کی گرافک ڈیزائننگ سروسز آپ کے کاروبار کے لیے۔</div>
+                        <div class="ticker-item">سرگودھا یونیورسٹی اور سرگودھا بورڈ کے امتحانات اور رزلٹس کی معلومات۔
+                        </div>
+                        <div class="ticker-item">جلد آرہا ہے: ای-اسٹامپ (E-Stamp) وینڈر سروسز!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- News Section -->
+    <section class="news-section" id="news">
+        <div class="container">
+            <div class="news-grid">
+                <!-- Large Featured Post (1) -->
+                <div class="news-item news-large">
+                    <div class="news-image"
+                        style="background-image: url('assets/news_plra.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">25 فروری 2026</span>
+                        <h3>پنجاب لینڈ ریکارڈ اتھارٹی (PLRA) کی نئی آن لائن سہولیات کا آغاز — زمین کے معاملات اب آپ کی
+                            انگلیوں پر!</h3>
+                        <div style="display: none;" class="full-content">
+                            <p>پنجاب لینڈ ریکارڈ اتھارٹی (PLRA) نے زمین کے ریکارڈ اور آن لائن فرد کے حصول کو مکمل طور پر
+                                ڈیجیٹل بنا دیا ہے۔ اب پٹوار کلچر کا خاتمہ ہو چکا ہے اور آپ کسی بھی دفتر کے چکر لگائے
+                                بغیر زمین کے معاملات حل کر سکتے ہیں۔</p>
+
+                            <h4 style="color: var(--primary-dark); margin-top: 1.5rem; margin-bottom: 1rem;">ہماری اہم
+                                سہولیات:</h4>
+                            <ul
+                                style="padding-right: 1.5rem; margin-bottom: 1.5rem; color: var(--text-main); list-style-type: disc;">
+                                <li style="margin-bottom: 0.5rem;"><strong>آن لائن فرد کا اجراء:</strong> گھر بیٹھے فرد
+                                    نکالیں اور فیس آن لائن ادا کریں۔</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>ای-رجسٹریشن سسٹم:</strong> بائیو میٹرک تصدیق
+                                    سے مشروط محفوظ نظام تاکہ فراڈ کا مکمل خاتمہ ہو۔</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>یونیورسل ایکسس:</strong> پنجاب کے کسی بھی ضلع
+                                    کا ریکارڈ اب آپ کے قریبی سینٹر پر دستیاب ہے۔</li>
+                                <li style="margin-bottom: 0.5rem;"><strong><a
+                                            href="https://www.facebook.com/TimeSaveServices" target="_blank"
+                                            style="color: blue; text-decoration: none;">TIME SAVE SERVICES</a> کی
+                                        معاونت:</strong> ہمارے منظور شدہ کاؤنٹر سے بغیر کسی قطار اور انتظار کے فوری
+                                    خدمات حاصل کریں۔</li>
+                            </ul>
+                        </div>
+                        <p class="summary-text">پنجاب لینڈ ریکارڈ اتھارٹی (PLRA) نے صوبے میں روایتی اور فرسودہ پٹوار
+                            کلچر کا خاتمہ کرتے ہوئے زمین کے ریکارڈ اور خرید و فروخت کے نظام کو مکمل طور پر ڈیجیٹل اور
+                            جدید بنا دیا ہے...</p>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Small Side Post 1: ID Card Services -->
+                <div class="news-item news-small">
+                    <div class="news-image img-news-id"></div>
+                    <div class="news-content">
+                        <span class="news-date">2 مارچ 2026</span>
+                        <h4>شناختی کارڈ کی خدمات (ری پرنٹ اور تجدید)</h4>
+                        <div style="display: none;" class="full-content">
+                            <p style="margin-bottom: 1rem;">اب ٹائم سیو سروسز پر نادرہ شناختی کارڈ کی تجدید اور گم شدہ
+                                کارڈ کے ری پرنٹ کی سہولت بھی دستیاب ہے۔ دفتر کے چکروں سے بچیں اور اپنا کام باآسانی مکمل
+                                کروائیں۔</p>
+
+                            <h5 style="color: var(--primary-dark); margin-bottom: 0.5rem; font-size: 1.1rem;">ضروری
+                                کاغذات اور معلومات:</h5>
+                            <ul
+                                style="padding-right: 1.5rem; margin-bottom: 1.5rem; color: var(--text-main); list-style-type: disc;">
+                                <li style="margin-bottom: 0.5rem;"><strong>ری پرنٹ:</strong> پرانا شناختی کارڈ یا اس کی
+                                    کاپی درکار ہے۔</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>تجدید:</strong> زائد المیعاد (Expired) شناختی
+                                    کارڈ درکار ہے۔</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>فیس:</strong> سرکاری فیس + سروس چارجز لاگو
+                                    ہوں گے۔</li>
+                            </ul>
+
+                            <div
+                                style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; font-size: 0.95rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                                <strong>نوٹ:</strong> مزید معلومات اور فیس کی تفصیلات کے لیے ہمارے واٹس ایپ نمبر پر
+                                رابطہ کریں یا دفتر تشریف لائیں۔
+                            </div>
+                        </div>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Small Side Post 2 (Former Post 1) -->
+                <div class="news-item news-small">
+                    <div class="news-image img-news-maryam"></div>
+                    <div class="news-content">
+                        <span class="news-date">22 فروری 2026</span>
+                        <h4>مریم کی دستک سے سرٹیفکیٹس کی ہوم ڈلیوری</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Bottom Post 1 (4) -->
+                <div class="news-item news-small">
+                    <div class="news-image img-news-bills"></div>
+                    <div class="news-content">
+                        <span class="news-date">20 فروری 2026</span>
+                        <h4>نادرہ ای-سہولت پر بلوں کی ادائیگی</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Bottom Post 2 (5) -->
+                <div class="news-item news-small">
+                    <div class="news-image img-news-reg"></div>
+                    <div class="news-content">
+                        <span class="news-date">18 فروری 2026</span>
+                        <h4>گاڑیوں کی نئی رجسٹریشن کا طریقہ کار</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Bottom Post 3 (6) -->
+                <div class="news-item news-small">
+                    <div class="news-image img-news-travel"></div>
+                    <div class="news-content">
+                        <span class="news-date">15 فروری 2026</span>
+                        <h4>ٹریول سروسز اور ہوائی ٹکٹ کی بکنگ</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Large Post 2 (7) -->
+                <div class="news-item news-large">
+                    <div class="news-image img-news-char"></div>
+                    <div class="news-content">
+                        <span class="news-date">12 فروری 2026</span>
+                        <h3>کریکٹر سرٹیفکیٹ اور جنرل پولیس ویریفیکیشن کا حصول</h3>
+                        <p>اب تھانے جانے کی زحمت سے بچیں۔ جنرل پولیس ویریفیکیشن اور کریکٹر سرٹیفکیٹ کے حصول میں ہماری
+                            ٹائم سیو خدمات سے فائدہ اٹھائیں...</p>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Small Side Post 3 (8) -->
+                <div class="news-item news-small">
+                    <div class="news-image img-news-estamp"></div>
+                    <div class="news-content">
+                        <span class="news-date">10 فروری 2026</span>
+                        <h4>ای-اسٹامپنگ کی آن لائن سہولت</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Small Side Post 4 (9) -->
+                <div class="news-item news-small">
+                    <div class="news-image img-news-domicile"></div>
+                    <div class="news-content">
+                        <span class="news-date">08 فروری 2026</span>
+                        <h4>ڈومیسائل اور برتھ سرٹیفکیٹ بنوائیں</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Bottom Post 4 (10) -->
+                <div class="news-item news-small">
+                    <div class="news-image img-news-graphic"></div>
+                    <div class="news-content">
+                        <span class="news-date">05 فروری 2026</span>
+                        <h4>پروفیشنل گرافک ڈیزائننگ سروسز</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- New Small Posts Added -->
+                <div class="news-item news-small">
+                    <div class="news-image img-news-id-renew"></div>
+                    <div class="news-content">
+                        <span class="news-date">04 فروری 2026</span>
+                        <h4>نادرہ شناختی کارڈ کی تجدید اب اور بھی آسان</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-fard"></div>
+                    <div class="news-content">
+                        <span class="news-date">03 فروری 2026</span>
+                        <h4>فرد برائے حصول قرضہ کی فوری فراہمی</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-passport"></div>
+                    <div class="news-content">
+                        <span class="news-date">02 فروری 2026</span>
+                        <h4>پاسپورٹ فیس کی ادائیگی بذریعہ ای-سہولت</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-learner"></div>
+                    <div class="news-content">
+                        <span class="news-date">01 فروری 2026</span>
+                        <h4>لرنر ڈرائیونگ لائسنس گھر بیٹھے بنوائیں</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-matric"></div>
+                    <div class="news-content">
+                        <span class="news-date">30 جنوری 2026</span>
+                        <h4>سرگودھا بورڈ میٹرک امتحانات کی فیس جمع کروائیں</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-discount"></div>
+                    <div class="news-content">
+                        <span class="news-date">29 جنوری 2026</span>
+                        <h4>بجلی اور گیس کے بلوں کی ادائیگی پر رعایت</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-death"></div>
+                    <div class="news-content">
+                        <span class="news-date">28 جنوری 2026</span>
+                        <h4>ڈیتھ سرٹیفکیٹ کا حصول اب مریم کی دستک سے</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-motor"></div>
+                    <div class="news-content">
+                        <span class="news-date">27 جنوری 2026</span>
+                        <h4>موٹر سائیکل کی نئی رجسٹریشن فیس میں کمی</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-umrah"></div>
+                    <div class="news-content">
+                        <span class="news-date">26 جنوری 2026</span>
+                        <h4>عمرہ پیکج اور ٹکٹنگ کی بہترین سہولت</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-nikkah"></div>
+                    <div class="news-content">
+                        <span class="news-date">25 جنوری 2026</span>
+                        <h4>نکاح نامہ اور میرج سرٹیفکیٹ آن لائن</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-intl"></div>
+                    <div class="news-content">
+                        <span class="news-date">24 جنوری 2026</span>
+                        <h4>بین الاقوامی ڈرائیونگ لائسنس کی تجدید</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-land"></div>
+                    <div class="news-content">
+                        <span class="news-date">23 جنوری 2026</span>
+                        <h4>اراضی کا انتقال اور رجسٹری کی کاپی</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-rail"></div>
+                    <div class="news-content">
+                        <span class="news-date">22 جنوری 2026</span>
+                        <h4>ریلوے کی ای ٹکٹنگ سے سفر کو آسان بنائیں</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-divorce"></div>
+                    <div class="news-content">
+                        <span class="news-date">21 جنوری 2026</span>
+                        <h4>طلاق نامہ / ڈائیورس سرٹیفکیٹ کی سہولت</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-challan"></div>
+                    <div class="news-content">
+                        <span class="news-date">20 جنوری 2026</span>
+                        <h4>صوبائی اور وفاقی محکموں کے چالان جمع کروائیں</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-fardsale"></div>
+                    <div class="news-content">
+                        <span class="news-date">19 جنوری 2026</span>
+                        <h4>فرد برائے بیع (فروخت) کا آن لائن حصول</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-sargodha"></div>
+                    <div class="news-content">
+                        <span class="news-date">18 جنوری 2026</span>
+                        <h4>سرگودھا یونیورسٹی کا نیا امتحانی شیڈول جاری</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-logo"></div>
+                    <div class="news-content">
+                        <span class="news-date">17 جنوری 2026</span>
+                        <h4>اپنے بزنس کے لیے خوبصورت لوگو ڈیزائن کروائیں</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-traffic"></div>
+                    <div class="news-content">
+                        <span class="news-date">16 جنوری 2026</span>
+                        <h4>ٹریفک چالان اور سیف سٹی ای چالان کی ادائیگی</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-item news-small">
+                    <div class="news-image img-news-biometric"></div>
+                    <div class="news-content">
+                        <span class="news-date">15 جنوری 2026</span>
+                        <h4>نادرہ بائیومیٹرک تصدیق کی خدمات</h4>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1 class="main-title">Time Save Services – آپ کا وقت، ہماری ترجیح</h1>
+            <p class="hero-subtitle">جدید ڈیجیٹل سہولیات، سرکاری خدمات اور ٹریول سروسز کا بااعتماد مرکز</p>
+            <div class="hero-actions">
+                <a href="#services" class="btn btn-primary">ہماری خدمات دیکھیں</a>
+                <a href="#contact" class="btn btn-outline">ہم سے رابطہ کریں</a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>ہماری <span class="highlight">خدمات</span></h2>
+                <p>ہم مندرجہ ذیل بے مثال سہولیات پیش کرتے ہیں</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-id-card"></i>
+                    </div>
+                    <h3>نادرہ ای-سہولت (NADRA e-Sahulat)</h3>
+                    <p>بجلی، گیس اور ٹیلی فون کے بلوں کی باآسانی ادائیگی اور شناختی کارڈ سے متعلقہ بنیادی رہنمائی۔</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-file-invoice"></i>
+                    </div>
+                    <h3>اراضی معاون (Arazi Muawin)</h3>
+                    <p>پنجاب لینڈ ریکارڈ اتھارٹی کی تمام سہولیات، بشمول فرد کا حصول، انتقالِ اراضی اور زمین کے معاملات
+                        میں قانونی و تکنیکی مشاورت۔</p>
+                </div>
+
+                <!-- Educational Institutions -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3>تعلیمی ادارے (Educational Institutions)</h3>
+                    <p>علامہ اقبال اوپن یونیورسٹی، سرگودھا یونیورسٹی اور تعلیمی بورڈز سے متعلقہ داخلے، رزلٹ اور دیگر
+                        تمام خدمات۔</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-door-open"></i>
+                    </div>
+                    <h3>مریم کی دستک (Maryam Ki Dastak Facilitator)</h3>
+                    <p>حکومتِ پنجاب کا انقلابی قدم! ہم بطور سہولت کار آپ کو ڈومیسائل، برتھ سرٹیفکیٹ، اور دیگر اہم سرکاری
+                        دستاویزات کی ہوم ڈلیوری سروس فراہم کرتے ہیں۔</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>گرافک ڈیزائننگ (Graphic Designing)</h3>
+                    <p>اپنے کاروبار یا ذاتی استعمال کے لیے اعلیٰ معیار کے پوسٹرز، بزنس کارڈز، لیٹر ہیڈز، لوگوز اور سوشل
+                        میڈیا اشتہارات ہم سے ڈیزائن کروائیں۔</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-plane-departure"></i>
+                    </div>
+                    <h3>ٹریول سروسز (Travel Services)</h3>
+                    <p>'فواز ٹریول' (Fawaz Travel) کے اشتراک سے آپ کے اندرون و بیرونِ ملک سفر کے لیے ٹکٹنگ اور ٹریول
+                        کنسلٹنسی۔</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card coming-soon">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-stamp"></i>
+                    </div>
+                    <h3>جلد آرہا ہے (Coming Soon)</h3>
+                    <p>ای-اسٹامپ (E-Stamp) وینڈر سروسز۔</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>ہمیں کیوں <span class="highlight">منتخب کریں؟</span></h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+                    <h3>وقت کی بچت</h3>
+                    <p>تمام سہولیات ایک ہی جگہ پر۔</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+                    <h3>بھروسہ مند</h3>
+                    <p>شفاف لین دین اور درست کام۔</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+                    <h3>پیشہ ورانہ رویہ</h3>
+                    <p>ہنر مند عملہ اور بہترین کسٹمر سروس۔</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+                    <h3>آسانی</h3>
+                    <p>جدید ٹیکنالوجی کا استعمال تاکہ آپ کا کام جلد مکمل ہو۔</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <div class="container about-content">
+            <div class="section-header">
+                <h2>ہمارا <span class="highlight">تعارف</span></h2>
+            </div>
+            <div class="about-text">
+                <p>ٹائم سیو سروسز (Time Save Services) جھاوریاں میں ایک ایسا ادارہ ہے جو عوام کی سہولت کو مدنظر رکھتے
+                    ہوئے قائم کیا گیا ہے۔ ہمارا مقصد ایک ہی چھت تلے تمام ضروری سرکاری اور ڈیجیٹل سہولیات فراہم کرنا ہے
+                    تاکہ آپ کو مختلف دفاتر کے چکر نہ لگانے پڑیں۔ ہم "وقت کی بچت" کے اصول پر کاربند ہیں اور اپنی خدمات کو
+                    تیز ترین، شفاف اور محفوظ بنانے کے لیے کوشاں ہیں۔</p>
+                <p>ہمارے پاس تجربہ کار عملہ موجود ہے جو آپ کے مسائل کو سمجھتا ہے اور انہیں پیشہ ورانہ مہارت کے ساتھ حل
+                    کرنے کی صلاحیت رکھتا ہے۔</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-info">
+                    <h2>رابطہ کی <span class="highlight">معلومات</span></h2>
+                    <p>کسی بھی معلومات یا سروس کے لیے ہم سے رابطہ کریں۔</p>
+
+                    <ul class="contact-list">
+                        <li>
+                            <div class="icon-box"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div class="contact-detail">
+                                <span>واٹس ایپ / فون نمبر</span>
+                                <a href="https://wa.me/923046994699" target="_blank" dir="ltr">0304-6994699</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-detail">
+                                <span>ای میل</span>
+                                <a href="mailto:timesaveservices@outlook.com">timesaveservices@outlook.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-detail">
+                                <span>پتہ</span>
+                                <address>کوٹ کمبوہ جھاوریاں، ضلع سرگودھا</address>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form-container">
+                    <div class="form-header">
+                        <h3>ہم سے رابطہ کریں</h3>
+                        <p>براہِ کرم نیچے دیا گیا فارم پُر کریں، ہمارا نمائندہ جلد آپ سے رابطہ کرے گا</p>
+                    </div>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="fullName">پورا نام (Full Name):</label>
+                            <input type="text" id="fullName" name="fullName" required placeholder="اپنا نام لکھیں">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mobileNumber">موبائل نمبر (Mobile Number):</label>
+                            <input type="tel" id="mobileNumber" name="mobileNumber" required placeholder="03XXXXXXXXX"
+                                dir="ltr">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="emailAddress">ای میل ایڈریس (Email Address): <span
+                                    class="optional">(اختیاری)</span></label>
+                            <input type="email" id="emailAddress" name="emailAddress" placeholder="example@email.com"
+                                dir="ltr">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="serviceSelect">سروس منتخب کریں (Select Service):</label>
+                            <select id="serviceSelect" name="serviceSelect" required>
+                                <option value="" disabled selected>سروس کا انتخاب کریں</option>
+                                <option value="nadra">نادرہ ای-سہولت (NADRA e-Sahulat)</option>
+                                <option value="arazi">اراضی معاون / لینڈ ریکارڈ (Arazi Muawin / Land Record)</option>
+                                <option value="dastak">مریم کی دستک (Maryam Ki Dastak Services)</option>
+                                <option value="graphic">گرافک ڈیزائننگ (Graphic Designing)</option>
+                                <option value="travel">ٹریول سروسز (Travel Services)</option>
+                                <option value="other">دیگر (Other)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">آپ کا پیغام (Your Message):</label>
+                            <textarea id="message" name="message" rows="4" required
+                                placeholder="یہاں اپنا پیغام لکھیں..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">پیغام بھیجیں / Submit Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://www.facebook.com/TimeSaveServices" target="_blank" aria-label="Facebook"
+                        class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/@timesaveservices" target="_blank" aria-label="YouTube"
+                        class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/timesaveservices/" target="_blank" aria-label="Instagram"
+                        class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@timesaveservice" target="_blank" aria-label="TikTok"
+                        class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <p class="copyright">© 2026 TIME SAVE SERVICES. تمام حقوق محفوظ ہیں۔</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Character Certificate Modal -->
+    <div id="character-cert-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('character-cert-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">کریکٹر سرٹیفکیٹ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-passport"></i> پاسپورٹ</li>
+                    <li><i class="fa-solid fa-image"></i> تصویر</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس 1000 روپے + سروس چارجز</li>
+                    </ul>
+                </div>
+
+                <div class="modal-info-details" style="margin-top: 1.5rem;">
+                    <style>
+                        .custom-details summary::marker {
+                            content: '';
+                        }
+
+                        .custom-details summary::-webkit-details-marker {
+                            display: none;
+                        }
+
+                        .custom-details[open] summary {
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+                        }
+                    </style>
+                    <details class="custom-details"
+                        style="background: var(--bg-main); border-radius: var(--border-radius); border: 1px solid rgba(0,0,0,0.05); overflow: hidden;">
+                        <summary
+                            style="padding: 1rem; cursor: pointer; font-weight: 700; color: var(--primary-dark); display: flex; align-items: center; gap: 0.5rem; user-select: none; background: #fff; transition: background 0.3s;">
+                            <i class="fa-solid fa-circle-info"></i> کریکٹر سرٹیفکیٹ کی ضرورت و افادیت (تفصیل پڑھیں)
+                        </summary>
+                        <div class="details-content"
+                            style="padding: 1rem; padding-top: 0; font-size: 0.95rem; line-height: 1.8;">
+                            <p style="margin-top: 1rem; margin-bottom: 1rem;"><strong>پولیس کریکٹر سرٹیفکیٹ</strong> ایک
+                                اہم سرکاری دستاویز ہے جو قانونی اور باضابطہ طور پر تصدیق کرتی ہے کہ آپ کا ماضی میں کوئی
+                                مجرمانہ ریکارڈ نہیں رہا۔</p>
+
+                            <h4 style="margin-bottom: 0.5rem; color: var(--qs-green); font-size: 1.1rem;"><i
+                                    class="fa-solid fa-check-circle" style="font-size: 0.9rem;"></i> ضرورت و افادیت</h4>
+                            <ul class="modal-list" style="margin-bottom: 1rem;">
+                                <li style="margin-bottom: 0.5rem; align-items: flex-start;"><i
+                                        class="fa-solid fa-plane-departure" style="margin-top: 0.3rem;"></i>
+                                    <div><strong>بیرون ملک سفر:</strong> ویزا، امیگریشن، اور شہریت کے حصول کے لیے لازمی۔
+                                    </div>
+                                </li>
+                                <li style="margin-bottom: 0.5rem; align-items: flex-start;"><i
+                                        class="fa-solid fa-briefcase" style="margin-top: 0.3rem;"></i>
+                                    <div><strong>نوکری و لائسنس:</strong> سرکاری/نجی ملازمت، اسلحہ، ڈرائیونگ لائسنس اور
+                                        ٹھیکے حاصل کرنے کے لیے۔</div>
+                                </li>
+                                <li style="margin-bottom: 0.5rem; align-items: flex-start;"><i
+                                        class="fa-solid fa-shield-halved" style="margin-top: 0.3rem;"></i>
+                                    <div><strong>اعتماد سازی:</strong> آجر اور ملازم کے درمیان اعتماد اور پرامن معاشرے
+                                        کا قیام یقینی بناتا ہے۔</div>
+                                </li>
+                            </ul>
+
+                            <div
+                                style="background-color: #fff; padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--primary); margin-top: 1rem; font-size: 0.95rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                                <strong>خلاصہ:</strong> یہ سرٹیفکیٹ ایک شہری کے اچھے کردار کی ریاستی ضمانت ہے جو ذاتی
+                                ترقی سے لے کر قومی اور بین الاقوامی سطح پر ضروری ہے۔
+                            </div>
+                        </div>
+                    </details>
+                </div>
+
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('character-cert-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- General Police Verification Modal -->
+    <div id="general-verification-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('general-verification-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">جنرل پولیس ویریفیکیشن</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-image"></i> تصویر</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس 500 روپے + سروس چارجز</li>
+                    </ul>
+                </div>
+
+                <div class="modal-info-details" style="margin-top: 1.5rem;">
+                    <details class="custom-details"
+                        style="background: var(--bg-main); border-radius: var(--border-radius); border: 1px solid rgba(0,0,0,0.05); overflow: hidden;">
+                        <summary
+                            style="padding: 1rem; cursor: pointer; font-weight: 700; color: var(--primary-dark); display: flex; align-items: center; gap: 0.5rem; user-select: none; background: #fff; transition: background 0.3s;">
+                            <i class="fa-solid fa-circle-info"></i> جنرل پولیس ویریفیکیشن کی ضرورت و افادیت (تفصیل
+                            پڑھیں)
+                        </summary>
+                        <div class="details-content"
+                            style="padding: 1rem; padding-top: 0; font-size: 0.95rem; line-height: 1.8;">
+                            <p style="margin-top: 1rem; margin-bottom: 1rem;"><strong>جنرل پولیس ویریفیکیشن</strong> ایک
+                                اہم عمل ہے جس کے ذریعے پولیس کسی فرد کے موجودہ یا مستقل پتے، شناختی کوائف، اور کسی قسم
+                                کے مجرمانہ ریکارڈ کی عدم موجودگی کی تصدیق کرتی ہے۔</p>
+
+                            <h4 style="margin-bottom: 0.5rem; color: var(--qs-green); font-size: 1.1rem;"><i
+                                    class="fa-solid fa-check-circle" style="font-size: 0.9rem;"></i> ضرورت و افادیت</h4>
+                            <ul class="modal-list" style="margin-bottom: 1rem;">
+                                <li style="margin-bottom: 0.5rem; align-items: flex-start;"><i
+                                        class="fa-solid fa-house-user" style="margin-top: 0.3rem;"></i>
+                                    <div><strong>کرایہ داری:</strong> مکان یا دکان کرائے پر لینے یا دینے کے لیے کرایہ
+                                        دار کی تصدیق۔</div>
+                                </li>
+                                <li style="margin-bottom: 0.5rem; align-items: flex-start;"><i
+                                        class="fa-solid fa-user-tie" style="margin-top: 0.3rem;"></i>
+                                    <div><strong>ملازمت:</strong> نئے ملازمین (خصوصاً گھریلو ملازمین، ڈرائیور، یا
+                                        سیکیورٹی گارڈز) کی خدمات حاصل کرنے سے پہلے ان کی تصدیق۔</div>
+                                </li>
+                                <li style="margin-bottom: 0.5rem; align-items: flex-start;"><i
+                                        class="fa-solid fa-shield-halved" style="margin-top: 0.3rem;"></i>
+                                    <div><strong>تحفظ اور اعتماد:</strong> یہ عمل معاشرے میں تحفظ کا احساس پیدا کرتا ہے
+                                        اور کسی بھی ناخوشگوار واقعے سے بچاؤ میں مدد دیتا ہے۔</div>
+                                </li>
+                            </ul>
+
+                            <div
+                                style="background-color: #fff; padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--primary); margin-top: 1rem; font-size: 0.95rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                                <strong>خلاصہ:</strong> جنرل پولیس ویریفیکیشن آپ کے ارد گرد موجود افراد کی ساکھ کی تصدیق
+                                کر کے آپ کے جان و مال کے تحفظ کو یقینی بناتی ہے۔
+                            </div>
+                            <p
+                                style="margin-top: 1rem; margin-bottom: 0; font-weight: 600; color: var(--qs-green); text-align: center;">
+                                اس سروس کے حصول کے لیے ٹائم سیو سروسز سے رابطہ کریں اور اپنا وقت بچائیں۔
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('general-verification-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Crime Report Modal -->
+    <div id="crime-report-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('crime-report-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">جرم کی رپورٹ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری تفصیلات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-orange); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    جرم کی رپورٹ درج کروانے کے لیے درج ذیل معلومات درکار ہوں گی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> شکایت کنندہ کا شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-file-lines"></i> وقوعہ کی مکمل تفصیل</li>
+                    <li><i class="fa-solid fa-location-dot"></i> جائے وقوعہ اور وقت</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> صرف سروس چارجز (سرکاری فیس لاگو نہیں)</li>
+                    </ul>
+                </div>
+                <p
+                    style="margin-top: 1.5rem; margin-bottom: 0; font-weight: 600; color: var(--qs-green); text-align: center;">
+                    رپورٹ درج کروانے کے لیے ٹائم سیو سروسز سے رابطہ کریں۔
+                </p>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('crime-report-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Duplicate Driving License Modal -->
+    <div id="duplicate-license-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('duplicate-license-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">ڈپلیکیٹ ڈرائیونگ لائسنس</h3>
+            <div class="modal-body">
+                <p><strong>ضروری کاغذات اور معلومات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-navy); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    ڈپلیکیٹ ڈرائیونگ لائسنس بنوانے کے لیے درج ذیل چیزیں درکار ہوں گی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-image"></i> تصویر</li>
+                    <li><i class="fa-solid fa-file-invoice"></i> ایف آئی آر کی کاپی (FIR)</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس 680 روپے + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('duplicate-license-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Learner Driving License Modal -->
+    <div id="learner-license-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('learner-license-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">لرنر ڈرائیونگ لائسنس</h3>
+            <div class="modal-body">
+                <p><strong>ضروری کاغذات اور معلومات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--primary); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    لرنر ڈرائیونگ لائسنس بنوانے کے لیے درج ذیل چیزیں درکار ہوں گی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-image"></i> تصویر</li>
+                    <li><i class="fa-solid fa-notes-medical"></i> میڈیکل سرٹیفکیٹ (50 سال سے زائد عمر کی صورت میں)</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس 500 روپے + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('learner-license-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Missing Report Modal -->
+    <div id="missing-report-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('missing-report-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">گمشدگی کی رپورٹ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری تفصیلات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-orange); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    کسی بھی چیز (مثلاً شناختی کارڈ، موبائل، دستاویزات وغیرہ) کی گمشدگی کی رپورٹ کے لیے درج ذیل معلومات
+                    درکار ہوں گی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> رپورٹ کنندہ کا شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-file-invoice"></i> گمشدہ چیز کی مکمل تفصیل</li>
+                    <li><i class="fa-solid fa-location-dot"></i> گمشدگی کا مقام اور وقت</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> صرف سروس چارجز (سرکاری فیس لاگو نہیں)</li>
+                    </ul>
+                </div>
+                <p
+                    style="margin-top: 1.5rem; margin-bottom: 0; font-weight: 600; color: var(--qs-green); text-align: center;">
+                    رپورٹ درج کروانے کے لیے ٹائم سیو سروسز سے رابطہ کریں۔
+                </p>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('missing-report-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Renewal International Driving License Modal -->
+    <div id="renewal-intl-license-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('renewal-intl-license-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">تجدید انٹرنیشنل ڈرائیونگ لائسنس</h3>
+            <div class="modal-body">
+                <p><strong>ضروری کاغذات اور معلومات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-navy); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    انٹرنیشنل ڈرائیونگ لائسنس کی تجدید کے لیے درج ذیل چیزیں درکار ہوں گی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-image"></i> تصویر</li>
+                    <li><i class="fa-solid fa-passport"></i> پاسپورٹ اور ویزا کی کاپی</li>
+                    <li><i class="fa-solid fa-id-badge"></i> پرانا انٹرنیشنل ڈرائیونگ لائسنس</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس (حسب ضابطہ) + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('renewal-intl-license-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Renewal Learner License Modal -->
+    <div id="renewal-learner-license-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('renewal-learner-license-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">تجدید لرنر ڈرائیونگ لائسنس</h3>
+            <div class="modal-body">
+                <p><strong>ضروری کاغذات اور معلومات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--primary); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    لرنر ڈرائیونگ لائسنس کی تجدید کے لیے درج ذیل چیزیں درکار ہوں گی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-image"></i> تصویر</li>
+                    <li><i class="fa-solid fa-id-badge"></i> پرانا لرنر لائسنس</li>
+                    <li><i class="fa-solid fa-notes-medical"></i> میڈیکل سرٹیفکیٹ (50 سال سے زائد عمر کی صورت میں)</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس 500 روپے + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('renewal-learner-license-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ
+                    پر
+                    رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Renewal Regular License Modal -->
+    <div id="renewal-regular-license-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('renewal-regular-license-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">تجدید ریگولر ڈرائیونگ لائسنس</h3>
+            <div class="modal-body">
+                <p><strong>ضروری کاغذات اور معلومات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    ریگولر ڈرائیونگ لائسنس کی تجدید کے لیے درج ذیل چیزیں درکار ہوں گی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-image"></i> تصویر</li>
+                    <li><i class="fa-solid fa-id-badge"></i> پرانا ڈرائیونگ لائسنس</li>
+                    <li><i class="fa-solid fa-notes-medical"></i> میڈیکل سرٹیفکیٹ (50 سال سے زائد عمر کی صورت میں)</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس (مدت کے لحاظ سے) + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('renewal-regular-license-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ
+                    پر
+                    رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Safe City Challan Modal -->
+    <div id="safe-city-challan-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('safe-city-challan-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">سیف سٹی چالان</h3>
+            <div class="modal-body">
+                <p><strong>ضروری تفصیلات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-orange); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    سیف سٹی چالان (E-Challan) کی ادائیگی اور تفصیلات کے لیے درج ذیل معلومات درکار ہوں گی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-car"></i> گاڑی کا نمبر (Registration Number)</li>
+                    <li><i class="fa-solid fa-id-card"></i> مالک کا شناختی کارڈ (اگر ضروری ہو)</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> چالان کی رقم + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('safe-city-challan-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Traffic Challan Modal -->
+    <div id="traffic-challan-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('traffic-challan-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">ٹریفک چالان</h3>
+            <div class="modal-body">
+                <p><strong>ضروری تفصیلات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    ٹریفک پولیس کے مینوئل یا ڈیجیٹل چالان کی ادائیگی کے لیے درج ذیل معلومات درکار ہوں گی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-file-invoice"></i> چالان کا پی ایس آئی ڈی (PSID) یا چالان نمبر</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> چالان کی رقم + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('traffic-challan-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Allama Iqbal Open University Modal -->
+    <div id="aiou-admission-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('aiou-admission-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">علامہ اقبال اوپن یونیورسٹی (AIOU)</h3>
+            <div class="modal-body">
+                <p><strong>اہم خدمات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--primary); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    علامہ اقبال اوپن یونیورسٹی سے متعلقہ درج ذیل آن لائن خدمات کے لیے ہم سے رابطہ کریں:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-user-plus"></i> نیا داخلہ (New Admission)</li>
+                    <li><i class="fa-solid fa-user-check"></i> جاری طلباء کا داخلہ (Continuous Admission)</li>
+                    <li><i class="fa-solid fa-file-invoice"></i> رولنمبر سلپ (Roll No Slip)</li>
+                    <li><i class="fa-solid fa-envelope-open-text"></i> ٹیوٹر لیٹر (Tutor Letter)</li>
+                    <li><i class="fa-solid fa-graduation-cap"></i> ڈگری / رزلٹ کارڈ (Degree/Result Card)</li>
+                    <li><i class="fa-solid fa-chalkboard-user"></i> ورکشاپس (Workshops)</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> یونیورسٹی فیس (چالان کے مطابق) + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('aiou-admission-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sargodha University Modal -->
+    <div id="uos-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('uos-modal')"><i class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">سرگودھا یونیورسٹی</h3>
+            <div class="modal-body">
+                <p><strong>اہم خدمات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--primary); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    سرگودھا یونیورسٹی (University of Sargodha) سے متعلقہ درج ذیل آن لائن خدمات کے لیے ہم سے رابطہ کریں:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-graduation-cap"></i> نئے داخلوں کے لیے آن لائن اپلائی</li>
+                    <li><i class="fa-solid fa-file-signature"></i> امتحانات کے لیے آن لائن رجسٹریشن</li>
+                    <li><i class="fa-solid fa-file-invoice"></i> ڈگری / ٹرانسکرپٹ کے حصول کے لیے اپلائی</li>
+                    <li><i class="fa-solid fa-money-bill-transfer"></i> آن لائن فیس چالان جنریٹ کرنا</li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i> رزلٹ چیک کرنا</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> یونیورسٹی فیس (چالان کے مطابق) + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('uos-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- BISE Sargodha Modal -->
+    <div id="bise-sargodha-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('bise-sargodha-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">بورڈ آف انٹرمیڈیٹ اینڈ سیکنڈری ایجوکیشن سرگودھا</h3>
+            <div class="modal-body">
+                <p><strong>اہم خدمات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-navy); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    میٹرک، ایف اے/ایف ایس سی اور دیگر بورڈ امتحانات سے متعلقہ درج ذیل خدمات کے لیے رابطہ کریں:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-pen-to-square"></i> داخلہ فارم فل کروانا (پرائیویٹ / ریگولر)</li>
+                    <li><i class="fa-solid fa-id-badge"></i> رولنمبر سلپ ڈاؤن لوڈ کرنا</li>
+                    <li><i class="fa-solid fa-file-certificate"></i> رزلٹ کارڈ یا سند (Certificate) کے لیے اپلائی</li>
+                    <li><i class="fa-solid fa-rotate-right"></i> پیپر ری چیکنگ کے لیے درخواست</li>
+                    <li><i class="fa-solid fa-user-pen"></i> نام / ولدیت یا تاریخ پیدائش میں تبدیلی کی درخواست</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> بورڈ فیس (چالان کے مطابق) + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('bise-sargodha-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Birth Certificate Modal -->
+    <div id="birth-cert-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('birth-cert-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">برتھ سرٹیفکیٹ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری تفصیلات اور کاغذات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-red); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    لوکل گورنمنٹ / یونین کونسل سے برتھ سرٹیفکیٹ کے حصول کے لیے درج ذیل معلومات اور کاغذات درکار ہوں گے:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-child"></i> بچے کا نام اور تاریخ پیدائش</li>
+                    <li><i class="fa-solid fa-user-pen"></i> ہسپتال کا سرٹیفکیٹ یا ویکسینیشن کارڈ (اگر دستیاب ہو)</li>
+                    <li><i class="fa-solid fa-id-card"></i> والدین (والد اور والدہ) کے شناختی کارڈز کی کاپیاں</li>
+                    <li><i class="fa-solid fa-address-card"></i> درخواست دہندہ کے شناختی کارڈ کی کاپی</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('birth-cert-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Death Certificate Modal -->
+    <div id="death-cert-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('death-cert-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">ڈیتھ سرٹیفکیٹ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری تفصیلات اور کاغذات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-red); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    لوکل گورنمنٹ / یونین کونسل سے ڈیتھ سرٹیفکیٹ کے حصول کے لیے درج ذیل معلومات اور کاغذات درکار ہوں گے:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card-clip"></i> متوفی (وفات پانے والے) کے شناختی کارڈ کی کاپی</li>
+                    <li><i class="fa-solid fa-hospital"></i> ہسپتال کا سرٹیفکیٹ یا قبرستان کی رسید (اگر ہو)</li>
+                    <li><i class="fa-solid fa-id-card"></i> درخواست دہندہ کے شناختی کارڈ کی کاپی</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('death-cert-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Divorce Certificate Modal -->
+    <div id="divorce-cert-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('divorce-cert-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">طلاق نامہ / ڈائیورس سرٹیفکیٹ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری تفصیلات اور کاغذات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-red); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    لوکل گورنمنٹ / یونین کونسل سے طلاق نامہ (کمپیوٹرائزڈ) کے حصول کے لیے درج ذیل کاغذات درکار ہوں گے:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-file-contract"></i> طلاق کی تحریر یا عدالتی ڈگری کی کاپی</li>
+                    <li><i class="fa-solid fa-id-card"></i> شوہر اور بیوی کے شناختی کارڈز کی کاپیاں</li>
+                    <li><i class="fa-solid fa-address-card"></i> درخواست دہندہ کے شناختی کارڈ کی کاپی</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('divorce-cert-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Marriage Certificate Modal -->
+    <div id="marriage-cert-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('marriage-cert-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">نکاح نامہ / میرج سرٹیفکیٹ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری تفصیلات اور کاغذات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-red); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    لوکل گورنمنٹ / یونین کونسل سے نکاح نامہ (کمپیوٹرائزڈ) کے حصول کے لیے درج ذیل معلومات درکار ہوں گی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-file-pen"></i> نکاح نامہ کی واضح کاپی</li>
+                    <li><i class="fa-solid fa-user-group"></i> دلہا، دلہن کے شناختی کارڈز کی کاپیاں</li>
+                    <li><i class="fa-solid fa-id-card"></i> دونوں کے والدین کے شناختی کارڈز کی کاپیاں (اگر ممکن ہو)</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('marriage-cert-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Domicile Certificate Modal -->
+    <div id="domicile-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('domicile-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">ڈومیسائل سرٹیفکیٹ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ یا ب فارم کی کاپی</li>
+                    <li><i class="fa-solid fa-id-card"></i> والد کے شناختی کارڈ کی کاپی</li>
+                    <li><i class="fa-solid fa-image"></i> تصویر متصدقہ</li>
+                    <li><i class="fa-solid fa-graduation-cap"></i> تعلیمی سند یا سکول سرٹیفکیٹ</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('domicile-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Duplicate Domicile Modal -->
+    <div id="duplicate-domicile-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('duplicate-domicile-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">ڈپلیکیٹ ڈومیسائل</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-file"></i> پرانے ڈومیسائل کی کاپی یا گمشدگی کی رپورٹ</li>
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ کی کاپی</li>
+                    <li><i class="fa-solid fa-image"></i> تصویر</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('duplicate-domicile-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- E-Stamping Modal -->
+    <div id="e-stamp-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('e-stamp-modal')"><i class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">ای اسٹامپنگ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-users"></i> خریدار، فروخت کنندہ اور گواہان کے شناختی کارڈز کی کاپی</li>
+                    <li><i class="fa-solid fa-file-invoice"></i> فرد برائے بیع کی کاپی</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری مالیت کے مطابق + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('e-stamp-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mutation Copy Modal -->
+    <div id="mutation-copy-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('mutation-copy-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">انتقال کی کاپی</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> مالک کا شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-file-pen"></i> انتقال نمبر اور سال</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('mutation-copy-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registry Copy Modal -->
+    <div id="registry-copy-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('registry-copy-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">رجسٹری کی کاپی</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> مالک کا شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-book"></i> رجسٹری نمبر، جلد اور سال</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('registry-copy-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Domicile Change Modal -->
+    <div id="domicile-change-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('domicile-change-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">ڈومیسائل میں تبدیلی</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-file-contract"></i> اصل ڈومیسائل</li>
+                    <li><i class="fa-solid fa-file-circle-check"></i> تبدیلی کا ثبوت (جیسے میرج سرٹیفکیٹ، نیا شناختی
+                        کارڈ وغیرہ)</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('domicile-change-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Domicile NOC Modal -->
+    <div id="domicile-noc-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('domicile-noc-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">ڈومیسائل این او سی</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-file-export"></i> پرانے ضلع کا ڈومیسائل</li>
+                    <li><i class="fa-solid fa-location-dot"></i> نئے ضلع کے پتے کا ثبوت</li>
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('domicile-noc-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fard Personal Modal -->
+    <div id="fard-personal-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('fard-personal-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">فرد برائے ذاتی ریکارڈ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> مالک کا شناختی کارڈ (بائیو میٹرک تصدیق ضروری ہے)</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('fard-personal-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fard Sale Modal -->
+    <div id="fard-sale-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('fard-sale-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">فرد برائے بیع</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> مالک کا شناختی کارڈ (بائیو میٹرک تصدیق ضروری ہے)</li>
+                    <li><i class="fa-solid fa-image"></i> تصویر</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('fard-sale-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fard Loan Modal -->
+    <div id="fard-loan-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('fard-loan-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">فرد برائے حصول قرضہ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> مالک کا شناختی کارڈ (بائیو میٹرک تصدیق ضروری ہے)</li>
+                    <li><i class="fa-solid fa-building-columns"></i> متعلقہ بینک کا لیٹر</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('fard-loan-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fard Utility Modal -->
+    <div id="fard-utility-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('fard-utility-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">فرد برائے بجلی، گیس کنکشن و دیگر</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> مالک کا شناختی کارڈ</li>
+                    <li><i class="fa-solid fa-bolt"></i> متعلقہ محکمے کی ضرورت کا ثبوت</li>
+                </ul>
+                <div class="modal-fees">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('fard-utility-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vehicle Registration Modal -->
+    <div id="vehicle-reg-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('vehicle-reg-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">وہیکل نیو رجسٹریشن</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات اور معلومات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-purple); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    نئی گاڑی (موٹر سائیکل/کار) کی رجسٹریشن کے لیے درج ذیل کاغذات درکار ہوں گے:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-file-invoice"></i> گاڑی کی انوائس (اصل)</li>
+                    <li><i class="fa-solid fa-file-signature"></i> سیلز لیٹر (اصل)</li>
+                    <li><i class="fa-solid fa-id-card"></i> مالک کا شناختی کارڈ (اصل)</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('vehicle-reg-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vehicle Transfer Modal -->
+    <div id="vehicle-transfer-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('vehicle-transfer-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">وہیکل ٹرانسفر</h3>
+            <div class="modal-body">
+                <p><strong>ضروری دستاویزات اور معلومات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-purple); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    گاڑی (موٹر سائیکل/کار) کو اپنے نام ٹرانسفر کروانے کے لیے درج ذیل کاغذات کی ضرورت ہوگی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-fingerprint"></i> خریدار اور فروخت کنندہ کی بائیو میٹرک تصدیق
+                        (Bio-Verification)</li>
+                    <li><i class="fa-solid fa-book"></i> گاڑی کی رجسٹریشن بک یا سمارٹ کارڈ</li>
+                    <li><i class="fa-solid fa-id-card"></i> خریدار اور فروخت کنندہ کے شناختی کارڈ کی کاپیاں</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> سرکاری فیس + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('vehicle-transfer-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ
+                    کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Railway Ticket Modal -->
+    <div id="railway-ticket-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('railway-ticket-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">ریلوے ٹکٹ</h3>
+            <div class="modal-body">
+                <p><strong>ضروری تفصیلات اور معلومات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-blue); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    ریلوے ٹکٹ کی بکنگ کے لیے درج ذیل معلومات درکار ہوں گی:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ / CNIC نمبر</li>
+                    <li><i class="fa-solid fa-phone"></i> موبائل نمبر</li>
+                    <li><i class="fa-regular fa-calendar-days"></i> تاریخ (سفر کب کرنا ہے)</li>
+                    <li><i class="fa-solid fa-location-dot"></i> سفر کی تفصیل (کہاں سے کہاں تک جانا ہے)</li>
+                </ul>
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>فیس کی تفصیل:</strong></p>
+                    <ul class="modal-list">
+                        <li><i class="fa-solid fa-money-bill"></i> ٹکٹ کی قیمت + سروس چارجز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('railway-ticket-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Soft Skills Modal -->
+    <div id="soft-skills-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('soft-skills-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">سافٹ سکلز (Soft Skills)</h3>
+            <div class="modal-body">
+                <p><strong>سافٹ سکلز کیا ہیں؟</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-red); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    سافٹ سکلز ان ذاتی خوبیوں اور صلاحیتوں کو کہا جاتا ہے جو آپ کو دوسروں کے ساتھ بہتر طریقے سے بات چیت
+                    کرنے، مل جل کر کام کرنے، اور مختلف حالات میں خود کو ڈھالنے میں مدد دیتی ہیں۔ ان میں مواصلات
+                    (Communication)، ٹیم ورک، وقت کی پابندی، اور مسائل کے حل کی صلاحیت شامل ہے۔
+                </div>
+
+                <p><strong>یہ کس کے لیے ہیں؟</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-user-graduate"></i> طلباء جو پیشہ ورانہ زندگی کا آغاز کر رہے ہیں۔</li>
+                    <li><i class="fa-solid fa-briefcase"></i> پیشہ ور افراد جو اپنی کارکردگی اور ترقی کو بہتر بنانا
+                        چاہتے ہیں۔</li>
+                    <li><i class="fa-solid fa-users"></i> کوئی بھی شخص جو اپنی انفرادی اور سماجی صلاحیتوں کو نکھارنا
+                        چاہتا ہو۔</li>
+                </ul>
+
+                <p style="color: red;"><strong>بیرون ملک سفر کے لیے لازمی:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid red; margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem; color: red;">
+                    سافٹ سکلز کا کورس اب بین الاقوامی سطح پر بیرون ملک جانے والوں کے لیے انتہائی اہمیت اختیار کر گیا ہے۔
+                    کچھ ممالک نے اسے ورک ویزا اور دیگر مقاصد کے لیے لازمی قرار دے دیا ہے۔ یاد رکھیں، اس سرٹیفکیٹ کے بغیر
+                    <strong>پروٹیکٹر (Protector)</strong> نہیں لگتا، اس لیے بیرون ملک روزگار کے خواہش مند افراد کے لیے
+                    یہ کورس کرنا ناگزیر ہے۔
+                </div>
+
+                <p style="margin-top: 1.5rem;"><strong>ضروری چیزیں:</strong></p>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-brain"></i> سیکھنے کا شوق اور مثبت رویہ۔</li>
+                    <li><i class="fa-regular fa-clock"></i> وقت دینے کی عزم۔</li>
+                    <li><i class="fa-solid fa-laptop"></i> آن لائن کورسز کے لیے انٹرنیٹ اور ڈیوائس (اگر لاگو ہو)۔</li>
+                </ul>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('soft-skills-modal')"><i class="fa-brands fa-whatsapp"></i> کورسز کی تفصیل کے
+                    لیے واٹس ایپ پر رابطہ کریں: 03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Biometric Modal -->
+    <div id="biometric-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('biometric-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">نادرہ بائیومیٹرک تصدیق</h3>
+            <div class="modal-body">
+                <p><strong>ہماری خدمات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    نادرہ ای-سہولت کے ذریعے مختلف محکموں اور مقاصد کے لیے بائیومیٹرک (فنگر پرنٹس) کی جدید ترین اور محفوظ
+                    ترین سہولت دستیاب ہے۔
+                </div>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-car"></i> گاڑیوں کی خرید و فروخت (Vehicle Transfer)</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-fingerprint"></i> ایکسائز اینڈ ٹیکسیشن کے لیے خریدار اور فروخت کنندہ کی
+                        بائیومیٹرک تصدیق۔</li>
+                </ul>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-hand-holding-dollar"></i> بینظیر انکم سپورٹ (BISP)</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-fingerprint"></i> BISP اور دیگر فلاحی پروگرامز کی رقوم وصول کرنے کے لیے
+                        تصدیق۔</li>
+                </ul>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-user-check"></i> ذاتی و خاندانی تصدیق (Personal Verification)</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-fingerprint"></i> فیملی رجسٹریشن سرٹیفکیٹ (FRC)، وراثت، اور پنشن وغیرہ کے
+                        مقاصد کے لیے۔</li>
+                </ul>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-face-viewfinder"></i> چہرے کی شناخت (Facial Recognition)</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-camera"></i> فنگر پرنٹس کام نہ کرنے کی صورت میں چہرے کے ذریعے تصدیق کی
+                        جدید سہولت۔</li>
+                </ul>
+
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>نوٹ:</strong></p>
+                    <ul class="modal-list">
+                        <li>مزید معلومات اور سروس چارجز کی تفصیلات کے لیے ہمارے درج ذیل واٹس ایپ نمبر پر رابطہ کریں یا
+                            ہمارے دفتر تشریف لائیں۔</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('biometric-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: +92 304 6994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Utility Bills Modal -->
+    <div id="utility-bills-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('utility-bills-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">یوٹیلٹی بلز کی ادائیگی</h3>
+            <div class="modal-body">
+                <p><strong>ہماری خدمات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    نادرہ ای-سہولت کے ذریعے تمام یوٹیلٹی بلز کی ادائیگی کی سہولت بلاتفریق اور بغیر کسی اضافی چارجز کے
+                    دستیاب ہے۔
+                </div>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-bolt"></i> بجلی کے بل (Electricity Bills)</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-check"></i> فیسکو (FESCO)، واپڈا اور دیگر تمام کمپنیوں کے بل۔</li>
+                </ul>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-fire-flame-simple"></i> سوئی گیس (Sui Gas Bills)</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-check"></i> سوئی ناردرن (SNGPL) اور سوئی سدرن گیس کے بل۔</li>
+                </ul>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-phone-volume"></i> پی ٹی سی ایل اور انٹرنیٹ (PTCL & Internet)</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-check"></i> پی ٹی سی ایل لینڈ لائن، براڈ بینڈ، اور وائی فائی ڈیوائسز کے
+                        بل۔</li>
+                </ul>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-droplet"></i> پانی اور دیگر (Water & Others)</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-check"></i> واسا (WASA) کے بلوں کی ادائیگی۔</li>
+                </ul>
+
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>نوٹ:</strong></p>
+                    <ul class="modal-list">
+                        <li>مزید معلومات اور آن لائن بل جمع کروانے کے لیے ہمارے درج ذیل واٹس ایپ نمبر پر رابطہ کریں یا
+                            ہمارے دفتر تشریف لائیں۔</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('utility-bills-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: +92 304 6994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ID Card Services Modal -->
+    <div id="id-services-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('id-services-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">شناختی کارڈ کی خدمات</h3>
+            <div class="modal-body">
+                <p><strong>ہماری خدمات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    شناختی کارڈ کی تجدید (Renewal) اور گمشدہ کارڈ کے ری پرنٹ (Reprint) کی سہولت موجود ہے۔
+                </div>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-id-card-clip"></i> ری پرنٹ (Reprint)</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-file"></i> پرانا شناختی کارڈ یا اس کی کاپی درکار ہے۔</li>
+                    <li><i class="fa-solid fa-money-bill-wave"></i> سرکاری فیس + مناسب سروس چارجز (Service Charges) لاگو
+                        ہوں گے۔</li>
+                </ul>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-arrows-rotate"></i> تجدید (Renewal)</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-file-excel"></i> زائد المیعاد (Expired) شناختی کارڈ درکار ہے۔</li>
+                    <li><i class="fa-solid fa-money-bill-wave"></i> سرکاری فیس + مناسب سروس چارجز (Service Charges) لاگو
+                        ہوں گے۔</li>
+                </ul>
+
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>نوٹ:</strong></p>
+                    <ul class="modal-list">
+                        <li>مزید معلومات، سروس چارجز کی تفصیلات اور کام کے لیے ہمارے درج ذیل واٹس ایپ نمبر پر رابطہ کریں
+                            یا ہمارے دفتر تشریف لائیں۔</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('id-services-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ
+                    کریں: +92 304 6994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Income Tax Registration Modal -->
+    <div id="income-tax-registration-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('income-tax-registration-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">انکم ٹیکس رجسٹریشن</h3>
+            <div class="modal-body">
+                <p><strong>ہماری خدمات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    نئے انکم ٹیکس دہندگان کے لیے ایف بی آر (FBR) میں رجسٹریشن اور این ٹی این (NTN) کے حصول کی مکمل سہولت
+                    فراہم کی جاتی ہے۔
+                </div>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-file-invoice-dollar"></i> درکار دستاویزات</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card"></i> شناختی کارڈ کی کاپی</li>
+                    <li><i class="fa-solid fa-mobile-screen"></i> آپ کے نام پر رجسٹرڈ موبائل نمبر</li>
+                    <li><i class="fa-solid fa-envelope"></i> ای میل ایڈریس</li>
+                    <li><i class="fa-solid fa-house"></i> گھر یا دفتر کے پتے کی تفصیل (بجلی کا بل)</li>
+                </ul>
+
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>نوٹ:</strong></p>
+                    <ul class="modal-list">
+                        <li>مزید معلومات اور رجسٹریشن کے لیے ہمارے درج ذیل واٹس ایپ نمبر پر رابطہ کریں یا ہمارے دفتر
+                            تشریف لائیں۔</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('income-tax-registration-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ
+                    پر رابطہ کریں: +92 304 6994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Income Tax Return File Modal -->
+    <div id="income-tax-return-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('income-tax-return-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">انکم ٹیکس ریٹرن فائل</h3>
+            <div class="modal-body">
+                <p><strong>ہماری خدمات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    سالانہ انکم ٹیکس ریٹرن (Income Tax Return) کی تیاری اور ایف بی آر (FBR) میں جمع کروانے کی مکمل اور
+                    بروقت سہولت۔
+                </div>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-file-invoice-dollar"></i> اہم فوائد اور دستاویزات</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-check"></i> <strong>فائلر بنیں:</strong> ریٹرن فائل کر کے فائلر بنیں اور
+                        ودہولڈنگ ٹیکسز (Withholding Taxes) کی بچت کریں۔</li>
+                    <li><i class="fa-solid fa-building-columns"></i> <strong>درکار معلومات:</strong> بینک اسٹیٹمنٹ،
+                        تنخواہ کی سلپ (اگر ملازم ہیں)، یا کاروبار کی آمدنی کی تفصیلات۔</li>
+                    <li><i class="fa-solid fa-file-invoice"></i> <strong>یوٹیلٹی بلز:</strong> سالانہ بجلی، گیس اور دیگر
+                        بلوں کی تفصیلات۔</li>
+                </ul>
+
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>نوٹ:</strong></p>
+                    <ul class="modal-list">
+                        <li>بروقت ریٹرن فائل کرنے اور جرمانے سے بچنے کے لیے ہمارے درج ذیل واٹس ایپ نمبر پر رابطہ کریں یا
+                            ہمارے دفتر تشریف لائیں۔</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('income-tax-return-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر
+                    رابطہ کریں: +92 304 6994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quran Player -->
+    <div id="quran-player" class="quran-player">
+        <audio id="quran-audio" src="https://backup.qurango.net/radio/tarteel" preload="none" autoplay></audio>
+        <button id="quran-toggle-btn" class="quran-btn">
+            <i class="fa-solid fa-play"></i> تلاوت قرآن
+        </button>
+    </div>
+
+    <!-- Flash News Modal for AIOU Datesheet -->
+    <div id="flash-news-modal" class="modal-overlay">
+        <div class="modal-content" style="max-width: 600px; text-align: center; border: 2px solid var(--accent);">
+            <button class="modal-close" onclick="closeModal('flash-news-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <div
+                style="background-color: #fef3c7; color: #b45309; padding: 1rem; border-radius: var(--border-radius); margin-bottom: 1.5rem; display: inline-block;">
+                <i class="fa-solid fa-bell fa-shake" style="font-size: 2rem;"></i>
+            </div>
+            <h3 class="modal-title" style="border-bottom: none; color: var(--accent); margin-bottom: 1rem;">اہم اطلاع:
+                علامہ اقبال اوپن یونیورسٹی ڈیٹ شیٹ</h3>
+            <div class="modal-body">
+                <p style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1.5rem;">علامہ اقبال اوپن یونیورسٹی
+                    (AIOU) کی نئی ڈیٹ شیٹ جاری کر دی گئی ہے۔</p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1.5rem; border-radius: var(--border-radius); border-right: 4px solid var(--primary); margin-bottom: 1.5rem; text-align: right;">
+                    <ul class="modal-list" style="display: block; text-align: right;">
+                        <li style="margin-bottom: 0.5rem;"><i class="fa-solid fa-download"
+                                style="color: var(--primary);"></i> اپنی ڈیٹ شیٹ ڈاؤن لوڈ کریں۔</li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fa-solid fa-calendar-alt"
+                                style="color: var(--primary);"></i> امتحانات کی تاریخیں چیک کریں۔</li>
+                        <li><i class="fa-solid fa-print" style="color: var(--primary);"></i> پرنٹ آؤٹ کی سہولت مرکز پر
+                            دستیاب ہے۔</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="margin-top: 2rem;">
+                <a href="#contact" class="btn btn-primary" onclick="closeModal('flash-news-modal')">مزید معلومات کے لیے
+                    رابطہ کریں</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
