@@ -431,7 +431,18 @@ const translations = {
     "میرج اور ڈائیورس سرٹیفکیٹ:": "Marriage & Divorce Certificate:",
     "نکاح نامہ اور طلاق نامہ کی کمپیوٹرائزڈ کاپی۔": "Computerized copy of Nikkah Nama and Divorce Certificate.",
     "طریقہ کار:": "Procedure:",
-    "آپ صرف ہمیں مطلوبہ دستاویزات فراہم کریں، ہمارا نمائندہ تمام کارروائی مکمل کر کے سرٹیفکیٹ آپ کے گھر تک پہنچائے گا۔ سروس سے فائدہ اٹھانے کے لیے واٹس ایپ پر رابطہ کریں۔": "You just provide us the required documents; our representative will complete all the processing and deliver the certificate to your home. Contact us on WhatsApp to avail the service."
+    "آپ صرف ہمیں مطلوبہ دستاویزات فراہم کریں، ہمارا نمائندہ تمام کارروائی مکمل کر کے سرٹیفکیٹ آپ کے گھر تک پہنچائے گا۔ سروس سے فائدہ اٹھانے کے لیے واٹس ایپ پر رابطہ کریں۔": "You just provide us the required documents; our representative will complete all the processing and deliver the certificate to your home. Contact us on WhatsApp to avail the service.",
+    "نادرہ ای-سہولت کے ذریعے تمام یوٹیلٹی بلز کی ادائیگی کی سہولت بلاتفریق اور بغیر کسی اضافی چارجز کے دستیاب ہے۔ لائنوں میں لگنے کی زحمت سے بچیں اور فوری ادائیگی کریں۔": "Facility to pay all utility bills via NADRA e-Sahulat is available indiscriminately and without any extra charges. Avoid the hassle of standing in lines and pay instantly.",
+    "ہماری فراہم کردہ سہولیات:": "Our Provided Facilities:",
+    "بجلی کے بل:": "Electricity Bills:",
+    "فیسکو (FESCO)، گیپکو (GEPCO)، لیسکو (LESCO) اور دیگر تمام بجلی کے بلوں کی ادائیگی۔": "Payment of FESCO, GEPCO, LESCO and all other electricity bills.",
+    "گیس کے بل:": "Gas Bills:",
+    "سوئی ناردرن (SNGPL) اور سوئی سدرن (SSGC) کے بلوں کی ادائیگی۔": "Payment of Sui Northern (SNGPL) and Sui Southern (SSGC) bills.",
+    "پانی اور دیگر:": "Water and others:",
+    "واسا (WASA) اور دیگر متعلقہ اداروں کے بل۔": "Bills of WASA and other relevant departments.",
+    "ٹیلی فون اور انٹرنیٹ:": "Telephone and Internet:",
+    "پی ٹی سی ایل (PTCL) لینڈ لائن، براڈ بینڈ اور فیملی پیکجز کی ادائیگی۔": "Payment of PTCL Landline, Broadband and Family packages.",
+    "آپ اپنا بل ہمارے دفتر لا سکتے ہیں یا واٹس ایپ پر بل کی تصویر بھیج کر آن لائن پیمنٹ کے ذریعے گھر بیٹھے اپنا بل ادا کر سکتے ہیں۔": "You can bring your bill to our office or send a picture of the bill on WhatsApp to pay your bill from home via online payment."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
