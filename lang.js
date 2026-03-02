@@ -421,7 +421,17 @@ const translations = {
     "بینک اسٹیٹمنٹ، تنخواہ کی سلپ (اگر ملازم ہیں)، یا کاروبار کی آمدنی کی تفصیلات۔": "Bank statement, salary slip (if employed), or details of business income.",
     "یوٹیلٹی بلز:": "Utility Bills:",
     "سالانہ بجلی، گیس اور دیگر بلوں کی تفصیلات۔": "Details of annual electricity, gas, and other bills.",
-    "بروقت ریٹرن فائل کرنے اور جرمانے سے بچنے کے لیے ہمارے درج ذیل واٹس ایپ نمبر پر رابطہ کریں یا ہمارے دفتر تشریف لائیں۔": "To file return on time and avoid penalty, contact our WhatsApp number below or visit our office."
+    "بروقت ریٹرن فائل کرنے اور جرمانے سے بچنے کے لیے ہمارے درج ذیل واٹس ایپ نمبر پر رابطہ کریں یا ہمارے دفتر تشریف لائیں۔": "To file return on time and avoid penalty, contact our WhatsApp number below or visit our office.",
+    "حکومتِ پنجاب کا ایک انقلابی قدم 'مریم کی دستک' اب ٹائم سیو سروسز پر دستیاب ہے۔ اب آپ کو سرکاری دفاتر کے چکر کاٹنے کی ضرورت نہیں، گھر بیٹھے مختلف سرٹیفکیٹس اور دستاویزات حاصل کریں۔": "A revolutionary step by the Government of Punjab 'Maryam Ki Dastak' is now available at Time Save Services. No need to visit government offices; get various certificates and documents sitting at home.",
+    "ہماری فراہم کردہ ہوم ڈلیوری خدمات:": "Our provided home delivery services:",
+    "برتھ سرٹیفکیٹ:": "Birth Certificate:",
+    "نئے پیدا ہونے والے بچوں کا اندراج اور سرٹیفکیٹ کا حصول۔": "Registration of new borns and obtaining certificate.",
+    "ڈیتھ سرٹیفکیٹ:": "Death Certificate:",
+    "وفات پانے والے افراد کے ڈیتھ سرٹیفکیٹ کا اجراء۔": "Issuance of death certificate for deceased persons.",
+    "میرج اور ڈائیورس سرٹیفکیٹ:": "Marriage & Divorce Certificate:",
+    "نکاح نامہ اور طلاق نامہ کی کمپیوٹرائزڈ کاپی۔": "Computerized copy of Nikkah Nama and Divorce Certificate.",
+    "طریقہ کار:": "Procedure:",
+    "آپ صرف ہمیں مطلوبہ دستاویزات فراہم کریں، ہمارا نمائندہ تمام کارروائی مکمل کر کے سرٹیفکیٹ آپ کے گھر تک پہنچائے گا۔ سروس سے فائدہ اٹھانے کے لیے واٹس ایپ پر رابطہ کریں۔": "You just provide us the required documents; our representative will complete all the processing and deliver the certificate to your home. Contact us on WhatsApp to avail the service."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
