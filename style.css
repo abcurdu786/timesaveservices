@@ -185,7 +185,7 @@ h6 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: rotateLogo 20s linear infinite;
+    /* animation: rotateLogo 20s linear infinite; */
 }
 
 .logo-img-static {
@@ -544,10 +544,134 @@ h6 {
     width: 100%;
     min-height: 200px;
     position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-news-id {
+    background-image: url('assets/id_card_renewal.png');
+}
+
+.img-news-maryam {
+    background-image: url('assets/marayum_ki_dastak.png');
+}
+
+.img-news-bills {
+    background-image: url('assets/nadra_bills.png');
+}
+
+.img-news-reg {
+    background-image: url('assets/vehicle_reg.png');
+}
+
+.img-news-travel {
+    background-image: url('assets/travel_tickets.png');
+}
+
+.img-news-char {
+    background-image: url('assets/character_cert.png');
+}
+
+.img-news-estamp {
+    background-image: url('assets/e_stamp.png');
+}
+
+.img-news-domicile {
+    background-image: url('assets/domicile_cert.png');
+}
+
+.img-news-graphic {
+    background-image: url('assets/graphic_design.png');
+}
+
+.img-news-id-renew {
+    background-image: url('assets/id_card_renewal.png');
+}
+
+.img-news-fard {
+    background-image: url('assets/fard_loan.png');
+}
+
+.img-news-passport {
+    background-image: url('assets/passport_fee.png');
+}
+
+.img-news-learner {
+    background-image: url('assets/learner_license.png');
+}
+
+.img-news-matric {
+    background-image: url('assets/matric_fee.png');
+}
+
+.img-news-discount {
+    background-image: url('assets/bills_discount.png');
+}
+
+.img-news-death {
+    background-image: url('assets/death_cert.png');
+}
+
+.img-news-motor {
+    background-image: url('assets/motorcycle_reg.png');
+}
+
+.img-news-umrah {
+    background-image: url('assets/umrah_package.png');
+}
+
+.img-news-nikkah {
+    background-image: url('assets/nikkah_nama.png');
+}
+
+.img-news-intl {
+    background-image: url('assets/intl_license.png');
+}
+
+.img-news-land {
+    background-image: url('assets/land_mutation.png');
+}
+
+.img-news-rail {
+    background-image: url('assets/railway_ticket.png');
+}
+
+.img-news-divorce {
+    background-image: url('assets/divorce_cert.png');
+}
+
+.img-news-challan {
+    background-image: url('assets/challan.png');
+}
+
+.img-news-fardsale {
+    background-image: url('assets/fard_sale.png');
+}
+
+.img-news-sargodha {
+    background-image: url('assets/sargodha_uni.png');
+}
+
+.img-news-logo {
+    background-image: url('assets/logo_design.png');
+}
+
+.img-news-traffic {
+    background-image: url('assets/traffic_challan.png');
+}
+
+.img-news-biometric {
+    background-image: url('assets/biometric.png');
 }
 
 .news-item.news-large .news-image {
     min-height: 350px;
+}
+
+/* Hide fallback icon if image is set */
+.news-image[style*="background-image"]::after,
+.news-image[class*="img-news-"]::after {
+    display: none;
 }
 
 .news-image::after {

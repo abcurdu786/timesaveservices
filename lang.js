@@ -403,7 +403,25 @@ const translations = {
     "اپنی ڈیٹ شیٹ ڈاؤن لوڈ کریں۔": "Download your datesheet.",
     "امتحانات کی تاریخیں چیک کریں۔": "Check examination dates.",
     "پرنٹ آؤٹ کی سہولت مرکز پر دستیاب ہے۔": "Printout facility is available at the center.",
-    "مزید معلومات کے لیے رابطہ کریں": "Contact for more information"
+    "مزید معلومات کے لیے رابطہ کریں": "Contact for more information",
+    "انکم ٹیکس رجسٹریشن": "Income Tax Registration",
+    "انکم ٹیکس ریٹرن فائل": "Income Tax Return File",
+    "نئے انکم ٹیکس دہندگان کے لیے ایف بی آر (FBR) میں رجسٹریشن اور این ٹی این (NTN) کے حصول کی مکمل سہولت فراہم کی جاتی ہے۔": "Complete facility is provided for registration and obtaining NTN in FBR for new income taxpayers.",
+    "درکار دستاویزات": "Required Documents",
+    "شناختی کارڈ کی کاپی": "Copy of ID Card",
+    "آپ کے نام پر رجسٹرڈ موبائل نمبر": "Mobile number registered in your name",
+    "ای میل ایڈریس": "Email Address",
+    "گھر یا دفتر کے پتے کی تفصیل (بجلی کا بل)": "Home or office address details (Electricity bill)",
+    "مزید معلومات اور رجسٹریشن کے لیے ہمارے درج ذیل واٹس ایپ نمبر پر رابطہ کریں یا ہمارے دفتر تشریف لائیں۔": "For more information and registration, contact our WhatsApp number below or visit our office.",
+    "سالانہ انکم ٹیکس ریٹرن (Income Tax Return) کی تیاری اور ایف بی آر (FBR) میں جمع کروانے کی مکمل اور بروقت سہولت۔": "Complete and timely facility for preparing and submitting the annual Income Tax Return in FBR.",
+    "اہم فوائد اور دستاویزات": "Important Benefits and Documents",
+    "فائلر بنیں:": "Become a Filer:",
+    "ریٹرن فائل کر کے فائلر بنیں اور ودہولڈنگ ٹیکسز (Withholding Taxes) کی بچت کریں۔": "File return to become a Filer and save on Withholding Taxes.",
+    "درکار معلومات:": "Required Information:",
+    "بینک اسٹیٹمنٹ، تنخواہ کی سلپ (اگر ملازم ہیں)، یا کاروبار کی آمدنی کی تفصیلات۔": "Bank statement, salary slip (if employed), or details of business income.",
+    "یوٹیلٹی بلز:": "Utility Bills:",
+    "سالانہ بجلی، گیس اور دیگر بلوں کی تفصیلات۔": "Details of annual electricity, gas, and other bills.",
+    "بروقت ریٹرن فائل کرنے اور جرمانے سے بچنے کے لیے ہمارے درج ذیل واٹس ایپ نمبر پر رابطہ کریں یا ہمارے دفتر تشریف لائیں۔": "To file return on time and avoid penalty, contact our WhatsApp number below or visit our office."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
