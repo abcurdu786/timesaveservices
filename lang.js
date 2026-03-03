@@ -481,7 +481,18 @@ const translations = {
     "مقصد:": "Purpose:",
     "کرائم ریکارڈ کی عدم موجودگی کی تصدیق کے ذریعے تحفظ کو یقینی بنانا۔": "Ensuring security through confirmation of the absence of a criminal record.",
     "سہولت:": "Facility:",
-    "ہماری سروس کے ذریعے تمام عمل آن لائن ہو گا اور آپ کو تھانے یا ڈی پی او آفس جانے کی ضرورت نہیں پڑے گی۔ تفصیلات کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں۔": "Through our service, the entire process will be online, and you won't need to visit the police station or DPO office. Contact our WhatsApp number for details."
+    "ہماری سروس کے ذریعے تمام عمل آن لائن ہو گا اور آپ کو تھانے یا ڈی پی او آفس جانے کی ضرورت نہیں پڑے گی۔ تفصیلات کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں۔": "Through our service, the entire process will be online, and you won't need to visit the police station or DPO office. Contact our WhatsApp number for details.",
+    "ٹائم سیو سروسز کے ذریعے بچوں کے برتھ سرٹیفکیٹ اور ڈومیسائل بنوانے کی سہولت اب نہایت آسان اور تیز تر ہو گئی ہے۔ دفتروں کے چکر سے بچیں اور سہولت سے فائدہ اٹھائیں۔": "Through Time Save Services, the facility to obtain birth certificates and domiciles for children has now become very easy and fast. Avoid visiting offices and take advantage of the facility.",
+    "برتھ سرٹیفکیٹ (Birth Certificate):": "Birth Certificate:",
+    "نئے پیدا ہونے والے بچوں کا اندراج۔": "Registration of newborns.",
+    "یونین کونسل سے کمپیوٹرائزڈ برتھ سرٹیفکیٹ کا حصول۔": "Obtaining computerized birth certificate from the Union Council.",
+    "درکار کاغذات:": "Required Documents:",
+    "ہسپتال کا سرٹیفکیٹ، والدین کے شناختی کارڈ کی کاپی۔": "Hospital certificate, copy of parents' ID cards.",
+    "ڈومیسائل (Domicile):": "Domicile:",
+    "نئے ڈومیسائل کے حصول کے لیے مکمل رہنمائی اور پراسیسنگ۔": "Complete guidance and processing for obtaining a new domicile.",
+    "ضروری کاغذات:": "Required Documents:",
+    "تصدیق شدہ تصاویر، فارم ب/شناختی کارڈ، والد کا شناختی کارڈ، اور رہائش کا ثبوت۔": "Attested photographs, Form-B/ID card, father's ID card, and proof of residence.",
+    "مزید معلومات اور گھر بیٹھے سروس حاصل کرنے کے لیے ہمارے واٹس ایپ نمبر پر متعلقہ دستاویزات بھیجیں یا دفتر تشریف لائیں۔": "For more information and to get the service from home, send the relevant documents to our WhatsApp number or visit our office."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
