@@ -575,11 +575,11 @@ const translations = {
     "بینک اکاؤنٹ کی تفصیل (IBAN نمبر اور چیک بک کی کاپی / اکاؤنٹ مینٹیننس سرٹیفکیٹ)": "Bank Account Details (IBAN Number and Copy of Cheque Book / Account Maintenance Certificate)",
     "آمدنی کا ثبوت (جاب لیٹر یا سیلری سلپ / بزنس لیٹر ہیڈ)": "Proof of Income (Job Letter or Salary Slip / Business Letterhead)",
     "خصوصی آفر!": "Special Offer!",
-    "کے ذریعے اکاؤنٹ کھلوانے پر": "upon opening an account through",
-    "ایک ماہ کی فری ٹریننگ": "One Month Free Training",
-    "کی سہولت۔": "facility.",
-    "ٹائم سیو سروسز کے ذریعے اکاؤنٹ کھلوانے پر ایک ماہ کی فری ٹریننگ کی سہولت۔": "Facility of one month free training on opening an account through Time Save Services.",
-    "اکاؤنٹ اوپننگ کی کوئی اضافی فیس نہیں، صرف فرنٹ اینڈ لوڈ (Front End Load) پر ہماری کمیشن ہوگی۔": "No extra account opening fee, our commission will only be on the Front End Load."
+    "ٹائم سیو سروسز": "Time Save Services",
+    "کے توسط سے اکاؤنٹ اوپن کروانے پر": "upon opening an account through",
+    "ایک ماہ کی مفت ٹریننگ بھی دے گا۔": "will also provide one month free training.",
+    "ٹائم سیو سروسز کے توسط سے اکاؤنٹ اوپن کروانے پر ٹائم سیو سروسز ایک ماہ کی مفت ٹریننگ بھی دے گا۔": "Time Save Services will also provide one month of free training upon opening an account through Time Save Services.",
+    "اکاؤنٹ اوپننگ کی کوئی اضافی فیس نہیں لی جائے گی، ہمارا کمیشن صرف فرنٹ اینڈ لوڈ (Front End Load) پر ہوگا۔": "No extra account opening fee will be charged; our commission will only be on the Front End Load."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
