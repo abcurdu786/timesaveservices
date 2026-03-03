@@ -605,7 +605,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.documentElement.dir = isEnglish ? 'ltr' : 'rtl';
 
         // Update button appearance
-        toggleBtn.innerHTML = isEnglish ? '<i class="fa-solid fa-language"></i> اردو / Urdu' : '<i class="fa-solid fa-language"></i> English';
+        toggleBtn.innerHTML = isEnglish ? '<i class="fa-solid fa-globe"></i> اردو / Urdu' : '<i class="fa-solid fa-globe"></i> English';
         toggleBtn.style.fontFamily = isEnglish ? "'Noto Nastaliq Urdu', serif" : "'Inter', sans-serif";
 
         // Translate text nodes
