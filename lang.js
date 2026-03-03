@@ -525,7 +525,16 @@ const translations = {
     "نیا پاسپورٹ، تجدید، ارجنٹ یا نارمل فیس کی سہولت۔": "Facility for new passport, renewal, urgent or normal fee.",
     "رسید کی فراہمی:": "Provision of Receipt:",
     "ادائیگی کے فوراً بعد تصدیقی رسید حاصل کریں۔": "Get a confirmation receipt immediately after payment.",
-    "اپنا PSID نمبر یا متعلقہ تفصیلات لے کر ہمارے دفتر تشریف لائیں یا واٹس ایپ کے ذریعے رابطہ کریں۔": "Visit our office with your PSID number or relevant details, or contact us via WhatsApp."
+    "اپنا PSID نمبر یا متعلقہ تفصیلات لے کر ہمارے دفتر تشریف لائیں یا واٹس ایپ کے ذریعے رابطہ کریں۔": "Visit our office with your PSID number or relevant details, or contact us via WhatsApp.",
+    "پاسپورٹ فیس کی تفصیل (Passport Fees):": "Passport Fee Details:",
+    "صفحات": "Pages",
+    "میعاد": "Validity",
+    "نارمل": "Normal",
+    "ارجنٹ": "Urgent",
+    "فاسٹ ٹریک": "Fast Track",
+    "5 سال": "5 Years",
+    "10 سال": "10 Years",
+    "* فیس میں حکومتی ٹیکس یا سروس چارجز شامل ہو سکتے ہیں۔": "* Fees may include government taxes or service charges."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
