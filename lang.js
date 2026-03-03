@@ -555,7 +555,15 @@ const translations = {
     "گمشدہ یا پرانی رجسٹری کی تصدیق شدہ کاپی (Certified Copy) کا باآسانی حصول۔": "Easy procurement of a certified copy of a lost or old registry.",
     "کمپیوٹرائزڈ ریکارڈ:": "Computerized Record:",
     "پٹواری کے فرسودہ نظام سے نجات، اب آپ کی زمین کا تمام ریکارڈ کمپیوٹرائزڈ اور تصدیق شدہ۔": "Freedom from the outdated Patwari system, now all your land records are computerized and verified.",
-    "تفصیلات جاننے اور اپنے اراضی کے معاملات کو قانونی اور شفاف انداز میں حل کرنے کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں یا دفتر تشریف لائیں۔": "To know the details and resolve your land matters in a legal and transparent manner, contact our WhatsApp number or visit our office."
+    "تفصیلات جاننے اور اپنے اراضی کے معاملات کو قانونی اور شفاف انداز میں حل کرنے کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں یا دفتر تشریف لائیں۔": "To know the details and resolve your land matters in a legal and transparent manner, contact our WhatsApp number or visit our office.",
+    "اب ریلوے اسٹیشن کی لمبی قطاروں میں لگنے سے بچیں اور ٹائم سیو سروسز کے ذریعے گھر بیٹھے اپنی ٹرین کی ای ٹکٹ حاصل کریں۔": "Now avoid standing in long queues at the railway station and get your train's e-ticket from home through Time Save Services.",
+    "آن لائن بکنگ:": "Online Booking:",
+    "پاکستان بھر میں کسی بھی شہر کے لیے ٹرین کی سیٹ باآسانی بک کروائیں۔": "Easily book a train seat for any city across Pakistan.",
+    "ای ٹکٹ کا حصول:": "Getting E-Ticket:",
+    "بکنگ کے فوراً بعد اپنے موبائل پر ای ٹکٹ (SMS یا WhatsApp) کے ذریعے موصول کریں۔": "Receive the e-ticket on your mobile via SMS or WhatsApp immediately after booking.",
+    "کلاس کا انتخاب:": "Choosing Class:",
+    "اے سی سلیپر، اے سی بزنس، یا اکانومی کلاس، اپنی پسند اور بجٹ کے مطابق سیٹ منتخب کریں۔": "AC Sleeper, AC Business, or Economy Class, choose a seat according to your preference and budget.",
+    "سفر کی تاریخ اور روٹ کی تفصیلات کے ساتھ ہمارے واٹس ایپ نمبر پر رابطہ کریں اور گھر بیٹھے اپنی ٹکٹ بک کروائیں۔": "Contact our WhatsApp number with the travel date and route details and book your ticket from home."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
