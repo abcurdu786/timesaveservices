@@ -502,7 +502,13 @@ const translations = {
     "دکانوں، دفاتر اور اشتہارات کے لیے پینافلکس کی اعلیٰ کوالٹی ڈیزائننگ اور پرنٹنگ۔": "High-quality designing and printing of panaflex for shops, offices, and advertisements.",
     "سوشل میڈیا پوسٹس (Social Media Posts):": "Social Media Posts:",
     "فیس بک، انسٹاگرام اور دیگر پلیٹ فارمز کے لیے پرکشش پوسٹس کی ڈیزائننگ۔": "Designing attractive posts for Facebook, Instagram, and other platforms.",
-    "اپنی ڈیزائننگ اور پرنٹنگ کی ضروریات کے لیے ہمارے دفتر تشریف لائیں یا واٹس ایپ کے ذریعے آن لائن آرڈر بک کروائیں۔": "Visit our office for your designing and printing needs or book an online order via WhatsApp."
+    "اپنی ڈیزائننگ اور پرنٹنگ کی ضروریات کے لیے ہمارے دفتر تشریف لائیں یا واٹس ایپ کے ذریعے آن لائن آرڈر بک کروائیں۔": "Visit our office for your designing and printing needs or book an online order via WhatsApp.",
+    "قطار اور انتظار کی زحمت سے بچیں! نادرہ شناختی کارڈ کی تجدید یا ری پرنٹ کے لیے ٹائم سیو سروسز سے رابطہ کریں اور اپنا ضروری کام بروقت مکمل کریں۔": "Avoid the hassle of queues and waiting! Contact Time Save Services for Nadra ID card renewal or reprint and get your essential work done on time.",
+    "تجدید (Renewal):": "Renewal:",
+    "زائد المیعاد (Expired) شناختی کارڈ کی باآسانی تجدید۔": "Easy renewal of expired ID card.",
+    "ری پرنٹ (Reprint):": "Reprint:",
+    "گمشدہ یا خراب کارڈ کی صورت میں نیا کارڈ حاصل کریں۔": "Get a new card in case of lost or damaged card.",
+    "تفصیلات کے لیے ہمارے دفتر تشریف لائیں یا واٹس ایپ کے ذریعے رہنمائی حاصل کریں۔": "For details, visit our office or get guidance via WhatsApp."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
