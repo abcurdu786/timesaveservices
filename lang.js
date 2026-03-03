@@ -547,7 +547,15 @@ const translations = {
     "لوکل ڈرائیونگ لائسنس کی کاپی": "Copy of Local Driving License",
     "ایک عدد پاسپورٹ سائز تصویر": "One Passport Size Photograph",
     "کورٹ فیس کا ٹکٹ (حسبِ ضرورت)": "Court Fee Ticket (if required)",
-    "یہ تمام دستاویزات لے کر ہمارے دفتر تشریف لائیں یا ان کی واضح تصاویر ہمارے واٹس ایپ نمبر پر ارسال کریں تاکہ آپ کا کام فوری شروع کیا جا سکے۔": "Bring all these documents to our office or send their clear pictures to our WhatsApp number so that your work can be started immediately."
+    "یہ تمام دستاویزات لے کر ہمارے دفتر تشریف لائیں یا ان کی واضح تصاویر ہمارے واٹس ایپ نمبر پر ارسال کریں تاکہ آپ کا کام فوری شروع کیا جا سکے۔": "Bring all these documents to our office or send their clear pictures to our WhatsApp number so that your work can be started immediately.",
+    "اب اراضی کے انتقال اور رجسٹری کی کاپی حاصل کرنے کے لیے اراضی ریکارڈ سینٹر کے چکر لگانے کی ضرورت نہیں۔ ٹائم سیو سروسز کے ذریعے گھر بیٹھے یہ سہولت حاصل کریں۔": "Now there is no need to visit the Arazi Record Center to get the land transfer (mutation) and registry copy. Get this facility from home through Time Save Services.",
+    "اراضی کا انتقال:": "Land Transfer (Mutation):",
+    "جائیداد کی خرید و فروخت یا وراثت کے بعد زمین کا انتقال (Mutation) فوری اور محفوظ طریقے سے۔": "Quick and secure land transfer (mutation) after buying/selling or inheritance of property.",
+    "رجسٹری کی کاپی:": "Registry Copy:",
+    "گمشدہ یا پرانی رجسٹری کی تصدیق شدہ کاپی (Certified Copy) کا باآسانی حصول۔": "Easy procurement of a certified copy of a lost or old registry.",
+    "کمپیوٹرائزڈ ریکارڈ:": "Computerized Record:",
+    "پٹواری کے فرسودہ نظام سے نجات، اب آپ کی زمین کا تمام ریکارڈ کمپیوٹرائزڈ اور تصدیق شدہ۔": "Freedom from the outdated Patwari system, now all your land records are computerized and verified.",
+    "تفصیلات جاننے اور اپنے اراضی کے معاملات کو قانونی اور شفاف انداز میں حل کرنے کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں یا دفتر تشریف لائیں۔": "To know the details and resolve your land matters in a legal and transparent manner, contact our WhatsApp number or visit our office."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
