@@ -466,7 +466,22 @@ const translations = {
     "دبئی، سعودی عرب اور دیگر ممالک کے لیے وزٹ ویزہ کی پروسیسنگ۔": "Processing of visit visas for Dubai, Saudi Arabia, and other countries.",
     "ٹریول انشورنس:": "Travel Insurance:",
     "دورانِ سفر کسی بھی غیر یقینی صورتحال سے بچاؤ کے لیے محفوظ انشورنس۔": "Secure insurance to protect against any unforeseen situation during travel.",
-    "اپنی سفری ضروریات اور منزل کی تفصیلات بتانے کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں، ہم آپ کو بہترین آپشنز فراہم کریں گے۔": "Contact our WhatsApp number to tell us your travel requirements and destination details, we will provide you with the best options."
+    "اپنی سفری ضروریات اور منزل کی تفصیلات بتانے کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں، ہم آپ کو بہترین آپشنز فراہم کریں گے۔": "Contact our WhatsApp number to tell us your travel requirements and destination details, we will provide you with the best options.",
+    "اب آپ کو پولیس اسٹیشن یا خدمت مرکز کے چکر لگانے کی کوئی ضرورت نہیں۔ ٹائم سیو سروسز کے ذریعے اپنا کریکٹر سرٹیفکیٹ اور جنرل پولیس ویریفیکیشن کا عمل گھر بیٹھے باآسانی مکمل کریں۔": "You no longer need to visit the police station or Khidmat Markaz. Easily complete the process of your Character Certificate and General Police Verification from home through Time Save Services.",
+    "کریکٹر سرٹیفکیٹ (Character Certificate):": "Character Certificate:",
+    "بیرون ملک سفر:": "International Travel:",
+    "ویزہ کے حصول کے لیے لازمی دستاویز۔": "Mandatory document for obtaining a visa.",
+    "ملازمت کا حصول:": "Obtaining Employment:",
+    "سرکاری یا نجی نوکری کے لیے کردار کی درستگی کا ثبوت۔": "Proof of character accuracy for government or private jobs.",
+    "اصل پاسپورٹ، شناختی کارڈ کی کاپی، اور تصویر درکار ہے۔": "Original passport, copy of ID card, and a photograph are required.",
+    "جنرل پولیس ویریفیکیشن (General Police Verification):": "General Police Verification:",
+    "مکان یا دکان کرائے پر دینے یا لینے کے لیے لازمی تصدیق۔": "Mandatory verification for renting out or taking on rent a house or shop.",
+    "ملازمین کی تصدیق:": "Employees Verification:",
+    "گھریلو ملازمین، ڈرائیورز یا سیکیورٹی گارڈز کی تصدیق۔": "Verification of domestic workers, drivers, or security guards.",
+    "مقصد:": "Purpose:",
+    "کرائم ریکارڈ کی عدم موجودگی کی تصدیق کے ذریعے تحفظ کو یقینی بنانا۔": "Ensuring security through confirmation of the absence of a criminal record.",
+    "سہولت:": "Facility:",
+    "ہماری سروس کے ذریعے تمام عمل آن لائن ہو گا اور آپ کو تھانے یا ڈی پی او آفس جانے کی ضرورت نہیں پڑے گی۔ تفصیلات کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں۔": "Through our service, the entire process will be online, and you won't need to visit the police station or DPO office. Contact our WhatsApp number for details."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
