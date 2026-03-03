@@ -442,7 +442,31 @@ const translations = {
     "واسا (WASA) اور دیگر متعلقہ اداروں کے بل۔": "Bills of WASA and other relevant departments.",
     "ٹیلی فون اور انٹرنیٹ:": "Telephone and Internet:",
     "پی ٹی سی ایل (PTCL) لینڈ لائن، براڈ بینڈ اور فیملی پیکجز کی ادائیگی۔": "Payment of PTCL Landline, Broadband and Family packages.",
-    "آپ اپنا بل ہمارے دفتر لا سکتے ہیں یا واٹس ایپ پر بل کی تصویر بھیج کر آن لائن پیمنٹ کے ذریعے گھر بیٹھے اپنا بل ادا کر سکتے ہیں۔": "You can bring your bill to our office or send a picture of the bill on WhatsApp to pay your bill from home via online payment."
+    "آپ اپنا بل ہمارے دفتر لا سکتے ہیں یا واٹس ایپ پر بل کی تصویر بھیج کر آن لائن پیمنٹ کے ذریعے گھر بیٹھے اپنا بل ادا کر سکتے ہیں۔": "You can bring your bill to our office or send a picture of the bill on WhatsApp to pay your bill from home via online payment.",
+    "اب ایکسائز اینڈ ٹیکسیشن دفتر کے چکر لگانے کی ضرورت نہیں۔ ٹائم سیو سروسز کے ذریعے اپنی نئی موٹر سائیکل یا گاڑی کی رجسٹریشن کا عمل باآسانی مکمل کریں۔": "No need to visit Excise and Taxation office anymore. Easily complete the registration process of your new motorcycle or car through Time Save Services.",
+    "ضروری کاغذات:": "Required Documents:",
+    "گاڑی کی انوائس:": "Vehicle Invoice:",
+    "شو روم کی طرف سے جاری کردہ اصل انوائس۔": "Original invoice issued by the showroom.",
+    "سیلز لیٹر:": "Sales Letter:",
+    "کمپنی کا جاری کردہ سیلز لیٹر (اصل)۔": "Original sales letter issued by the company.",
+    "شناختی کارڈ:": "ID Card:",
+    "مالک کے شناختی کارڈ کی اصل کاپی اور بائیو میٹرک تصدیق۔": "Original copy of owner's ID card and biometric verification.",
+    "ہماری سروسز:": "Our Services:",
+    "آن لائن فیس چالان جنریٹ کرنا۔": "Generate online fee challan.",
+    "ای-پے (e-Pay) کے ذریعے فیس کی فوری ادائیگی۔": "Instant payment of fee through e-Pay.",
+    "بائیو میٹرک تصدیق کی سہولت۔": "Facility of biometric verification.",
+    "سمارٹ کارڈ اور نمبر پلیٹس کے لیے اپلائی کرنا۔": "Apply for smart card and number plates.",
+    "آپ اصل کاغذات کے ساتھ ہمارے دفتر تشریف لائیں یا واٹس ایپ پر تفصیلات بھیج کر رہنمائی حاصل کریں۔ ہم رجسٹریشن کا عمل شفاف اور جلد مکمل کروائیں گے۔": "Visit our office with original documents or send details on WhatsApp for guidance. We will complete the registration process transparently and quickly.",
+    "ٹائم سیو سروسز نے 'فواز ٹریول' (Fawaz Travel) کے اشتراک سے اندرون اور بیرون ملک سفر کے لیے بہترین اور سستی ٹکٹنگ کی سہولت متعارف کروائی ہے۔": "Time Save Services in collaboration with 'Fawaz Travel' has introduced the best and affordable ticketing facility for domestic and international travel.",
+    "ہوائی ٹکٹ (Air Tickets):": "Air Tickets:",
+    "دنیا بھر کی ایئر لائنز کے لیے سستے اور کنفرمڈ ہوائی ٹکٹ۔": "Cheap and confirmed air tickets for airlines worldwide.",
+    "عمرہ پیکجز (Umrah Packages):": "Umrah Packages:",
+    "آپ کے بجٹ کے مطابق بہترین عمرہ پیکجز اور ویزہ سروسز۔": "Best Umrah packages and visa services according to your budget.",
+    "وزٹ ویزہ (Visit Visa):": "Visit Visa:",
+    "دبئی، سعودی عرب اور دیگر ممالک کے لیے وزٹ ویزہ کی پروسیسنگ۔": "Processing of visit visas for Dubai, Saudi Arabia, and other countries.",
+    "ٹریول انشورنس:": "Travel Insurance:",
+    "دورانِ سفر کسی بھی غیر یقینی صورتحال سے بچاؤ کے لیے محفوظ انشورنس۔": "Secure insurance to protect against any unforeseen situation during travel.",
+    "اپنی سفری ضروریات اور منزل کی تفصیلات بتانے کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں، ہم آپ کو بہترین آپشنز فراہم کریں گے۔": "Contact our WhatsApp number to tell us your travel requirements and destination details, we will provide you with the best options."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
