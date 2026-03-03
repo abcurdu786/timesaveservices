@@ -508,6 +508,8 @@ const translations = {
     "زائد المیعاد (Expired) شناختی کارڈ کی باآسانی تجدید۔": "Easy renewal of expired ID card.",
     "ری پرنٹ (Reprint):": "Reprint:",
     "گمشدہ یا خراب کارڈ کی صورت میں نیا کارڈ حاصل کریں۔": "Get a new card in case of lost or damaged card.",
+    "بائیو میٹرک تصدیق:": "Biometric Verification:",
+    "شناختی کارڈ کے حصول کے لیے آن لائن بائیو میٹرک تصدیق کی سہولت بھی موجود ہے۔": "Online biometric verification facility is also available for obtaining the ID card.",
     "تفصیلات کے لیے ہمارے دفتر تشریف لائیں یا واٹس ایپ کے ذریعے رہنمائی حاصل کریں۔": "For details, visit our office or get guidance via WhatsApp."
 };
 
