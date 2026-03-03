@@ -516,7 +516,16 @@ const translations = {
     "ٹائم سیو سروسز کے ذریعے فرد برائے حصول قرضہ فوری طور پر حاصل کریں۔": "Get the Fard for loan immediately through Time Save Services.",
     "وقت کی بچت:": "Time Saving:",
     "اپنا قیمتی وقت بچائیں اور اپنا ضروری کام بروقت مکمل کریں۔": "Save your precious time and complete your essential work on time.",
-    "تفصیلات جاننے اور سروس حاصل کرنے کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں یا دفتر تشریف لائیں۔": "To know the details and get the service, contact our WhatsApp number or visit our office."
+    "تفصیلات جاننے اور سروس حاصل کرنے کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں یا دفتر تشریف لائیں۔": "To know the details and get the service, contact our WhatsApp number or visit our office.",
+    "اب پاسپورٹ فیس کی ادائیگی کے لیے بینکوں کی لمبی قطاروں میں لگنے کی ضرورت نہیں۔ ٹائم سیو سروسز کے پلیٹ فارم پر نادرہ ای-سہولت کے ذریعے اپنی فیس باآسانی ادا کریں۔": "Now there is no need to wait in long queues at banks to pay the passport fee. Easily pay your fee through Nadra e-Sahulat on the Time Save Services platform.",
+    "خصوصیات:": "Features:",
+    "فوری ادائیگی:": "Instant Payment:",
+    "ای-سہولت کے ذریعے پاسپورٹ فیس کی فوری اور محفوظ ادائیگی۔": "Instant and secure payment of passport fee through e-Sahulat.",
+    "ہر قسم کا پاسپورٹ:": "All Types of Passports:",
+    "نیا پاسپورٹ، تجدید، ارجنٹ یا نارمل فیس کی سہولت۔": "Facility for new passport, renewal, urgent or normal fee.",
+    "رسید کی فراہمی:": "Provision of Receipt:",
+    "ادائیگی کے فوراً بعد تصدیقی رسید حاصل کریں۔": "Get a confirmation receipt immediately after payment.",
+    "اپنا PSID نمبر یا متعلقہ تفصیلات لے کر ہمارے دفتر تشریف لائیں یا واٹس ایپ کے ذریعے رابطہ کریں۔": "Visit our office with your PSID number or relevant details, or contact us via WhatsApp."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
