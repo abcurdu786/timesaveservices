@@ -510,7 +510,13 @@ const translations = {
     "گمشدہ یا خراب کارڈ کی صورت میں نیا کارڈ حاصل کریں۔": "Get a new card in case of lost or damaged card.",
     "بائیو میٹرک تصدیق:": "Biometric Verification:",
     "شناختی کارڈ کے حصول کے لیے آن لائن بائیو میٹرک تصدیق کی سہولت بھی موجود ہے۔": "Online biometric verification facility is also available for obtaining the ID card.",
-    "تفصیلات کے لیے ہمارے دفتر تشریف لائیں یا واٹس ایپ کے ذریعے رہنمائی حاصل کریں۔": "For details, visit our office or get guidance via WhatsApp."
+    "تفصیلات کے لیے ہمارے دفتر تشریف لائیں یا واٹس ایپ کے ذریعے رہنمائی حاصل کریں۔": "For details, visit our office or get guidance via WhatsApp.",
+    "اب قرضہ حاصل کرنے کے لیے فرد کی ضرورت ہو تو اراضی ریکارڈ سینٹر / تحصیل کے چکر لگانے اور لمبی قطاروں میں انتظار کی زحمت سے بچیں۔": "Now, if you need a Fard (property document) to get a loan, avoid the hassle of visiting the Arazi Record Center / Tehsil and waiting in long queues.",
+    "فوری حصول:": "Quick Attainment:",
+    "ٹائم سیو سروسز کے ذریعے فرد برائے حصول قرضہ فوری طور پر حاصل کریں۔": "Get the Fard for loan immediately through Time Save Services.",
+    "وقت کی بچت:": "Time Saving:",
+    "اپنا قیمتی وقت بچائیں اور اپنا ضروری کام بروقت مکمل کریں۔": "Save your precious time and complete your essential work on time.",
+    "تفصیلات جاننے اور سروس حاصل کرنے کے لیے ہمارے واٹس ایپ نمبر پر رابطہ کریں یا دفتر تشریف لائیں۔": "To know the details and get the service, contact our WhatsApp number or visit our office."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
