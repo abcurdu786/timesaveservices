@@ -729,6 +729,12 @@ h6 {
     flex-grow: 1;
 }
 
+.news-item .full-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 .read-more {
     display: inline-flex;
     align-items: center;
