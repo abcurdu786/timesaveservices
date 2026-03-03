@@ -541,7 +541,13 @@ const translations = {
     "شناختی کارڈ کی کاپی اور ایک تصویر درکار ہے۔": "A copy of ID card and one photograph are required.",
     "فیس کی تفصیل:": "Fee Details:",
     "فی کیٹیگری 500 روپے سرکاری فیس۔": "500 Rs official fee per category.",
-    "یہ سہولت گھر بیٹھے حاصل کرنے کے لیے ہمارے واٹس ایپ نمبر پر اپنے کاغذات بھیجیں یا دفتر تشریف لائیں۔": "To get this facility at home, send your documents to our WhatsApp number or visit our office."
+    "یہ سہولت گھر بیٹھے حاصل کرنے کے لیے ہمارے واٹس ایپ نمبر پر اپنے کاغذات بھیجیں یا دفتر تشریف لائیں۔": "To get this facility at home, send your documents to our WhatsApp number or visit our office.",
+    "بیرون ملک ڈرائیونگ کے لیے انٹرنیشنل ڈرائیونگ لائسنس کا حصول اور تجدید اب ٹائم سیو سروسز کے پلیٹ فارم پر دستیاب ہے۔": "Getting and renewing an international driving license for driving abroad is now available on the Time Save Services platform.",
+    "پاسپورٹ کی کاپی (جس پر ویزا لگا ہو)": "Copy of Passport (with visa stamped)",
+    "لوکل ڈرائیونگ لائسنس کی کاپی": "Copy of Local Driving License",
+    "ایک عدد پاسپورٹ سائز تصویر": "One Passport Size Photograph",
+    "کورٹ فیس کا ٹکٹ (حسبِ ضرورت)": "Court Fee Ticket (if required)",
+    "یہ تمام دستاویزات لے کر ہمارے دفتر تشریف لائیں یا ان کی واضح تصاویر ہمارے واٹس ایپ نمبر پر ارسال کریں تاکہ آپ کا کام فوری شروع کیا جا سکے۔": "Bring all these documents to our office or send their clear pictures to our WhatsApp number so that your work can be started immediately."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
