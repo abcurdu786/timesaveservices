@@ -492,7 +492,17 @@ const translations = {
     "نئے ڈومیسائل کے حصول کے لیے مکمل رہنمائی اور پراسیسنگ۔": "Complete guidance and processing for obtaining a new domicile.",
     "ضروری کاغذات:": "Required Documents:",
     "تصدیق شدہ تصاویر، فارم ب/شناختی کارڈ، والد کا شناختی کارڈ، اور رہائش کا ثبوت۔": "Attested photographs, Form-B/ID card, father's ID card, and proof of residence.",
-    "مزید معلومات اور گھر بیٹھے سروس حاصل کرنے کے لیے ہمارے واٹس ایپ نمبر پر متعلقہ دستاویزات بھیجیں یا دفتر تشریف لائیں۔": "For more information and to get the service from home, send the relevant documents to our WhatsApp number or visit our office."
+    "مزید معلومات اور گھر بیٹھے سروس حاصل کرنے کے لیے ہمارے واٹس ایپ نمبر پر متعلقہ دستاویزات بھیجیں یا دفتر تشریف لائیں۔": "For more information and to get the service from home, send the relevant documents to our WhatsApp number or visit our office.",
+    "ٹائم سیو سروسز کی جانب سے اب ہر قسم کی پروفیشنل گرافک ڈیزائننگ اور پرنٹنگ کی سہولیات بھی فراہم کی جا رہی ہیں۔ اپنے کاروبار کو ایک نئی پہچان دیں!": "Time Save Services is now providing all types of professional graphic designing and printing facilities. Give your business a new identity!",
+    "شادی کارڈز (Wedding Cards):": "Wedding Cards:",
+    "ہر قسم کے جدید اور خوبصورت شادی کارڈز کی ڈیزائننگ اور پرنٹنگ۔": "Designing and printing of all types of modern and beautiful wedding cards.",
+    "پرنٹنگ (Printing):": "Printing:",
+    "وزٹنگ کارڈز، لیٹر ہیڈ، بل بکس اور دیگر دفتری سٹیشنری کی معیاری پرنٹنگ۔": "Quality printing of visiting cards, letterheads, bill books, and other office stationery.",
+    "پینافلکس (Panaflex):": "Panaflex:",
+    "دکانوں، دفاتر اور اشتہارات کے لیے پینافلکس کی اعلیٰ کوالٹی ڈیزائننگ اور پرنٹنگ۔": "High-quality designing and printing of panaflex for shops, offices, and advertisements.",
+    "سوشل میڈیا پوسٹس (Social Media Posts):": "Social Media Posts:",
+    "فیس بک، انسٹاگرام اور دیگر پلیٹ فارمز کے لیے پرکشش پوسٹس کی ڈیزائننگ۔": "Designing attractive posts for Facebook, Instagram, and other platforms.",
+    "اپنی ڈیزائننگ اور پرنٹنگ کی ضروریات کے لیے ہمارے دفتر تشریف لائیں یا واٹس ایپ کے ذریعے آن لائن آرڈر بک کروائیں۔": "Visit our office for your designing and printing needs or book an online order via WhatsApp."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
