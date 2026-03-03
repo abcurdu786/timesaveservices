@@ -534,7 +534,14 @@ const translations = {
     "فاسٹ ٹریک": "Fast Track",
     "5 سال": "5 Years",
     "10 سال": "10 Years",
-    "* فیس میں حکومتی ٹیکس یا سروس چارجز شامل ہو سکتے ہیں۔": "* Fees may include government taxes or service charges."
+    "* فیس میں حکومتی ٹیکس یا سروس چارجز شامل ہو سکتے ہیں۔": "* Fees may include government taxes or service charges.",
+    "اب ٹریفک پولیس آفس کے چکر لگانے کی ضرورت نہیں۔ ٹائم سیو سروسز کے ذریعے اپنا لرنر ڈرائیونگ لائسنس گھر بیٹھے باآسانی بنوائیں۔": "No need to visit the Traffic Police Office anymore. Easily get your Learner Driving License from home through Time Save Services.",
+    "ضروری معلومات:": "Essential Information:",
+    "درکار کاغذات:": "Required Documents:",
+    "شناختی کارڈ کی کاپی اور ایک تصویر درکار ہے۔": "A copy of ID card and one photograph are required.",
+    "فیس کی تفصیل:": "Fee Details:",
+    "فی کیٹیگری 500 روپے سرکاری فیس۔": "500 Rs official fee per category.",
+    "یہ سہولت گھر بیٹھے حاصل کرنے کے لیے ہمارے واٹس ایپ نمبر پر اپنے کاغذات بھیجیں یا دفتر تشریف لائیں۔": "To get this facility at home, send your documents to our WhatsApp number or visit our office."
 };
 
 document.addEventListener('DOMContentLoaded', () => {
