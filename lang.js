@@ -563,7 +563,23 @@ const translations = {
     "بکنگ کے فوراً بعد اپنے موبائل پر ای ٹکٹ (SMS یا WhatsApp) کے ذریعے موصول کریں۔": "Receive the e-ticket on your mobile via SMS or WhatsApp immediately after booking.",
     "کلاس کا انتخاب:": "Choosing Class:",
     "اے سی سلیپر، اے سی بزنس، یا اکانومی کلاس، اپنی پسند اور بجٹ کے مطابق سیٹ منتخب کریں۔": "AC Sleeper, AC Business, or Economy Class, choose a seat according to your preference and budget.",
-    "سفر کی تاریخ اور روٹ کی تفصیلات کے ساتھ ہمارے واٹس ایپ نمبر پر رابطہ کریں اور گھر بیٹھے اپنی ٹکٹ بک کروائیں۔": "Contact our WhatsApp number with the travel date and route details and book your ticket from home."
+    "سفر کی تاریخ اور روٹ کی تفصیلات کے ساتھ ہمارے واٹس ایپ نمبر پر رابطہ کریں اور گھر بیٹھے اپنی ٹکٹ بک کروائیں۔": "Contact our WhatsApp number with the travel date and route details and book your ticket from home.",
+    "پاکستان مرکنٹائل ایکسچینج (PMEX)": "Pakistan Mercantile Exchange (PMEX)",
+    "پاکستان اسٹاک ایکسچینج (PSX)": "Pakistan Stock Exchange (PSX)",
+    "اکاؤنٹ اوپننگ کے لیے ضروری تفصیلات اور کاغذات:": "Details and documents required for account opening:",
+    "پاکستان مرکنٹائل ایکسچینج میں ٹریڈنگ اکاؤنٹ کھولنے کے لیے درج ذیل معلومات اور کاغذات درکار ہوں گے:": "The following information and documents will be required to open a trading account in the Pakistan Mercantile Exchange:",
+    "پاکستان اسٹاک ایکسچینج (RDA/Sahulat/Normal Account) میں ٹریڈنگ اکاؤنٹ کھولنے کے لیے درج ذیل معلومات اور کاغذات درکار ہوں گے:": "The following information and documents will be required to open a trading account in the Pakistan Stock Exchange (RDA/Sahulat/Normal Account):",
+    "اصلی شناختی کارڈ کی کاپی (فرنٹ اور بیک)": "Original ID card copy (Front and Back)",
+    "ایکٹیو ای میل ایڈریس (Active Email Address)": "Active Email Address",
+    "ایکٹیو موبائل نمبر (جو آپکے نام پر ہو)": "Active Mobile Number (registered in your name)",
+    "بینک اکاؤنٹ کی تفصیل (IBAN نمبر اور چیک بک کی کاپی / اکاؤنٹ مینٹیننس سرٹیفکیٹ)": "Bank Account Details (IBAN Number and Copy of Cheque Book / Account Maintenance Certificate)",
+    "آمدنی کا ثبوت (جاب لیٹر یا سیلری سلپ / بزنس لیٹر ہیڈ)": "Proof of Income (Job Letter or Salary Slip / Business Letterhead)",
+    "خصوصی آفر!": "Special Offer!",
+    "کے ذریعے اکاؤنٹ کھلوانے پر": "upon opening an account through",
+    "ایک ماہ کی فری ٹریننگ": "One Month Free Training",
+    "کی سہولت۔": "facility.",
+    "ٹائم سیو سروسز کے ذریعے اکاؤنٹ کھلوانے پر ایک ماہ کی فری ٹریننگ کی سہولت۔": "Facility of one month free training on opening an account through Time Save Services.",
+    "اکاؤنٹ اوپننگ کی کوئی اضافی فیس نہیں، صرف فرنٹ اینڈ لوڈ (Front End Load) پر ہماری کمیشن ہوگی۔": "No extra account opening fee, our commission will only be on the Front End Load."
 };
 
 document.addEventListener('DOMContentLoaded', () => {

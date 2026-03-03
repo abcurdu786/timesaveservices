@@ -175,9 +175,9 @@
                                 class="fa-solid fa-chevron-down dropdown-icon"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#" onclick="openModal('soft-skills-modal'); return false;">سافٹ سکل</a></li>
-                            <li><a href="https://wa.me/923046994699" target="_blank">پاکستان مرکنٹائل
+                            <li><a href="#" onclick="openModal('pmex-modal'); return false;">پاکستان مرکنٹائل
                                     ایکسچینج</a></li>
-                            <li><a href="https://wa.me/923046994699" target="_blank">پاکستان اسٹاک
+                            <li><a href="#" onclick="openModal('psx-modal'); return false;">پاکستان اسٹاک
                                     ایکسچینج</a></li>
                             <li><a href="https://wa.me/923046994699" target="_blank">پراپرٹی انویسٹمنٹ</a></li>
                             <li><a href="#" onclick="openModal('income-tax-registration-modal'); return false;">انکم
@@ -2589,6 +2589,88 @@
         </div>
     </div>
 
+    <!-- PMEX Modal -->
+    <div id="pmex-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('pmex-modal')"><i class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">پاکستان مرکنٹائل ایکسچینج (PMEX)</h3>
+            <div class="modal-body">
+                <p><strong>اکاؤنٹ اوپننگ کے لیے ضروری تفصیلات اور کاغذات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    پاکستان مرکنٹائل ایکسچینج میں ٹریڈنگ اکاؤنٹ کھولنے کے لیے درج ذیل معلومات اور کاغذات درکار ہوں گے:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card-clip"></i> اصلی شناختی کارڈ کی کاپی (فرنٹ اور بیک)</li>
+                    <li><i class="fa-solid fa-envelope"></i> ایکٹیو ای میل ایڈریس (Active Email Address)</li>
+                    <li><i class="fa-solid fa-phone"></i> ایکٹیو موبائل نمبر (جو آپکے نام پر ہو)</li>
+                    <li><i class="fa-solid fa-money-check"></i> بینک اکاؤنٹ کی تفصیل (IBAN نمبر اور چیک بک کی کاپی /
+                        اکاؤنٹ مینٹیننس سرٹیفکیٹ)</li>
+                    <li><i class="fa-solid fa-file-invoice-dollar"></i> آمدنی کا ثبوت (جاب لیٹر یا سیلری سلپ / بزنس لیٹر
+                        ہیڈ)</li>
+                </ul>
+                <div class="modal-fees"
+                    style="margin-top: 1.5rem; background-color: #ecfdf5; padding: 1rem; border-radius: var(--border-radius); border-left: 4px solid #10b981;">
+                    <p style="color: #047857; font-weight: bold; font-size: 1.1rem; margin-bottom: 0.5rem;"><i
+                            class="fa-solid fa-gift"></i> خصوصی آفر!</p>
+                    <ul class="modal-list" style="margin-bottom: 0;">
+                        <li><i class="fa-solid fa-chalkboard-user" style="color: #047857;"></i> <strong>ٹائم سیو
+                                سروسز</strong> کے ذریعے اکاؤنٹ کھلوانے پر <strong>ایک ماہ کی فری ٹریننگ</strong> کی
+                            سہولت۔</li>
+                        <li><i class="fa-solid fa-percent" style="color: #047857;"></i> اکاؤنٹ اوپننگ کی کوئی اضافی فیس
+                            نہیں، صرف <strong>فرنٹ اینڈ لوڈ (Front End Load) پر ہماری کمیشن ہوگی</strong>۔</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('pmex-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- PSX Modal -->
+    <div id="psx-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('psx-modal')"><i class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">پاکستان اسٹاک ایکسچینج (PSX)</h3>
+            <div class="modal-body">
+                <p><strong>اکاؤنٹ اوپننگ کے لیے ضروری تفصیلات اور کاغذات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    پاکستان اسٹاک ایکسچینج (RDA/Sahulat/Normal Account) میں ٹریڈنگ اکاؤنٹ کھولنے کے لیے درج ذیل معلومات
+                    اور کاغذات درکار ہوں گے:
+                </div>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-id-card-clip"></i> اصلی شناختی کارڈ کی کاپی (فرنٹ اور بیک)</li>
+                    <li><i class="fa-solid fa-envelope"></i> ایکٹیو ای میل ایڈریس (Active Email Address)</li>
+                    <li><i class="fa-solid fa-phone"></i> ایکٹیو موبائل نمبر (جو آپکے نام پر ہو)</li>
+                    <li><i class="fa-solid fa-money-check"></i> بینک اکاؤنٹ کی تفصیل (IBAN نمبر اور چیک بک کی کاپی /
+                        اکاؤنٹ مینٹیننس سرٹیفکیٹ)</li>
+                    <li><i class="fa-solid fa-file-invoice-dollar"></i> آمدنی کا ثبوت (جاب لیٹر یا سیلری سلپ / بزنس لیٹر
+                        ہیڈ)</li>
+                </ul>
+                <div class="modal-fees"
+                    style="margin-top: 1.5rem; background-color: #ecfdf5; padding: 1rem; border-radius: var(--border-radius); border-left: 4px solid #10b981;">
+                    <p style="color: #047857; font-weight: bold; font-size: 1.1rem; margin-bottom: 0.5rem;"><i
+                            class="fa-solid fa-gift"></i> خصوصی آفر!</p>
+                    <ul class="modal-list" style="margin-bottom: 0;">
+                        <li><i class="fa-solid fa-chalkboard-user" style="color: #047857;"></i> <strong>ٹائم سیو
+                                سروسز</strong> کے ذریعے اکاؤنٹ کھلوانے پر <strong>ایک ماہ کی فری ٹریننگ</strong> کی
+                            سہولت۔</li>
+                        <li><i class="fa-solid fa-percent" style="color: #047857;"></i> اکاؤنٹ اوپننگ کی کوئی اضافی فیس
+                            نہیں، صرف <strong>فرنٹ اینڈ لوڈ (Front End Load) پر ہماری کمیشن ہوگی</strong>۔</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+                <a href="https://wa.me/923046994699" target="_blank" class="btn btn-primary" dir="ltr"
+                    onclick="closeModal('psx-modal')"><i class="fa-brands fa-whatsapp"></i> واٹس ایپ پر رابطہ کریں:
+                    03046994699</a>
+            </div>
+        </div>
+    </div>
     <!-- Quran Player -->
     <div id="quran-player" class="quran-player">
         <audio id="quran-audio" src="https://backup.qurango.net/radio/tarteel" preload="none" autoplay></audio>
