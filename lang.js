@@ -126,7 +126,7 @@ const translations = {
     "واٹس ایپ پر رابطہ کریں:": "WhatsApp:",
     "ای میل": "Email",
     "پتہ": "Address",
-    "بھیرا روڈ جھاوریاں، نزد نادرہ آفس 32.356001, 72.625637": "Bhera Road Jhawarian Near Nadra Office 32.356001, 72.625637",
+    "نہر پٹری بھیرہ روڈ جھاوریاں نزد نادرہ آفس 32.356001, 72.625637": "Nehar Patri Bhera Road Jhawarian Near Nadra Office 32.356001, 72.625637",
     "براہِ کرم نیچے دیا گیا فارم پُر کریں، ہمارا نمائندہ جلد آپ سے رابطہ کرے گا": "Please fill out the form below; our representative will contact you soon.",
     "پورا نام (Full Name):": "Full Name:",
     "موبائل نمبر (Mobile Number):": "Mobile Number:",
