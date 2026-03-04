@@ -579,7 +579,18 @@ const translations = {
     "کے توسط سے اکاؤنٹ اوپن کروانے پر": "upon opening an account through",
     "ایک ماہ کی مفت ٹریننگ بھی دے گا۔": "will also provide one month free training.",
     "ٹائم سیو سروسز کے توسط سے اکاؤنٹ اوپن کروانے پر ٹائم سیو سروسز ایک ماہ کی مفت ٹریننگ بھی دے گا۔": "Time Save Services will also provide one month of free training upon opening an account through Time Save Services.",
-    "اکاؤنٹ اوپننگ کی کوئی اضافی فیس نہیں لی جائے گی، ہمارا کمیشن صرف فرنٹ اینڈ لوڈ (Front End Load) پر ہوگا۔": "No extra account opening fee will be charged; our commission will only be on the Front End Load."
+    "اکاؤنٹ اوپننگ کی کوئی اضافی فیس نہیں لی جائے گی، ہمارا کمیشن صرف فرنٹ اینڈ لوڈ (Front End Load) پر ہوگا۔": "No extra account opening fee will be charged; our commission will only be on the Front End Load.",
+    "رابطہ کی معلومات": "Contact Info",
+    "فون نمبر:": "Phone Number:",
+    "واٹس ایپ:": "WhatsApp:",
+    "ای میل:": "Email:",
+    "پتہ:": "Address:",
+    "اہم لنکس": "Important Links",
+    "پرائیویسی پالیسی (Privacy Policy)": "Privacy Policy",
+    "شرائط و ضوابط (Terms & Conditions)": "Terms & Conditions",
+    "سوشل میڈیا": "Social Media",
+    "ہمیں فالو کریں:": "Follow Us:",
+    "نہر پٹری بھیرہ روڈ جھاوریاں نزد نادرہ آفس 32.356001, 72.625637": "Nehar Patri Bhera Road Jhawarian Near Nadra Office 32.356001, 72.625637"
 };
 
 document.addEventListener('DOMContentLoaded', () => {
