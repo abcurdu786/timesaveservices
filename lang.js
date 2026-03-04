@@ -359,7 +359,7 @@ const translations = {
     "آن لائن کورسز کے لیے انٹرنیٹ اور ڈیوائس (اگر لاگو ہو)۔": "Internet and device for online courses (if applicable).",
     "کورسز کی تفصیل کے لیے واٹس ایپ پر رابطہ کریں: 03046994699": "Contact on WhatsApp for course details: 03046994699",
     "رابطہ": "Contact",
-    "تمام ضروری سرکاری اور ڈیجیٹل سہولیات کا بااعتماد مرکز": "A trusted center for all essential government and digital facilities",
+    "ہم آپ کا وقت بچاتے ہیں": "We save your time",
     "ری پرنٹ": "Reprint",
     "تجدید": "Renewal",
     "شناختی کارڈ کی خدمات (ری پرنٹ اور تجدید)": "ID Card Services (Reprint & Renewal)",
