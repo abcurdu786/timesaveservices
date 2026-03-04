@@ -121,7 +121,7 @@ const translations = {
     "رابطہ کی": "Contact",
     "معلومات": "Information",
     "کسی بھی معلومات یا سروس کے لیے ہم سے رابطہ کریں۔": "Contact us for any information or service.",
-    "محمد ارشد مصطفی اور ابو محمد صفی اللہ میکن سے کسی بھی طرح کی معلومات یا سروس کے لیے رابطہ کریں۔": "Contact Muhammad Arshad Mustafa and Abu Muhammad Safi Ullah Maken for any information or service.",
+    "ابو محمد صفی اللہ میکن سے کسی بھی طرح کی معلومات یا سروس کے لیے رابطہ کریں۔": "Contact Abu Muhammad Safi Ullah Maken for any information or service.",
     "واٹس ایپ / فون نمبر": "WhatsApp / Phone Number",
     "واٹس ایپ پر رابطہ کریں:": "WhatsApp:",
     "ای میل": "Email",
