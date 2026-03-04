@@ -22,42 +22,41 @@
 <body>
 
     <!-- Header Section -->
-    <header class="header">
-        <div class="container">
-            <nav class="navbar">
-                <a href="#" class="logo">
-
-                    <div class="logo-text-container"
-                        style="position: relative; z-index: 1; padding: 15px 25px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-                        <!-- Blurred Office Background -->
-                        <div
-                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('assets/office_bg.png') center/cover no-repeat; z-index: -2; opacity: 0.8;">
-                        </div>
-                        <!-- Green/Blue Gradient Overlay -->
-                        <div
-                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(37, 99, 235, 0.85), rgba(16, 185, 129, 0.85)); z-index: -1;">
-                        </div>
-
-                        <span class="logo-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">TIME
-                            SAVE SERVICES</span>
-                        <span class="logo-slogan"
-                            style="color: #f1f5f9; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Smart Digital
-                            Solution</span>
-                        <div
-                            style="font-size: 0.85rem; color: #f8fafc; margin-top: 5px; font-family: 'Noto Nastaliq Urdu', serif; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">
-                            ہم آپ کا وقت بچاتے ہیں</div>
-                    </div>
-                </a>
-                <div class="lang-switcher" style="display: flex; align-items: center; margin-right: auto;">
-                    <button id="lang-toggle-btn" class="btn btn-outline qs-blue"
-                        style="padding: 6px 15px; font-size: 0.95rem; font-family: 'Inter', sans-serif; cursor: pointer; border-radius: 5px; display: inline-flex; gap: 8px; align-items: center;">
-                        <i class="fa-solid fa-globe"></i> English
-                    </button>
+    <header class="header" style="padding: 0;">
+        <a href="#" class="logo" style="width: 100%; display: block; text-decoration: none;">
+            <div class="logo-text-container"
+                style="position: relative; z-index: 1; padding: 25px 0; border-radius: 0; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; text-align: center;">
+                <!-- Blurred Office Background -->
+                <div
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('assets/office_bg.png') center/cover no-repeat; z-index: -2; opacity: 0.8;">
                 </div>
-            </nav>
+                <!-- Green/Blue Gradient Overlay -->
+                <div
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(37, 99, 235, 0.85), rgba(16, 185, 129, 0.85)); z-index: -1;">
+                </div>
 
+                <span class="logo-text" style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">TIME
+                    SAVE SERVICES</span>
+                <span class="logo-slogan" style="color: #f1f5f9; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Smart
+                    Digital
+                    Solution</span>
+                <div
+                    style="font-size: 0.85rem; color: #f8fafc; margin-top: 5px; font-family: 'Noto Nastaliq Urdu', serif; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">
+                    ہم آپ کا وقت بچاتے ہیں</div>
+            </div>
+        </a>
+
+        <!-- Absolute positioned lang switcher top right -->
+        <div class="lang-switcher" style="position: absolute; top: 1rem; right: 2rem; z-index: 10;">
+            <button id="lang-toggle-btn" class="btn btn-outline qs-blue"
+                style="padding: 6px 15px; font-size: 0.95rem; font-family: 'Inter', sans-serif; cursor: pointer; border-radius: 5px; display: inline-flex; gap: 8px; align-items: center; background-color: rgba(255, 255, 255, 0.9); border: 2px solid white; color: var(--primary-dark); font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                <i class="fa-solid fa-globe"></i> English
+            </button>
+        </div>
+
+        <div class="container" style="padding-top: 1rem; padding-bottom: 1rem;">
             <!-- Main Navigation Menu -->
-            <nav class="main-menu">
+            <nav class="main-menu" style="margin-top: 0; padding-top: 0; border-top: none;">
                 <ul class="nav-links">
                     <li><a href="#home" class="nav-btn qs-blue"><i class="fa-solid fa-house"></i> ہوم</a></li>
                     <li class="dropdown">
@@ -100,8 +99,8 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#services" class="nav-btn qs-blue"><i class="fa-solid fa-plane"></i> ٹریول سروسز
-                            <i class="fa-solid fa-chevron-down dropdown-icon"></i></a>
+                        <a href="#services" class="nav-btn qs-blue"><i class="fa-solid fa-plane"></i> ٹریول سروسز <i
+                                class="fa-solid fa-chevron-down dropdown-icon"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#services">ہوائی ٹکٹ</a></li>
                             <li><a href="#" onclick="openModal('railway-ticket-modal'); return false;">ریلوے ٹکٹ</a>
@@ -202,7 +201,6 @@
                                     ریٹرن فائل</a></li>
                         </ul>
                     </li>
-                    <li><a href="#contact" class="nav-btn qs-navy"><i class="fa-solid fa-phone"></i> رابطہ</a></li>
                 </ul>
             </nav>
 
@@ -224,6 +222,8 @@
                         <div class="ticker-item">اعلیٰ معیار کی گرافک ڈیزائننگ سروسز آپ کے کاروبار کے لیے۔</div>
                         <div class="ticker-item">سرگودھا یونیورسٹی اور سرگودھا بورڈ کے امتحانات اور رزلٹس کی معلومات۔
                         </div>
+                        <div class="ticker-item">ڈرائیونگ لائسنس کے حصول اور تجدید کے لیے لائن اور قطار کی پریشانی ختم،
+                            تشریف لائیں ٹائم سیو سروسز۔</div>
                         <div class="ticker-item">جلد آرہا ہے: ای-اسٹامپ (E-Stamp) وینڈر سروسز!</div>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
                         style="background-image: url('assets/news_plra.png'); background-size: cover; background-position: center;">
                     </div>
                     <div class="news-content">
-                        <span class="news-date">25 فروری 2026</span>
+                        <span class="news-date">25 مارچ 2026</span>
                         <h3>پنجاب لینڈ ریکارڈ اتھارٹی (PLRA) کی نئی آن لائن سہولیات کا آغاز — زمین کے معاملات اب آپ کی
                             انگلیوں پر!</h3>
                         <div style="display: none;" class="full-content">
@@ -301,6 +301,42 @@
                                 style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; font-size: 0.95rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
                                 <strong>نوٹ:</strong> مزید معلومات اور فیس کی تفصیلات کے لیے ہمارے واٹس ایپ نمبر پر
                                 رابطہ کریں یا دفتر تشریف لائیں۔
+                            </div>
+                        </div>
+                        <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Small Side Post 1.5: Driving License Local -->
+                <div class="news-item news-small">
+                    <div class="news-image img-news-dl"></div>
+                    <div class="news-content">
+                        <span class="news-date">4 مارچ 2026</span>
+                        <h4>ڈرائیونگ لائسنس کی تجدید اور لرنر سہولیات</h4>
+                        <div style="display: none;" class="full-content">
+                            <p style="margin-bottom: 1rem;">اب ٹائم سیو سروسز پر ڈرائیونگ لائسنس کی تجدید، لرنر لائسنس
+                                اور بین الاقوامی ڈرائیونگ لائسنس بنوانے کی مکمل سہولت بھی دستیاب ہے۔ دفتر کے لمبی لائنوں
+                                اور چکروں سے بچیں اور اپنا کام باآسانی اور فوری مکمل کروائیں۔</p>
+
+                            <h5 style="color: var(--primary-dark); margin-bottom: 0.5rem; font-size: 1.1rem;">ضروری
+                                کاغذات اور معلومات:</h5>
+                            <ul
+                                style="padding-right: 1.5rem; margin-bottom: 1.5rem; color: var(--text-main); list-style-type: disc;">
+                                <li style="margin-bottom: 0.5rem;"><strong>تجدید:</strong> زائد المیعاد (Expired) لائسنس
+                                    اور اصلی شناختی کارڈ درکار ہے۔</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>لرنر:</strong> اصلی شناختی کارڈ اور میڈیکل
+                                    سرٹیفکیٹ (عمر 50 سال سے زائد ہونے کی صورت میں)۔</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>لرنر فیس:</strong> 500 روپے فی کیٹیگری + سروس
+                                    چارجز۔</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>ای ٹکٹ پلیٹ فارم:</strong> ہم بذریعہ جدید ای
+                                    ٹکٹ سسٹم فیس کی ادائیگی بھی یقینی بناتے ہیں۔</li>
+                            </ul>
+
+                            <div
+                                style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; font-size: 0.95rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                                <strong>نوٹ:</strong> آپ کو صرف ضروری دستاویزات لے کر ہمارے دفتر آنا ہوگا۔ تصویر اور
+                                بائیو میٹرک کا تمام عمل دفتر میں ہی مکمل کیا جائے گا تاکہ آپ کا وقت بچ سکے۔ مزید معلومات
+                                کے لیے تشریف لائیں یا کال کریں۔
                             </div>
                         </div>
                         <a href="#" class="read-more">مزید پڑھیں <i class="fa-solid fa-arrow-left"></i></a>
@@ -733,7 +769,7 @@
                 <div class="news-item news-small">
                     <div class="news-image img-news-learner"></div>
                     <div class="news-content">
-                        <span class="news-date">01 فروری 2026</span>
+                        <span class="news-date">1 فروری 2026</span>
                         <h4>لرنر ڈرائیونگ لائسنس گھر بیٹھے بنوائیں</h4>
                         <div style="display: none;" class="full-content">
                             <p style="margin-bottom: 1rem;">اب ٹریفک پولیس آفس کے چکر لگانے کی ضرورت نہیں۔ ٹائم سیو
@@ -1213,10 +1249,10 @@
                             <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
                             <div class="contact-detail">
                                 <span>پتہ</span>
-                                <address><a href="https://maps.google.com/?q=32.356001,72.625637" target="_blank"
-                                        style="color: inherit; text-decoration: none;">نہر پٹری بھیرہ روڈ جھاوریاں نزد
-                                        نادرہ آفس
-                                        32.356001, 72.625637</a></address>
+                                <address style="width: 100%; max-width: 400px; display: block; text-align: center;"><a
+                                        href="https://maps.google.com/?q=32.356001,72.625637" target="_blank"
+                                        style="color: inherit; text-decoration: none; font-weight: bold; width: 100%; display: block;">نزد
+                                        نادرہ آفس نہر پٹری بھیرہ روڈ جھاوریاں</a></address>
                                 <div
                                     style="margin-top: 10px; width: 100%; max-width: 400px; border-radius: 8px; overflow: hidden;">
                                     <iframe
