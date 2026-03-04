@@ -219,53 +219,6 @@ h6 {
 
 /* Unused owner info styles removed */
 
-/* =========================================
-   Hero Section
-   ========================================= */
-.hero {
-    background: linear-gradient(135deg, var(--bg-card), var(--bg-main));
-    padding: 6rem 1rem;
-    text-align: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    margin-bottom: 2rem;
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.hero-title {
-    font-size: 3rem;
-    font-weight: 800;
-    color: var(--primary-dark);
-    margin-bottom: 1rem;
-    line-height: 1.2;
-}
-
-.hero-title .highlight {
-    color: var(--accent);
-}
-
-.hero-subtitle {
-    font-size: 1.2rem;
-    color: var(--text-muted);
-    font-weight: 500;
-}
-
-@media (max-width: 768px) {
-    .hero {
-        padding: 4rem 1rem;
-    }
-
-    .hero-title {
-        font-size: 2.2rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1rem;
-    }
-}
 
 /* =========================================
    Main Navigation Menu

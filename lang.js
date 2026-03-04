@@ -56,9 +56,7 @@ const translations = {
     "اندرون اور بیرون ملک سفر کے لیے ٹکٹنگ کی سہولت 'فواز ٹریول' کے اشتراک سے۔": "Ticketing facility for domestic and international travel with 'Fawaz Travel'.",
     "اعلیٰ معیار کی گرافک ڈیزائننگ سروسز آپ کے کاروبار کے لیے۔": "High-quality graphic designing services for your business.",
     "سرگودھا یونیورسٹی اور سرگودھا بورڈ کے امتحانات اور رزلٹس کی معلومات۔": "Information on Sargodha University and Sargodha Board exams and results.",
-    "ہم آپ کا": "We save your",
-    "وقت بچاتے ہیں": "time",
-    "تمام ضروری سرکاری اور ڈیجیٹل سہولیات کا بااعتماد مرکز": "Your trusted center for all essential government and digital services",
+
     "جلد آرہا ہے: ای-اسٹامپ (E-Stamp) وینڈر سروسز!": "Coming Soon: E-Stamp Vendor Services!",
     "تلاوت قرآن": "Quran Recitation",
     "رکیں (Pause)": "Pause",
