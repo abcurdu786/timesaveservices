@@ -53,7 +53,10 @@ html {
 
 body {
     font-family: var(--font-ur);
-    background-color: var(--bg-main);
+    background:
+        linear-gradient(135deg, rgba(37, 99, 235, 0.95), rgba(16, 185, 129, 0.95)),
+        url('assets/news_design.png') center/150px repeat fixed,
+        url('assets/office_bg.png') center/cover no-repeat fixed;
     color: var(--text-main);
     line-height: 2;
     /* Increased for Nastaliq */
@@ -575,7 +578,8 @@ h6 {
    ========================================= */
 .news-section {
     padding: 2rem 0 6rem 0;
-    background-color: var(--bg-main);
+    background-color: rgba(224, 242, 254, 0.3);
+    backdrop-filter: blur(5px);
     border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
