@@ -228,15 +228,17 @@ h6 {
 
 @keyframes floatText {
     0% {
-        transform: translateY(0px);
+        transform: rotate(0deg);
+        filter: drop-shadow(0 0 5px rgba(37, 99, 235, 0));
     }
 
     50% {
-        transform: translateY(-4px);
+        filter: drop-shadow(0 0 15px rgba(37, 99, 235, 0.6));
     }
 
     100% {
-        transform: translateY(0px);
+        transform: rotate(360deg);
+        filter: drop-shadow(0 0 5px rgba(37, 99, 235, 0));
     }
 }
 
