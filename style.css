@@ -1709,3 +1709,28 @@ html[dir="rtl"] .modal-total {
 }
 
      
+
+/* Floating WhatsApp Button */
+.floating-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.floating-whatsapp:hover {
+  background-color: #128C7E;
+  transform: scale(1.1);
+  color: white;
+}
