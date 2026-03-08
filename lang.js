@@ -359,7 +359,7 @@ const translations = {
     "آن لائن کورسز کے لیے انٹرنیٹ اور ڈیوائس (اگر لاگو ہو)۔": "Internet and device for online courses (if applicable).",
     "کورسز کی تفصیل کے لیے واٹس ایپ پر رابطہ کریں: 03046994699": "Contact on WhatsApp for course details: 03046994699",
     "رابطہ": "Contact",
-    "ہم آپ کا وقت بچاتے ہیں": "We save your time",
+    "دستک مرکز عوامی خدمت": "Dastak Markaz, Public Service",
     "ری پرنٹ": "Reprint",
     "تجدید": "Renewal",
     "شناختی کارڈ کی خدمات (ری پرنٹ اور تجدید)": "ID Card Services (Reprint & Renewal)",
