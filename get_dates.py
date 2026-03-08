@@ -1,9 +1,6 @@
 import re
-
-path = 'c:/Users/Administrator/Desktop/Site/index.html'
-with open(path, 'r', encoding='utf-8') as f:
-    content = f.read()
-
-matches = re.findall(r'<span class="news-date">([^<]+)</span>', content)
-for m in set(matches):
-    print(m)
+html = open('c:/Users/Administrator/Desktop/Site/index.html', encoding='utf-8').read()
+matches = set(re.findall(r'<span class="news-date">(.*?)</span>', html))
+with open('c:/Users/Administrator/Desktop/Site/extracted_dates.txt', 'w', encoding='utf-8') as f:
+    for m in matches:
+        f.write("Found: " + m + "\n")
