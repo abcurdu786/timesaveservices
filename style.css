@@ -1734,3 +1734,12 @@ html[dir="rtl"] .modal-total {
   transform: scale(1.1);
   color: white;
 }
+
+
+/* Accordion Styles */
+.accordion-panel[open] .toggle-icon {
+  transform: rotate(180deg);
+}
+.accordion-panel summary::-webkit-details-marker {
+  display: none;
+}
