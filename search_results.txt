@@ -1,0 +1,73 @@
+c:/Users/Administrator/Desktop/Site\index.html:214: class="fa-solid fa-star-and-crescent"></i> پاکستان آرمی میں شمولیت کا سنہری موقع! 2 مارچ
+c:/Users/Administrator/Desktop/Site\index.html:249: <span class="news-date">8 مارچ 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:289: <span class="news-date">8 مارچ 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:339: <span class="news-date">2 مارچ سے 22 مئی 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:343: <p style="margin-bottom: 1rem;">پاکستان آرمی میں شمولیت کا سنہری موقع! 2 مارچ سے 22 مئی تک
+c:/Users/Administrator/Desktop/Site\index.html:350: <li style="margin-bottom: 0.5rem;"><strong>تاریخ:</strong> 2 مارچ سے 22 مئی 2026 تک
+c:/Users/Administrator/Desktop/Site\index.html:372: <span class="news-date">2 مارچ 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:405: <span class="news-date">4 مارچ 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:441: <span class="news-date">22 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:477: <span class="news-date">20 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:512: <span class="news-date">18 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:555: <span class="news-date">15 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:589: <span class="news-date">12 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:636: <span class="news-date">10 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:646: <span class="news-date">08 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:688: <span class="news-date">05 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:724: <span class="news-date">04 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:755: <span class="news-date">03 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:784: <span class="news-date">02 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:863: <span class="news-date">1 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:892: <span class="news-date">30 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:901: <span class="news-date">29 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:910: <span class="news-date">28 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:919: <span class="news-date">27 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:928: <span class="news-date">26 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:937: <span class="news-date">25 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:946: <span class="news-date">24 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:976: <span class="news-date">23 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1008: <span class="news-date">22 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1039: <span class="news-date">21 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1048: <span class="news-date">20 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1057: <span class="news-date">19 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1066: <span class="news-date">18 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1075: <span class="news-date">17 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1084: <span class="news-date">16 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1093: <span class="news-date">15 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\lang.js:141: "© 2026 TIME SAVE SERVICES. تمام حقوق محفوظ ہیں۔": "© 2026 TIME SAVE SERVICES. All rights reserved.",
+c:/Users/Administrator/Desktop/Site\lang.js:145: "8 مارچ 2026": "8 March 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:146: "24 فروری 2026": "24 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:147: "22 فروری 2026": "22 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:148: "20 فروری 2026": "20 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:149: "18 فروری 2026": "18 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:150: "15 فروری 2026": "15 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:151: "12 فروری 2026": "12 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:152: "10 فروری 2026": "10 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:153: "08 فروری 2026": "08 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:154: "05 فروری 2026": "05 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:155: "04 فروری 2026": "04 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:156: "4 مارچ 2026": "4 March 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:157: "2 مارچ سے 22 مئی 2026": "2 March to 22 May 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:158: "03 فروری 2026": "03 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:159: "02 فروری 2026": "02 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:160: "1 فروری 2026": "1 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:161: "01 فروری 2026": "01 February 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:162: "30 جنوری 2026": "30 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:163: "29 جنوری 2026": "29 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:164: "28 جنوری 2026": "28 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:165: "27 جنوری 2026": "27 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:166: "26 جنوری 2026": "26 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:167: "25 جنوری 2026": "25 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:168: "24 جنوری 2026": "24 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:169: "23 جنوری 2026": "23 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:170: "22 جنوری 2026": "22 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:171: "21 جنوری 2026": "21 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:172: "20 جنوری 2026": "20 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:173: "19 جنوری 2026": "19 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:174: "18 جنوری 2026": "18 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:175: "17 جنوری 2026": "17 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:176: "16 جنوری 2026": "16 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:177: "15 جنوری 2026": "15 January 2026",
+c:/Users/Administrator/Desktop/Site\lang.js:237: "علامہ اقبال اوپن یونیورسٹی (AIOU) نے سمسٹر بہار 2026 کے داخلوں کا آغاز کر دیا ہے۔ میٹرک، ایف اے، آئی کام، اور مختلف سرٹیفکیٹ کورسز میں داخلے جاری ہیں۔ داخلہ فارم جمع کروانے اور پراسپیکٹس حاصل کرنے کے لیے ٹائم سیو سروسز سے رابطہ کریں۔": "Allama Iqbal Open University (AIOU) has started Spring 2026 semester admissions. Admissions are open for Matric, FA, I.Com, and various certificate courses. Contact Time Save Services to submit the admission form and get the prospectus.",
+Error reading c:/Users/Administrator/Desktop/Site\test_date.html: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+Error reading c:/Users/Administrator/Desktop/Site\test_date2.html: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
