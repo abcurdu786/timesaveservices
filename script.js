@@ -195,4 +195,39 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Load More News feature
+document.addEventListener('DOMContentLoaded', () => {
+    const newsItems = document.querySelectorAll('.news-item');
+    const newsGrid = document.querySelector('.news-grid');
 
+    if (newsItems.length > 8 && newsGrid) {
+        // Hide items beyond the 8th
+        for (let i = 8; i < newsItems.length; i++) {
+            newsItems[i].style.display = 'none';
+            newsItems[i].classList.add('hidden-news-item');
+        }
+
+        // Create Load More Button container
+        const btnContainer = document.createElement('div');
+        btnContainer.style.gridColumn = '1 / -1';
+        btnContainer.style.textAlign = 'center';
+        btnContainer.style.marginTop = '1rem';
+
+        const loadMoreBtn = document.createElement('button');
+        loadMoreBtn.className = 'btn btn-outline qs-blue';
+        loadMoreBtn.innerHTML = 'مزید پوسٹس دیکھیں <i class="fa-solid fa-chevron-down"></i>';
+
+        loadMoreBtn.addEventListener('click', () => {
+            const hiddenItems = document.querySelectorAll('.hidden-news-item');
+            hiddenItems.forEach(item => {
+                // Restoring original flex display
+                item.style.display = 'flex';
+                item.classList.remove('hidden-news-item');
+            });
+            btnContainer.style.display = 'none';
+        });
+
+        btnContainer.appendChild(loadMoreBtn);
+        newsGrid.appendChild(btnContainer);
+    }
+});

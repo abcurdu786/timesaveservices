@@ -118,8 +118,8 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#services" class="nav-btn qs-red"><i class="fa-solid fa-city"></i> لوکل گورنمنٹ و دیگر
-                            <i class="fa-solid fa-chevron-down dropdown-icon"></i></a>
+                        <a href="#services" class="nav-btn qs-red"><i class="fa-solid fa-city"></i> لوکل گورنمنٹ <i
+                                class="fa-solid fa-chevron-down dropdown-icon"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#" onclick="openModal('birth-cert-modal'); return false;">برتھ سرٹیفکیٹ</a>
                             </li>
@@ -129,21 +129,6 @@
                                     سرٹیفکیٹ</a></li>
                             <li><a href="#" onclick="openModal('divorce-cert-modal'); return false;">طلاق نامہ / ڈائیورس
                                     سرٹیفکیٹ</a></li>
-                            <li class="dropdown-submenu">
-                                <a href="#services">ڈومیسائل <i
-                                        class="fa-solid fa-chevron-left dropdown-icon-left"></i></a>
-                                <ul class="dropdown-menu nested-menu">
-                                    <li><a href="#" onclick="openModal('domicile-modal'); return false;">نیا
-                                            ڈومیسائل</a></li>
-                                    <li><a href="#"
-                                            onclick="openModal('duplicate-domicile-modal'); return false;">ڈپلیکیٹ
-                                            ڈومیسائل</a></li>
-                                    <li><a href="#" onclick="openModal('domicile-change-modal'); return false;">ڈومیسائل
-                                            میں تبدیلی</a></li>
-                                    <li><a href="#" onclick="openModal('domicile-noc-modal'); return false;">ڈومیسائل
-                                            این او سی</a></li>
-                                </ul>
-                            </li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -168,6 +153,21 @@
                                     <li><a href="#" onclick="openModal('fard-utility-modal'); return false;">فرد برائے
                                             بجلی، گیس
                                             کنکشن و دیگر</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="#services">ڈومیسائل <i
+                                        class="fa-solid fa-chevron-left dropdown-icon-left"></i></a>
+                                <ul class="dropdown-menu nested-menu">
+                                    <li><a href="#" onclick="openModal('domicile-modal'); return false;">نیا
+                                            ڈومیسائل</a></li>
+                                    <li><a href="#"
+                                            onclick="openModal('duplicate-domicile-modal'); return false;">ڈپلیکیٹ
+                                            ڈومیسائل</a></li>
+                                    <li><a href="#" onclick="openModal('domicile-change-modal'); return false;">ڈومیسائل
+                                            میں تبدیلی</a></li>
+                                    <li><a href="#" onclick="openModal('domicile-noc-modal'); return false;">ڈومیسائل
+                                            این او سی</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -1158,19 +1158,67 @@
                         <div
                             style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px;">
 
-                            <a href="#" onclick="openModal('vehicle-reg-modal'); return false;" class="service-link"
+                            <a href="#" onclick="openModal('character-cert-modal'); return false;" class="service-link"
                                 style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
                                 <i class="fa-solid fa-arrow-left-long"
-                                    style="color: var(--primary); font-size: 0.9em;"></i> وہیکل نیو
-                                رجسٹریشن
+                                    style="color: var(--primary); font-size: 0.9em;"></i> کریکٹر سرٹیفکیٹ
                             </a>
-
-                            <a href="#" onclick="openModal('vehicle-transfer-modal'); return false;"
+                            <a href="#" onclick="openModal('general-verification-modal'); return false;"
                                 class="service-link"
                                 style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
                                 <i class="fa-solid fa-arrow-left-long"
-                                    style="color: var(--primary); font-size: 0.9em;"></i> وہیکل
-                                ٹرانسفر
+                                    style="color: var(--primary); font-size: 0.9em;"></i> جنرل پولیس ویریفیکیشن
+                            </a>
+                            <a href="#" onclick="openModal('crime-report-modal'); return false;" class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> جرم کی رپورٹ
+                            </a>
+                            <a href="#" onclick="openModal('duplicate-license-modal'); return false;"
+                                class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> ڈپلیکیٹ ڈرائیونگ لائسنس
+                            </a>
+                            <a href="#" onclick="openModal('learner-license-modal'); return false;" class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> لرنر ڈرائیونگ لائسنس
+                            </a>
+                            <a href="#" onclick="openModal('missing-report-modal'); return false;" class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> گمشدگی رپورٹ
+                            </a>
+                            <a href="#" onclick="openModal('renewal-intl-license-modal'); return false;"
+                                class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> تجدید انٹرنیشنل ڈرائیونگ
+                                لائسنس
+                            </a>
+                            <a href="#" onclick="openModal('renewal-learner-license-modal'); return false;"
+                                class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> تجدید لرنر ڈرائیونگ لائسنس
+                            </a>
+                            <a href="#" onclick="openModal('renewal-regular-license-modal'); return false;"
+                                class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> تجدید ریگولر ڈرائیونگ لائسنس
+                            </a>
+                            <a href="#" onclick="openModal('safe-city-challan-modal'); return false;"
+                                class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> سیف سٹی چالان
+                            </a>
+                            <a href="#" onclick="openModal('traffic-challan-modal'); return false;" class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> ٹریفک چالان
                             </a>
 
                         </div>
@@ -1191,44 +1239,25 @@
                         <div
                             style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px;">
 
-                            <a href="#" onclick="openModal('e-stamp-modal'); return false;" class="service-link"
+                            <a href="#" onclick="openModal('birth-cert-modal'); return false;" class="service-link"
                                 style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
                                 <i class="fa-solid fa-arrow-left-long"
-                                    style="color: var(--primary); font-size: 0.9em;"></i> ای اسٹامپنگ
+                                    style="color: var(--primary); font-size: 0.9em;"></i> برتھ سرٹیفکیٹ
                             </a>
-
-                            <a href="#" onclick="openModal('mutation-copy-modal'); return false;" class="service-link"
+                            <a href="#" onclick="openModal('death-cert-modal'); return false;" class="service-link"
                                 style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
                                 <i class="fa-solid fa-arrow-left-long"
-                                    style="color: var(--primary); font-size: 0.9em;"></i> انتقال کی کاپی
+                                    style="color: var(--primary); font-size: 0.9em;"></i> ڈیتھ سرٹیفکیٹ
                             </a>
-
-                            <a href="#" onclick="openModal('registry-copy-modal'); return false;" class="service-link"
+                            <a href="#" onclick="openModal('marriage-cert-modal'); return false;" class="service-link"
                                 style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
                                 <i class="fa-solid fa-arrow-left-long"
-                                    style="color: var(--primary); font-size: 0.9em;"></i> رجسٹری کی کاپی
+                                    style="color: var(--primary); font-size: 0.9em;"></i> نکاح نامہ / میرج سرٹیفکیٹ
                             </a>
-
-                            <a href="#" onclick="openModal('fard-sale-modal'); return false;" class="service-link"
+                            <a href="#" onclick="openModal('divorce-cert-modal'); return false;" class="service-link"
                                 style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
                                 <i class="fa-solid fa-arrow-left-long"
-                                    style="color: var(--primary); font-size: 0.9em;"></i> فرد برائے
-                                بیع
-                            </a>
-
-                            <a href="#" onclick="openModal('fard-loan-modal'); return false;" class="service-link"
-                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
-                                <i class="fa-solid fa-arrow-left-long"
-                                    style="color: var(--primary); font-size: 0.9em;"></i> فرد برائے حصول
-                                قرضہ
-                            </a>
-
-                            <a href="#" onclick="openModal('fard-utility-modal'); return false;" class="service-link"
-                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
-                                <i class="fa-solid fa-arrow-left-long"
-                                    style="color: var(--primary); font-size: 0.9em;"></i> فرد برائے
-                                بجلی، گیس
-                                کنکشن و دیگر
+                                    style="color: var(--primary); font-size: 0.9em;"></i> طلاق نامہ / ڈائیورس سرٹیفکیٹ
                             </a>
 
                         </div>
