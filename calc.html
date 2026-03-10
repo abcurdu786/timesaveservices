@@ -1,0 +1,188 @@
+<!-- E-Stamp Modal -->
+<div id="e-stamp-modal" class="modal-overlay">
+    <div class="modal-content calculator-modal-content">
+        <button class="modal-close" onclick="closeModal('e-stamp-modal')"><i class="fa-solid fa-xmark"></i></button>
+
+        <div class="calculator-container">
+            <!-- Left Sidebar -->
+            <div class="calc-sidebar">
+                <h3 class="sidebar-title"><i class="fa-solid fa-sliders"></i> Editable (%)</h3>
+
+                <div class="tax-group">
+                    <div class="tax-group-title"><i class="fa-solid fa-stamp"></i> Fixed duties</div>
+                    <div class="input-row">
+                        <label>Stamp Duty</label>
+                        <div class="input-with-symbol"><input type="number" id="tax_stamp_duty" value="3"><span>%</span>
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <label>Registration</label>
+                        <div class="input-with-symbol"><input type="number" id="tax_registration"
+                                value="1"><span>%</span></div>
+                    </div>
+                    <div class="input-row">
+                        <label>TMA Fee</label>
+                        <div class="input-with-symbol"><input type="number" id="tax_tma" value="1"><span>%</span></div>
+                    </div>
+                </div>
+
+                <div class="tax-group">
+                    <div class="tax-group-title"><i class="fa-solid fa-user-plus"></i> Buyer Tax (236K)</div>
+                    <div class="input-row">
+                        <label>Active Filer</label>
+                        <div class="input-with-symbol"><input type="number" id="tax_buyer_active" value="1.5"
+                                step="0.1"><span>%</span></div>
+                    </div>
+                    <div class="input-row">
+                        <label>Late Filer</label>
+                        <div class="input-with-symbol"><input type="number" id="tax_buyer_late" value="4.5"
+                                step="0.1"><span>%</span></div>
+                    </div>
+                    <div class="input-row">
+                        <label>Non-Filer</label>
+                        <div class="input-with-symbol"><input type="number" id="tax_buyer_non" value="10.5"
+                                step="0.1"><span>%</span></div>
+                    </div>
+                </div>
+
+                <div class="tax-group">
+                    <div class="tax-group-title"><i class="fa-solid fa-user-minus"></i> Seller Tax (236C)</div>
+                    <div class="input-row">
+                        <label>Active Filer</label>
+                        <div class="input-with-symbol"><input type="number" id="tax_seller_active" value="4.5"
+                                step="0.1"><span>%</span></div>
+                    </div>
+                    <div class="input-row">
+                        <label>Late Filer</label>
+                        <div class="input-with-symbol"><input type="number" id="tax_seller_late" value="7.5"
+                                step="0.1"><span>%</span></div>
+                    </div>
+                    <div class="input-row">
+                        <label>Non-Filer</label>
+                        <div class="input-with-symbol"><input type="number" id="tax_seller_non" value="11.5"
+                                step="0.1"><span>%</span></div>
+                    </div>
+                </div>
+
+                <div class="tax-group">
+                    <div class="tax-group-title"><i class="fa-solid fa-chart-line"></i> PLRA Tax</div>
+                    <div class="input-row">
+                        <label>PLRA (0.1%)</label>
+                        <div class="input-with-symbol"><input type="number" id="tax_plra" value="0.1"
+                                step="0.1"><span>%</span></div>
+                    </div>
+                </div>
+
+                <div class="tax-group">
+                    <div class="tax-group-title"><i class="fa-solid fa-pen-to-square"></i> Waseeqa Service</div>
+                    <div class="input-row">
+                        <label>Charges</label>
+                        <div class="input-with-symbol"><input type="number" id="waseeqa_charges"
+                                value="5000"><span>Rs</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Main Content -->
+            <div class="calc-main">
+                <h2 class="calc-header"><i class="fa-solid fa-calculator"></i> Registry Fee Calculator</h2>
+                <hr class="calc-divider">
+
+                <form id="registry-calc-form">
+                    <div class="form-row three-cols">
+                        <div class="form-group">
+                            <label>KANAL</label>
+                            <input type="number" id="area_kanal" value="0" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label>MARLA</label>
+                            <input type="number" id="area_marla" value="0" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label>SQ.FT</label>
+                            <input type="number" id="area_sqft" value="0" min="0">
+                        </div>
+                    </div>
+
+                    <div class="form-row two-cols">
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-ruler-combined"></i> MARLA SIZE</label>
+                            <select id="marla_size">
+                                <option value="272">272 (Sq.ft)</option>
+                                <option value="225">225 (Sq.ft)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-trowel-bricks"></i> CONSTRUCTION</label>
+                            <input type="number" id="construction_cost" value="0" min="0">
+                        </div>
+                    </div>
+
+                    <div class="form-row two-cols">
+                        <div class="form-group">
+                            <label>DC VALUE</label>
+                            <input type="number" id="dc_value" value="0" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-globe"></i> DC PER</label>
+                            <select id="dc_per_unit">
+                                <option value="Acre">Acre</option>
+                                <option value="Kanal">Kanal</option>
+                                <option value="Marla">Marla</option>
+                                <option value="Sq.ft">Sq.ft</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label><i class="fa-solid fa-tag"></i> TOTAL SALE PRICE</label>
+                            <input type="text" id="total_sale_price" value="0" readonly class="readonly-input">
+                        </div>
+                    </div>
+
+                    <div class="form-row two-cols">
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-user"></i> BUYER STATUS</label>
+                            <select id="buyer_status">
+                                <option value="active">Active Filer (1.5%)</option>
+                                <option value="late">Late Filer (4.5%)</option>
+                                <option value="non">Non-Filer (10.5%)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-user"></i> SELLER STATUS</label>
+                            <select id="seller_status">
+                                <option value="active">Active Filer (4.5%)</option>
+                                <option value="late">Late Filer (7.5%)</option>
+                                <option value="non">Non-Filer (11.5%)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn calc-submit-btn" id="calculate_registry_btn">
+                        <i class="fa-solid fa-file-invoice-dollar"></i> Calculate Registry Fee <i
+                            class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                    <div class="waseeqa-watermark">
+                        <i class="fa-solid fa-circle-check"></i> www.waseeqa.com
+                    </div>
+                </form>
+
+                <!-- Results Section (hidden by default) -->
+                <div id="calc-results-container" style="display: none; margin-top: 2rem;">
+                    <h3 class="results-header">Calculation Breakdown</h3>
+                    <div class="results-grid">
+                        <!-- Populated dynamically via JS -->
+                    </div>
+                    <div class="total-fee-box">
+                        <h4>Total Registry Fee</h4>
+                        <span id="grand_total_fee">0 Rs</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -231,3 +231,125 @@ document.addEventListener('DOMContentLoaded', () => {
         newsGrid.appendChild(btnContainer);
     }
 });
+
+// Registry Fee Calculator Logic
+document.addEventListener('DOMContentLoaded', () => {
+    const calcBtn = document.getElementById('calculate_registry_btn');
+    if (calcBtn) {
+        calcBtn.addEventListener('click', () => {
+            // Get percentage inputs
+            const stampDutyPct = parseFloat(document.getElementById('tax_stamp_duty').value) || 0;
+            const regPct = parseFloat(document.getElementById('tax_registration').value) || 0;
+            const tmaPct = parseFloat(document.getElementById('tax_tma').value) || 0;
+            const plraPct = parseFloat(document.getElementById('tax_plra').value) || 0;
+            const waseeqaCharges = parseFloat(document.getElementById('waseeqa_charges').value) || 0;
+
+            const buyerStatus = document.getElementById('buyer_status').value; // active, late, non
+            const sellerStatus = document.getElementById('seller_status').value; // active, late, non
+
+            const buyerPct = parseFloat(document.getElementById(`tax_buyer_${buyerStatus}`).value) || 0;
+            const sellerPct = parseFloat(document.getElementById(`tax_seller_${sellerStatus}`).value) || 0;
+
+            // Get property variables
+            const kanal = parseFloat(document.getElementById('area_kanal').value) || 0;
+            const marla = parseFloat(document.getElementById('area_marla').value) || 0;
+            const sqft = parseFloat(document.getElementById('area_sqft').value) || 0;
+
+            const marlaSize = parseFloat(document.getElementById('marla_size').value) || 272;
+            const constructionCost = parseFloat(document.getElementById('construction_cost').value) || 0;
+            const dcValue = parseFloat(document.getElementById('dc_value').value) || 0;
+            const dcPerUnit = document.getElementById('dc_per_unit').value; // Acre, Kanal, Marla, Sq.ft
+
+            // Calculate total area
+            const totalSqFt = (kanal * 20 * marlaSize) + (marla * marlaSize) + sqft;
+            const totalMarla = totalSqFt / marlaSize;
+            const totalKanal = totalMarla / 20;
+            const totalAcre = totalKanal / 8;
+
+            let propValue = 0;
+            if (dcPerUnit === 'Acre') propValue = dcValue * totalAcre;
+            else if (dcPerUnit === 'Kanal') propValue = dcValue * totalKanal;
+            else if (dcPerUnit === 'Marla') propValue = dcValue * totalMarla;
+            else if (dcPerUnit === 'Sq.ft') propValue = dcValue * totalSqFt;
+
+            const totalSalePrice = propValue + constructionCost;
+            document.getElementById('total_sale_price').value = Math.round(totalSalePrice).toLocaleString('en-US');
+
+            // Compute fees
+            const stampDuty = totalSalePrice * (stampDutyPct / 100);
+            const registration = totalSalePrice * (regPct / 100);
+            const tmaFee = totalSalePrice * (tmaPct / 100);
+            const buyerTax = totalSalePrice * (buyerPct / 100);
+            const sellerTax = totalSalePrice * (sellerPct / 100);
+            const plraTax = totalSalePrice * (plraPct / 100);
+
+            const grandTotal = stampDuty + registration + tmaFee + buyerTax + sellerTax + plraTax + waseeqaCharges;
+
+            // Populate results grid
+            const resultsGrid = document.getElementById('results-grid');
+            resultsGrid.innerHTML = `
+                <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                    <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">Stamp Duty (${stampDutyPct}%)</div>
+                    <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(stampDuty).toLocaleString('en-US')} Rs</div>
+                </div>
+                <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                    <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">Registration (${regPct}%)</div>
+                    <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(registration).toLocaleString('en-US')} Rs</div>
+                </div>
+                <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                    <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">TMA Fee (${tmaPct}%)</div>
+                    <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(tmaFee).toLocaleString('en-US')} Rs</div>
+                </div>
+                <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                    <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">Buyer Tax (${buyerPct}%)</div>
+                    <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(buyerTax).toLocaleString('en-US')} Rs</div>
+                </div>
+                <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                    <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">Seller Tax (${sellerPct}%)</div>
+                    <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(sellerTax).toLocaleString('en-US')} Rs</div>
+                </div>
+                <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                    <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">PLRA Tax (${plraPct}%)</div>
+                    <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(plraTax).toLocaleString('en-US')} Rs</div>
+                </div>
+                <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); grid-column: span 2;">
+                    <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">Waseeqa Service</div>
+                    <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(waseeqaCharges).toLocaleString('en-US')} Rs</div>
+                </div>
+            `;
+
+            document.getElementById('grand_total_fee').textContent = Math.round(grandTotal).toLocaleString('en-US') + ' Rs';
+            document.getElementById('calc-results-container').style.display = 'block';
+        });
+
+        // Dynamic update of select labels based on input percentages
+        const updateSelectOptions = () => {
+            const pActiveBuyer = document.getElementById('tax_buyer_active').value;
+            const pLateBuyer = document.getElementById('tax_buyer_late').value;
+            const pNonBuyer = document.getElementById('tax_buyer_non').value;
+
+            const buyerSelect = document.getElementById('buyer_status');
+            if (buyerSelect && buyerSelect.options.length >= 3) {
+                buyerSelect.options[0].text = `Active Filer (${pActiveBuyer}%)`;
+                buyerSelect.options[1].text = `Late Filer (${pLateBuyer}%)`;
+                buyerSelect.options[2].text = `Non-Filer (${pNonBuyer}%)`;
+            }
+
+            const pActiveSeller = document.getElementById('tax_seller_active').value;
+            const pLateSeller = document.getElementById('tax_seller_late').value;
+            const pNonSeller = document.getElementById('tax_seller_non').value;
+
+            const sellerSelect = document.getElementById('seller_status');
+            if (sellerSelect && sellerSelect.options.length >= 3) {
+                sellerSelect.options[0].text = `Active Filer (${pActiveSeller}%)`;
+                sellerSelect.options[1].text = `Late Filer (${pLateSeller}%)`;
+                sellerSelect.options[2].text = `Non-Filer (${pNonSeller}%)`;
+            }
+        };
+
+        const taxInputs = document.querySelectorAll('.tax-group input');
+        taxInputs.forEach(input => {
+            input.addEventListener('input', updateSelectOptions);
+        });
+    }
+});
