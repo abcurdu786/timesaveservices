@@ -381,8 +381,11 @@ h6 {
     position: absolute;
     top: 100%;
     right: 0;
+    left: auto;
+    transform: translateY(10px);
     background-color: var(--bg-card);
-    min-width: 500px;
+    width: max-content;
+    max-width: 95vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0;
@@ -391,10 +394,18 @@ h6 {
     padding: 0.5rem 0;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(10px);
     transition: var(--transition);
     z-index: 1000;
     border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Ensure left-side tabs on screen drop to the right instead of off left edge */
+.nav-links>li:nth-last-child(1) .dropdown-menu,
+.nav-links>li:nth-last-child(2) .dropdown-menu,
+.nav-links>li:nth-last-child(3) .dropdown-menu,
+.nav-links>li:nth-last-child(4) .dropdown-menu {
+    right: auto;
+    left: 0;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -402,6 +413,13 @@ h6 {
     visibility: visible;
     transform: translateY(0);
 }
+
+.dropdown-menu li {
+    /* Base styles for list items within the grid */
+    min-width: 200px;
+}
+
+
 
 .dropdown-menu li a {
     display: block;
