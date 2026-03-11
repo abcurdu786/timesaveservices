@@ -275,19 +275,24 @@ document.addEventListener('DOMContentLoaded', () => {
             const totalSalePrice = propValue + constructionCost;
             document.getElementById('total_sale_price').value = Math.round(totalSalePrice).toLocaleString('en-US');
 
+            // Read the selected transaction type (Sale or Gift)
+            const transactionTypeInput = document.querySelector('input[name="transaction_type"]:checked');
+            const isGift = transactionTypeInput && transactionTypeInput.value === 'gift';
+
             // Compute fees
             const stampDuty = totalSalePrice * (stampDutyPct / 100);
             const registration = totalSalePrice * (regPct / 100);
             const tmaFee = totalSalePrice * (tmaPct / 100);
-            const buyerTax = totalSalePrice * (buyerPct / 100);
-            const sellerTax = totalSalePrice * (sellerPct / 100);
             const plraTax = totalSalePrice * (plraPct / 100);
+            
+            // FBR taxes only apply if it's NOT a gift
+            const buyerTax = isGift ? 0 : totalSalePrice * (buyerPct / 100);
+            const sellerTax = isGift ? 0 : totalSalePrice * (sellerPct / 100);
 
             const grandTotal = stampDuty + registration + tmaFee + buyerTax + sellerTax + plraTax + waseeqaCharges;
 
-            // Populate results grid
-            const resultsGrid = document.getElementById('results-grid');
-            resultsGrid.innerHTML = `
+            // Generate HTML for common taxes
+            let resultsHTML = `
                 <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
                     <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">Stamp Duty (${stampDutyPct}%)</div>
                     <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(stampDuty).toLocaleString('en-US')} Rs</div>
@@ -300,6 +305,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">TMA Fee (${tmaPct}%)</div>
                     <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(tmaFee).toLocaleString('en-US')} Rs</div>
                 </div>
+            `;
+
+            // Include Buyer & Seller Tax blocks ONLY if it is NOT a gift
+            if (!isGift) {
+                resultsHTML += `
                 <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
                     <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">Buyer Tax (${buyerPct}%)</div>
                     <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(buyerTax).toLocaleString('en-US')} Rs</div>
@@ -308,6 +318,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">Seller Tax (${sellerPct}%)</div>
                     <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(sellerTax).toLocaleString('en-US')} Rs</div>
                 </div>
+                `;
+            }
+
+            // Append standard remaining taxes
+            resultsHTML += `
                 <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
                     <div style="color: #64748b; font-size: 0.8rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.3rem;">PLRA Tax (${plraPct}%)</div>
                     <div style="color: #1a2238; font-size: 1.1rem; font-weight: bold;">${Math.round(plraTax).toLocaleString('en-US')} Rs</div>
@@ -318,8 +333,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
 
+            // Populate results grid
+            const resultsGrid = document.getElementById('results-grid');
+            resultsGrid.innerHTML = resultsHTML;
+
             document.getElementById('grand_total_fee').textContent = Math.round(grandTotal).toLocaleString('en-US') + ' Rs';
-            document.getElementById('calc-results-container').style.display = 'block';
+            const resultsContainer = document.getElementById('calc-results-container');
+            resultsContainer.style.display = 'block';
+
+            // Scroll down so the user can see the results and the calculate button doesn't hide
+            setTimeout(() => {
+                resultsContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 100);
         });
 
         // Dynamic update of select labels based on input percentages
