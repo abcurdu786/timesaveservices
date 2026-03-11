@@ -17,6 +17,117 @@
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <link rel="icon" type="image/png" href="assets/logo_design.png">
     <link rel="stylesheet" href="style.css">
+    <style>
+        @keyframes type-en {
+
+            0%,
+            4.9% {
+                width: 0;
+                border-right-color: transparent;
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            5% {
+                width: 0;
+                border-right-color: transparent;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            5.1%,
+            44.9% {
+                border-right-color: blue;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            45%,
+            55% {
+                width: 360px;
+                border-right-color: transparent;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            55.1%,
+            94.9% {
+                border-right-color: blue;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            95% {
+                width: 0;
+                border-right-color: transparent;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            95.1%,
+            100% {
+                width: 0;
+                border-right-color: transparent;
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        @keyframes type-ur {
+
+            0%,
+            4.9% {
+                width: 360px;
+                border-left-color: transparent;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            5.1%,
+            44.9% {
+                border-left-color: blue;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            45% {
+                width: 0;
+                border-left-color: transparent;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            45.1%,
+            54.9% {
+                width: 0;
+                border-left-color: transparent;
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            55% {
+                width: 0;
+                border-left-color: transparent;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            55.1%,
+            94.9% {
+                border-left-color: blue;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            95%,
+            100% {
+                width: 360px;
+                border-left-color: transparent;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -41,12 +152,12 @@
                 <div class="slogans-container" style="position: relative; height: 50px; margin-top: 5px;">
                     <!-- English Slogan -->
                     <span class="logo-slogan-en"
-                        style="position: absolute; top: 12px; left: 50%; transform: translateX(-50%); overflow: hidden; white-space: nowrap; border-right: 2px solid blue; color: blue; font-size: 2.2rem; font-weight: bold; font-style: italic; font-family: 'Inter', sans-serif; letter-spacing: 1.5px; text-shadow: 1px 1px 2px rgba(255,255,255,0.7); direction: ltr;">Smart
+                        style="position: absolute; top: 12px; left: 50%; transform: translateX(-50%); overflow: hidden; white-space: nowrap; border-right: 2px solid blue; color: blue; font-size: 1.8rem; font-weight: bold; font-style: italic; font-family: 'Inter', sans-serif; letter-spacing: 1.5px; text-shadow: 1px 1px 2px rgba(255,255,255,0.7); direction: ltr; animation: type-en 6s linear infinite;">Smart
                         Digital Solutions</span>
 
                     <!-- Urdu Slogan -->
                     <span class="logo-slogan-ur"
-                        style="position: absolute; top: -5px; right: 50%; transform: translateX(50%); overflow: hidden; white-space: nowrap; border-left: 2px solid transparent; color: blue; font-size: 2.2rem; font-weight: bold; font-family: 'Jameel Noori Nastaliq', 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif; text-shadow: 1px 1px 2px rgba(255,255,255,0.7); direction: rtl;">دستک
+                        style="position: absolute; top: -5px; right: 50%; transform: translateX(50%); overflow: hidden; white-space: nowrap; border-left: 2px solid transparent; color: blue; font-size: 1.8rem; font-weight: bold; font-family: 'Jameel Noori Nastaliq', 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif; text-shadow: 1px 1px 2px rgba(255,255,255,0.7); direction: rtl; animation: type-ur 6s linear infinite;">دستک
                         مرکز عوامی خدمت</span>
                 </div>
             </div>
