@@ -656,7 +656,7 @@ h6 {
    News Section
    ========================================= */
 .news-section {
-    padding: 2rem 0 6rem 0;
+    padding: 2rem 0 3rem 0;
     background-color: transparent;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -950,7 +950,7 @@ h6 {
    Hero Section
    ========================================= */
 .hero {
-    padding: 6rem 0;
+    padding: 3rem 0;
     background: transparent;
     text-align: center;
     position: relative;
@@ -990,7 +990,7 @@ h6 {
    About Section
    ========================================= */
 .about {
-    padding: 6rem 0;
+    padding: 3rem 0;
     background-color: transparent;
 }
 
@@ -1014,7 +1014,7 @@ h6 {
    Services Section
    ========================================= */
 .services {
-    padding: 6rem 0;
+    padding: 3rem 0;
     background-color: transparent;
 }
 
@@ -1126,7 +1126,7 @@ h6 {
    Why Choose Us Section
    ========================================= */
 .why-choose-us {
-    padding: 6rem 0;
+    padding: 3rem 0;
     background-color: var(--bg-card);
     border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -1179,7 +1179,7 @@ h6 {
    Contact Section
    ========================================= */
 .contact {
-    padding: 6rem 0;
+    padding: 3rem 0;
     background-color: var(--bg-main);
 }
 

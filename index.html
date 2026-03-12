@@ -198,6 +198,8 @@
                             <li><a href="#" onclick="openModal('id-services-modal'); return false;">شناختی کارڈ</a></li>
                             <li><a href="#" onclick="openModal('utility-bills-modal'); return false;">یوٹیلٹی بلز</a>
                             </li>
+                            <li><a href="#" onclick="openModal('id-cancel-modal'); return false;">شناختی کارڈ کی منسوخی</a></li>
+                            <li><a href="#" onclick="openModal('form-b-modal'); return false;">فارم ب</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -1399,6 +1401,50 @@
                                 <i class="fa-solid fa-arrow-left-long"
                                     style="color: var(--primary); font-size: 0.9em;"></i> بورڈ آف انٹرمیڈیٹ
                                 اینڈ سیکنڈری ایجوکیشن سرگودھا
+                            </a>
+
+                        </div>
+                    </div>
+                </details>
+
+                <details class="accordion-panel"
+                    style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); background: white;">
+                    <summary class="accordion-summary"
+                        style="padding: 18px 25px; background: var(--bg-secondary); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; font-size: 1.2rem; font-weight: bold; color: var(--primary-dark); transition: background 0.3s; margin: 0;">
+                        <span
+                            style="display: flex; align-items: center; gap: 12px; font-family: 'Noto Nastaliq Urdu', serif;"><i
+                                class="fa-solid fa-id-card"></i> نادرہ ای سہولت </span>
+                        <i class="fa-solid fa-chevron-down toggle-icon" style="transition: transform 0.3s;"></i>
+                    </summary>
+                    <div class="accordion-body"
+                        style="padding: 20px 25px; background: var(--bg-main); border-top: 1px solid rgba(0,0,0,0.05);">
+                        <div
+                            style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px;">
+
+                            <a href="#" onclick="openModal('biometric-modal'); return false;" class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> نادرہ بائیومیٹرک تصدیق
+                            </a>
+                            <a href="#" onclick="openModal('utility-bills-modal'); return false;" class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> یوٹیلٹی بلز کی ادائیگی
+                            </a>
+                            <a href="#" onclick="openModal('id-services-modal'); return false;" class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> شناختی کارڈ کی خدمات
+                            </a>
+                            <a href="#" onclick="openModal('id-cancel-modal'); return false;" class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> شناختی کارڈ کی منسوخی
+                            </a>
+                            <a href="#" onclick="openModal('form-b-modal'); return false;" class="service-link"
+                                style="display: flex; align-items: center; gap: 10px; padding: 12px 15px; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 6px; color: var(--text-main); text-decoration: none; transition: all 0.2s; box-shadow: 0 2px 5px rgba(0,0,0,0.02);">
+                                <i class="fa-solid fa-arrow-left-long"
+                                    style="color: var(--primary); font-size: 0.9em;"></i> فارم ب (B-Form)
                             </a>
 
                         </div>
@@ -3496,6 +3542,74 @@
         </div>
     </div>
 
+    <!-- ID Card Cancellation Modal -->
+    <div id="id-cancel-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('id-cancel-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">شناختی کارڈ کی منسوخی</h3>
+            <div class="modal-body">
+                <p><strong>ہماری خدمات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-red); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    وفات پانے والے افراد کے شناختی کارڈ کی منسوخی (Cancellation) کی سہولت موجود ہے۔
+                </div>
+
+                <h4 style="color: var(--qs-red); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-id-card-clip"></i> ضروری کاغذات</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-file"></i> ڈیتھ سرٹیفکیٹ (Death Certificate)۔</li>
+                    <li><i class="fa-solid fa-id-card"></i> وفات پانے والے کا اصلی یا کاپی شناختی کارڈ۔</li>
+                    <li><i class="fa-solid fa-user"></i> خون کے رشتے دار کا شناختی کارڈ (درخواست دہندہ)۔</li>
+                </ul>
+
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>نوٹ:</strong></p>
+                    <ul class="modal-list">
+                        <li>مزید معلومات اور فیس کی تفصیلات کے لیے ہمارے درج ذیل واٹس ایپ نمبر پر رابطہ کریں یا ہمارے دفتر تشریف لائیں۔</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Form B Modal -->
+    <div id="form-b-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('form-b-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">فارم ب (B-Form)</h3>
+            <div class="modal-body">
+                <p><strong>ہماری خدمات:</strong></p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-top: 1rem; margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    18 سال سے کم عمر بچوں کے فارم ب (B-Form/CRC) کے حصول اور اندراج کی سہولت دستیاب ہے۔
+                </div>
+
+                <h4 style="color: var(--qs-green); margin-top: 1.5rem; margin-bottom: 0.5rem;"><i
+                        class="fa-solid fa-file-lines"></i> ضروری کاغذات</h4>
+                <ul class="modal-list">
+                    <li><i class="fa-solid fa-child"></i> بچے کا برتھ سرٹیفکیٹ (Birth Certificate) یا ہسپتال کا سرٹیفکیٹ۔</li>
+                    <li><i class="fa-solid fa-users"></i> والدین کے شناختی کارڈز کی کاپیاں۔</li>
+                    <li><i class="fa-solid fa-person-half-dress"></i> والدین میں سے کسی ایک کی موجودگی (بائیو میٹرک کے لیے) لازمی ہو سکتی ہے۔</li>
+                </ul>
+
+                <div class="modal-fees" style="margin-top: 1.5rem;">
+                    <p><strong>نوٹ:</strong></p>
+                    <ul class="modal-list">
+                        <li>مزید معلومات اور فیس کی تفصیلات کے لیے ہمارے درج ذیل واٹس ایپ نمبر پر رابطہ کریں یا ہمارے دفتر تشریف لائیں۔</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center; margin-top: 1.5rem;">
+
+            </div>
+        </div>
+    </div>
+    
     <!-- Footer Section -->
     <footer class="footer"
         style="padding: 2rem; background: var(--bg-card); color: var(--text-main); margin-top: 3rem; text-align: center; border-top: 2px solid var(--accent);">
@@ -3546,7 +3660,8 @@
 
                     <a href="https://www.facebook.com/TimeSaveServices/" target="_blank"
                         style="color: #1877F2; transition: 0.3s;"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" style="color: #E4405F; transition: 0.3s;"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/timesaveservices" target="_blank"
+                        style="color: #E4405F; transition: 0.3s;"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.youtube.com/@timesaveservices" target="_blank"
                         style="color: #FF0000; transition: 0.3s;"><i class="fa-brands fa-youtube"></i></a>
                     <a href="https://www.tiktok.com/@timesaveservices" target="_blank"
