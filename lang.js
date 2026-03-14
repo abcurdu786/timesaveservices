@@ -615,7 +615,25 @@ const translations = {
     "شرائط و ضوابط (Terms & Conditions)": "Terms & Conditions",
     "سوشل میڈیا": "Social Media",
     "ہمیں فالو کریں:": "Follow Us:",
-    "نہر پٹری بھیرہ روڈ جھاوریاں نزد نادرہ آفس 32.356001, 72.625637": "Nehar Patri Bhera Road Jhawarian Near Nadra Office 32.356001, 72.625637"
+    "نہر پٹری بھیرہ روڈ جھاوریاں نزد نادرہ آفس 32.356001, 72.625637": "Nehar Patri Bhera Road Jhawarian Near Nadra Office 32.356001, 72.625637",
+    "🎉 بڑی خوشخبری! اب ہر قسم کے اسٹام پیپرز کا حصول ہوا آسان! ٹائم سیو سروسز پر تمام قانونی دستاویزات دستیاب ہیں۔": "🎉 Great News! Getting all types of stamp papers is now easy! All legal documents are available at Time Save Services.",
+    "14 مارچ 2026": "14 March 2026",
+    "ہر قسم کے اسٹام پیپرز کا حصول": "Getting All Types of Stamp Papers",
+    "🎉 بڑی خوشخبری! اب ہر قسم کے اسٹام پیپرز کا حصول ہوا آسان! 🎉": "🎉 Great News! Getting all types of stamp papers is now easy! 🎉",
+    "📢 کیا آپ بینک کی لمبی لائنوں اور اسٹام پیپرز کے لیے بار بار کے چکروں سے پریشان ہیں؟ تو پریشانی چھوڑیں اور Time Save Services پر آئیں! ہم آپ کو ایک ہی چھت تلے تمام قسم کے اسٹام پیپرز فراہم کرتے ہیں، بغیر کسی پریشانی کے۔ اب آپ کو بینک جانے کی کوئی ضرورت نہیں۔": "📢 Worried about long bank queues and repeated visits for stamp papers? Leave your worries and come to Time Save Services! We provide all types of stamp papers under one roof, hassle-free. Now you don't need to go to the bank.",
+    "✅ ای اسٹام پیپرز (E-Stamp Papers)": "✅ E-Stamp Papers",
+    "✅ حلف نامہ جات (Affidavits)": "✅ Affidavits",
+    "✅ کرایہ نامہ جات (Rent Agreements)": "✅ Rent Agreements",
+    "✅ معاہدہ جات (Contracts)": "✅ Contracts",
+    "✅ مختار نامہ (Power of Attorney)": "✅ Power of Attorney",
+    "✅ گاڑیوں کی فروخت کا معاہدہ": "✅ Vehicle Sale Agreement",
+    "✅ اور دیگر تمام قانونی دستاویزات کے اسٹام!": "✅ And Stamps for all other legal documents!",
+    "کیوں Time Save Services؟": "Why Time Save Services?",
+    "✨ بینک کی لائنوں اور پریشانی کا مکمل خاتمہ!": "✨ Complete end to bank lines and hassle!",
+    "✨ وقت اور پیسے کی بچت!": "✨ Saving of time and money!",
+    "✨ ہمہ وقت دستیابی!": "✨ Round-the-clock availability!",
+    "✨ آسان اور تیز ڈیجیٹل حل!": "✨ Easy and fast digital solutions!",
+    "آج ہی تشریف لائیں اور اپنے کام منٹوں میں مکمل کروائیں": "Visit today and get your work done in minutes"
 };
 
 document.addEventListener('DOMContentLoaded', () => {
