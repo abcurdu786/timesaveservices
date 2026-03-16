@@ -48,12 +48,20 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Show Flash News Modal on load
+    // Show Flash News Modals on load
     setTimeout(() => {
-        const flashModal = document.getElementById('flash-news-modal');
-        if (flashModal && !sessionStorage.getItem('flashNewsSeen')) {
-            openModal('flash-news-modal');
-            sessionStorage.setItem('flashNewsSeen', 'true');
+        // Show E-Stamp Flash Modal as priority
+        const estampModal = document.getElementById('estamp-flash-modal');
+        if (estampModal && !sessionStorage.getItem('estampFlashSeen')) {
+            openModal('estamp-flash-modal');
+            sessionStorage.setItem('estampFlashSeen', 'true');
+        } else {
+            // Otherwise show the general flash modal
+            const flashModal = document.getElementById('flash-news-modal');
+            if (flashModal && !sessionStorage.getItem('flashNewsSeen')) {
+                openModal('flash-news-modal');
+                sessionStorage.setItem('flashNewsSeen', 'true');
+            }
         }
     }, 1000); // 1 second delay
 });

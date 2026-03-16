@@ -1,39 +1,40 @@
-c:/Users/Administrator/Desktop/Site\index.html:214: class="fa-solid fa-star-and-crescent"></i> پاکستان آرمی میں شمولیت کا سنہری موقع! 2 مارچ
-c:/Users/Administrator/Desktop/Site\index.html:249: <span class="news-date">8 مارچ 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:289: <span class="news-date">8 مارچ 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:339: <span class="news-date">2 مارچ سے 22 مئی 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:343: <p style="margin-bottom: 1rem;">پاکستان آرمی میں شمولیت کا سنہری موقع! 2 مارچ سے 22 مئی تک
-c:/Users/Administrator/Desktop/Site\index.html:350: <li style="margin-bottom: 0.5rem;"><strong>تاریخ:</strong> 2 مارچ سے 22 مئی 2026 تک
-c:/Users/Administrator/Desktop/Site\index.html:372: <span class="news-date">2 مارچ 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:405: <span class="news-date">4 مارچ 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:441: <span class="news-date">22 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:477: <span class="news-date">20 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:512: <span class="news-date">18 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:555: <span class="news-date">15 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:589: <span class="news-date">12 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:636: <span class="news-date">10 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:646: <span class="news-date">08 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:688: <span class="news-date">05 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:724: <span class="news-date">04 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:755: <span class="news-date">03 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:784: <span class="news-date">02 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:863: <span class="news-date">1 فروری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:892: <span class="news-date">30 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:901: <span class="news-date">29 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:910: <span class="news-date">28 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:919: <span class="news-date">27 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:928: <span class="news-date">26 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:937: <span class="news-date">25 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:946: <span class="news-date">24 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:976: <span class="news-date">23 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:1008: <span class="news-date">22 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:1039: <span class="news-date">21 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:1048: <span class="news-date">20 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:1057: <span class="news-date">19 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:1066: <span class="news-date">18 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:1075: <span class="news-date">17 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:1084: <span class="news-date">16 جنوری 2026</span>
-c:/Users/Administrator/Desktop/Site\index.html:1093: <span class="news-date">15 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:319: class="fa-solid fa-star-and-crescent"></i> پاکستان آرمی میں شمولیت کا سنہری موقع! 2 مارچ
+c:/Users/Administrator/Desktop/Site\index.html:354: <span class="news-date">8 مارچ 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:392: <span class="news-date">8 مارچ 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:440: <span class="news-date">2 مارچ سے 22 مئی 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:444: <p style="margin-bottom: 1rem;">پاکستان آرمی میں شمولیت کا سنہری موقع! 2 مارچ سے 22 مئی تک
+c:/Users/Administrator/Desktop/Site\index.html:451: <li style="margin-bottom: 0.5rem;"><strong>تاریخ:</strong> 2 مارچ سے 22 مئی 2026 تک
+c:/Users/Administrator/Desktop/Site\index.html:473: <span class="news-date">2 مارچ 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:506: <span class="news-date">4 مارچ 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:542: <span class="news-date">22 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:578: <span class="news-date">20 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:613: <span class="news-date">18 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:656: <span class="news-date">15 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:690: <span class="news-date">12 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:737: <span class="news-date">14 مارچ 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:774: <span class="news-date">08 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:816: <span class="news-date">05 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:852: <span class="news-date">04 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:883: <span class="news-date">03 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:912: <span class="news-date">02 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:991: <span class="news-date">1 فروری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1020: <span class="news-date">30 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1029: <span class="news-date">29 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1038: <span class="news-date">28 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1047: <span class="news-date">27 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1056: <span class="news-date">26 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1065: <span class="news-date">25 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1074: <span class="news-date">24 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1104: <span class="news-date">23 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1136: <span class="news-date">22 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1167: <span class="news-date">21 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1176: <span class="news-date">20 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1185: <span class="news-date">19 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1194: <span class="news-date">18 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1203: <span class="news-date">17 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1212: <span class="news-date">16 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:1221: <span class="news-date">15 جنوری 2026</span>
+c:/Users/Administrator/Desktop/Site\index.html:3428: سنہری موقع! 2 مارچ سے 22 مئی تک بھرتیاں شروع ہیں۔</p>
 c:/Users/Administrator/Desktop/Site\lang.js:141: "© 2026 TIME SAVE SERVICES. تمام حقوق محفوظ ہیں۔": "© 2026 TIME SAVE SERVICES. All rights reserved.",
 c:/Users/Administrator/Desktop/Site\lang.js:145: "8 مارچ 2026": "8 March 2026",
 c:/Users/Administrator/Desktop/Site\lang.js:146: "24 فروری 2026": "24 February 2026",
@@ -69,5 +70,7 @@ c:/Users/Administrator/Desktop/Site\lang.js:175: "17 جنوری 2026": "17 Janua
 c:/Users/Administrator/Desktop/Site\lang.js:176: "16 جنوری 2026": "16 January 2026",
 c:/Users/Administrator/Desktop/Site\lang.js:177: "15 جنوری 2026": "15 January 2026",
 c:/Users/Administrator/Desktop/Site\lang.js:237: "علامہ اقبال اوپن یونیورسٹی (AIOU) نے سمسٹر بہار 2026 کے داخلوں کا آغاز کر دیا ہے۔ میٹرک، ایف اے، آئی کام، اور مختلف سرٹیفکیٹ کورسز میں داخلے جاری ہیں۔ داخلہ فارم جمع کروانے اور پراسپیکٹس حاصل کرنے کے لیے ٹائم سیو سروسز سے رابطہ کریں۔": "Allama Iqbal Open University (AIOU) has started Spring 2026 semester admissions. Admissions are open for Matric, FA, I.Com, and various certificate courses. Contact Time Save Services to submit the admission form and get the prospectus.",
+c:/Users/Administrator/Desktop/Site\lang.js:404: "پاکستان آرمی میں شمولیت کا سنہری موقع! 2 مارچ سے 22 مئی تک بھرتیاں شروع ہیں۔": "Golden opportunity to join Pakistan Army! Recruitment starts from March 2 to May 22.",
+c:/Users/Administrator/Desktop/Site\lang.js:620: "14 مارچ 2026": "14 March 2026",
 Error reading c:/Users/Administrator/Desktop/Site\test_date.html: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
 Error reading c:/Users/Administrator/Desktop/Site\test_date2.html: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte

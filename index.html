@@ -318,6 +318,8 @@
                         <div class="ticker-item" style="color: var(--qs-red); font-weight: bold;"><i
                                 class="fa-solid fa-star-and-crescent"></i> پاکستان آرمی میں شمولیت کا سنہری موقع! 2 مارچ
                             سے 22 مئی تک بھرتیاں جاری ہیں، آن لائن رجسٹریشن کے لیے ابھی رابطہ کریں۔</div>
+                        <div class="ticker-item" style="color: var(--qs-green); font-weight: bold;"><i
+                                class="fa-solid fa-stamp"></i> 🎉 ای اسٹام پیپرز کا حصول اب انتہائی آسان! تمام قانونی دستاویزات ٹائم سیو سروسز پر دستیاب ہیں۔ 📜</div>
                         <div class="ticker-item">پنجاب لینڈ ریکارڈ اتھارٹی کی تمام سہولیات اب دستیاب ہیں۔</div>
                         <div class="ticker-item">علامہ اقبال اوپن یونیورسٹی کے پیپر شروع ہو چکے ہیں۔</div>
                         <div class="ticker-item">مریم کی دستک سروسز کے ذریعے گھر بیٹھے سرٹیفکیٹس حاصل کریں۔</div>
@@ -732,7 +734,9 @@
 
                 <!-- Small Side Post 3 (8) -->
                 <div class="news-item news-small">
-                    <div class="news-image img-news-estamp"></div>
+                    <div class="news-image"
+                        style="background-image: url('assets/e_stamp.png'); background-size: cover; background-position: center;">
+                    </div>
                     <div class="news-content">
                         <span class="news-date">14 مارچ 2026</span>
                         <h4>ہر قسم کے اسٹام پیپرز کا حصول</h4>
@@ -3445,6 +3449,42 @@
                 <a href="#contact" class="btn btn-primary" onclick="closeModal('flash-news-modal')">مزید
                     معلومات کے لیے
                     رابطہ کریں</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Flash News Modal for E-Stamping -->
+    <div id="estamp-flash-modal" class="modal-overlay">
+        <div class="modal-content" style="max-width: 600px; text-align: center; border: 2px solid var(--qs-green);">
+            <button class="modal-close" onclick="closeModal('estamp-flash-modal')"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <div
+                style="background-color: #ecfdf5; color: #065f46; padding: 1rem; border-radius: var(--border-radius); margin-bottom: 1.5rem; display: inline-block;">
+                <i class="fa-solid fa-stamp fa-bounce" style="font-size: 2rem;"></i>
+            </div>
+            <h3 class="modal-title" style="border-bottom: none; color: var(--qs-green); margin-bottom: 1rem;">
+                بڑی خوشخبری:
+                ای اسٹام پیپرز کا حصول اب آسان</h3>
+            <div class="modal-body">
+                <p style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1.5rem;">اب ہر قسم کے اسٹام پیپرز کے لیے بینک جانے کی ضرورت نہیں! ٹائم سیو سروسز پر تمام قانونی دستاویزات دستیاب ہیں۔</p>
+                <div
+                    style="background-color: var(--bg-main); padding: 1.5rem; border-radius: var(--border-radius); border-right: 4px solid var(--qs-green); margin-bottom: 1.5rem; text-align: right;">
+                    <ul class="modal-list" style="display: block; text-align: right;">
+                        <li style="margin-bottom: 0.5rem;"><i class="fa-solid fa-check-circle"
+                                style="color: var(--qs-green);"></i> ای اسٹام پیپرز اور حلف نامہ جات۔
+                        </li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fa-solid fa-check-circle"
+                                style="color: var(--qs-green);"></i> کرایہ نامہ اور بیعانہ جات۔
+                        </li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fa-solid fa-check-circle"
+                                style="color: var(--qs-green);"></i> مختار نامہ اور دیگر قانونی دستاویزات۔
+                        </li>
+                        <li><i class="fa-solid fa-check-circle" style="color: var(--qs-green);"></i> بینک کی لائنوں سے مکمل نجات۔</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer" style="margin-top: 2rem;">
+                <a href="#contact" class="btn btn-primary" style="background-color: var(--qs-green); border-color: var(--qs-green);" onclick="closeModal('estamp-flash-modal')">رابطہ کریں</a>
             </div>
         </div>
     </div>
